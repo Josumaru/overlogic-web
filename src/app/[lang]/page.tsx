@@ -1,19 +1,11 @@
 import { NextPage } from "next";
-import { getDictionary } from "./dictionaries";
-import { Lang } from "@/types/lang";
-import Link from "next/link";
+import Header from "@/components/home/header";
+import { LangProps } from "@/types/lang";
 
-interface Props {
-  params: Promise<Lang>;
-}
-
-const Page: NextPage<Props> = async ({ params }) => {
-  const lang = (await params).lang;
-  const dict = await getDictionary(lang);
+const Page: NextPage<LangProps> = async ({params}) => {
   return (
     <div>
-      {dict.home.home}
-      <Link href={lang == "id" ? "/en" : "/id"}> switch</Link>
+      <Header params={params} />
     </div>
   );
 };

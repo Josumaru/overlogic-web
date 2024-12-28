@@ -1,8 +1,24 @@
 {
   "home": {
-    "home": "Home"
+    "home": "Home",
+    "headerTitleFull": "Your Solutions, Overlogic.",
+    "headerTitleFull2": "Your Vision, Our logic.",
+    "headerTitle": ["Your ", "vision, ", "our ", "  logic."],
+    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
+    "headerDesc": ["Trusted", "software development", "agency committed to delivering high-quality digital solutions"],
+    "orderNow": "Order Now",
+    "trustedByLeadingTeam": "Trusted By Leading Team",
+
+    "faqTitle": ["Discover more about ", "through this ", "our logic ", "Frequently Asked Questions"],
+    "faqDesc": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section."
   },
-  "company": {},
-  "pricing": {},
-  "showCase": {}
+  "company": {
+    "company": "company"
+  },
+  "pricing": {
+    "pricing": "pricing"
+  },
+  "showCase": {
+    "showCase": "Show Case"
+  }
 }

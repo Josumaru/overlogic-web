@@ -1,8 +1,24 @@
 {
   "home": {
-    "home": "Beranda"
+    "home": "Beranda",
+    "headerTitleFull": "Your Solutions, Overlogic.",
+    "headerTitleFull2": "Your Vision, Our logic.",
+    "headerTitle": ["Your ", "vision, ", "our ", "logic."],
+    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
+    "headerDesc": ["Agensi", "pengembangan perangkat lunak", "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"],
+    "orderNow": "Pesan Sekarang",
+    "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
+
+    "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
+    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini."
   },
-  "company": {},
-  "pricing": {},
-  "showCase": {}
+  "company": {
+    "company": "perusahaan"
+  },
+  "pricing": {
+    "pricing": "harga"
+  },
+  "showCase": {
+    "showCase": "Portofolio"
+  }
 }
