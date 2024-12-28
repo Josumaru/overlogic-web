@@ -2,14 +2,17 @@
 
 import { useState, useEffect } from "react";
 
-const colors = ["bg-primary", "bg-secondary", "bg-pink-300", "bg-purple-400"];
+const colors = ["bg-primary", "bg-pink-300", "bg-purple-300", "bg-secondary"];
 
 const generateRandomPosition = () => ({
   top: Math.random() * 80,
   left: Math.random() * 80,
 });
 
-const calculateDistance = (pos1: { top: number; left: number }, pos2: { top: number; left: number }) =>
+const calculateDistance = (
+  pos1: { top: number; left: number },
+  pos2: { top: number; left: number }
+) =>
   Math.sqrt(Math.pow(pos1.top - pos2.top, 2) + Math.pow(pos1.left - pos2.left, 2));
 
 const BlurAnimation = () => {
@@ -17,15 +20,19 @@ const BlurAnimation = () => {
 
   useEffect(() => {
     const generatedPositions: { top: number; left: number }[] = [];
+    const elementHeight = 24; // 96 (h-96) in rem (each rem = 16px)
 
     while (generatedPositions.length < colors.length) {
       const newPos = generateRandomPosition();
+      // Ensure the bottom of the element is not out of the screen
+      const topPosition = Math.min(newPos.top, 100 - elementHeight);
+
       if (
         generatedPositions.every(
-          (pos) => calculateDistance(pos, newPos) > 30 
+          (pos) => calculateDistance(pos, { top: topPosition, left: newPos.left }) > 30
         )
       ) {
-        generatedPositions.push(newPos);
+        generatedPositions.push({ top: topPosition, left: newPos.left });
       }
     }
 
@@ -38,11 +45,11 @@ const BlurAnimation = () => {
   }, []);
 
   return (
-    <div className="absolute w-screen min-h-screen overflow-hidden">
+    <div className="absolute h-full w-full">
       {positions.map((pos, index) => (
         <div
           key={index}
-          className={`absolute w-96 h-96 ${colors[index]} rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob ${
+          className={`absolute w-96 h-96 ${colors[index]} rounded-full mix-blend-multiply filter blur-3xl opacity-80 animate-blob ${
             index % 2 === 0 ? "animation-delay-2000" : "animation-delay-4000"
           }`}
           style={{ top: pos.top, left: pos.left }}
