@@ -3,6 +3,45 @@
     "home": "Beranda"
   },
   "company": {},
-  "pricing": {},
+  "pricing": {
+    "title": "",
+    "subTitle": "Jelajahi paket harga kami yang dirancang untuk beradaptasi dengan tujuan unik Anda, memastikan setiap tahap visi Anda didukung dengan teknologi modern dan eksekusi yang mulus",
+    "flexible": "Rencana",
+    "pricing": "Harga",
+    "plansForEveryStageOf": "yang Fleksibel untuk setiap tahap",
+    "yourVision": "Visi Anda",
+    "from": "Mulai",
+    "order": "Pesan",
+    "basic": {
+      "title": "Dasar",
+      "subTitle": "Memulai langkah pertama bisnis Anda di dunia digital bersama Overlogic.",
+      "features": [
+        "Desain yang dapat disesuaikan",
+        "Alat kolaborasi yang disempurnakan",
+        "Dukungan prioritas",
+        "Pemeliharaan dan pembaruan dasar"
+      ]
+    },
+    "professional": {
+      "title": "Profesional",
+      "subTitle": "Tingkatkan visibilitas dan performa bisnis Anda dengan teknologi profesional. Untuk bisnis yang ingin tumbuh dan bersinar di dunia digital.",
+      "features": [
+        "Semua anfaat di paket dasar",
+        "Skalabilitas tinggi",
+        "Performa yang di tingkatkan",
+        "Bantan pencadangan"
+      ]
+    },
+    "advanced": {
+      "title": "Lanjutan",
+      "subTitle": "Solusi eksklusif dan fleksibel untuk kebutuhan teknologi spesifik bisnis Anda.",
+      "features": [
+        "Paket Dasar + Profesional",
+        "Pemeliharaan & pembaruan yang diperpanjang",
+        "Dukungan & Pelatihan",
+        "Solusi perangkat lunak yang disesuaikan"
+      ]
+    }
+  },
   "showCase": {}
 }
