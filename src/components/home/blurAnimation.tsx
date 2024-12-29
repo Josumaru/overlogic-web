@@ -9,31 +9,40 @@ const BlurAnimation = () => {
 
   useEffect(() => {
     const elementHeight = 24;
+    const maxAttempts = 500;
+    const minDistance = 20;
+
     const calculateDistance = (pos1: { top: number; left: number }, pos2: { top: number; left: number }) => Math.sqrt(Math.pow(pos1.top - pos2.top, 2) + Math.pow(pos1.left - pos2.left, 2));
-    const newPos = {
-      top: Math.floor(Math.random() * 50),
-      left: Math.floor(Math.random() * 80),
-    };
 
     const generatePositions = () => {
       const generatedPositionsTemp: { top: number; left: number }[] = [];
-      while (generatedPositionsTemp.length < colors.length) {
-        const topPosition = Math.min(newPos.top, 100 - elementHeight);
+      let attempts = 0;
 
-        if (generatedPositionsTemp.every((pos) => calculateDistance(pos, { top: topPosition, left: newPos.left }) > 30)) {
-          generatedPositionsTemp.push({ top: topPosition, left: newPos.left });
+      while (generatedPositionsTemp.length < colors.length && attempts < maxAttempts) {
+        const newPos = {
+          top: Math.random() * (30 - elementHeight),
+          left: Math.random() * 100,
+        };
+
+        if (generatedPositionsTemp.every((pos) => calculateDistance(pos, newPos) > minDistance)) {
+          generatedPositionsTemp.push(newPos);
         }
+        attempts++;
+      }
+
+      if (generatedPositionsTemp.length < colors.length) {
+        console.warn("Some positions overlap due to area limitation. Using fallback positions.");
       }
 
       return generatedPositionsTemp;
     };
 
-    setPositions(
-      generatePositions().map((pos) => ({
-        top: `${pos.top}vh`,
-        left: `${pos.left}vw`,
-      }))
-    );
+    const positions = generatePositions().map((pos) => ({
+      top: `${pos.top}vh`,
+      left: `${pos.left}vw`,
+    }));
+
+    setPositions(positions);
   }, []);
 
   return (

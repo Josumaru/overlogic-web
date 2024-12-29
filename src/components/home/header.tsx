@@ -25,7 +25,7 @@ const Header: NextPage<LangProps> = async ({ params }) => {
         <InteractiveShimmerButton text={dict.home.orderNow}/>
       </div>
       <div className="pt-[90px]">
-        {/* <BlurAnimation /> */}
+        <BlurAnimation />
         <div className="relative w-[85%] px-3rem rounded-3xl bg-transparent container mx-auto">
           <BorderBeam />
           <div className="bg-gray-200 h-full w-full absolute rounded-3xl opacity-40  border-2 border-white"></div>
