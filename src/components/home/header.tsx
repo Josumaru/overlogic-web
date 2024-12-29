@@ -6,23 +6,29 @@ import BlurAnimation from "./blurAnimation";
 import { BorderBeam } from "../ui/border-beam";
 import { ImageConstants } from "@/constants/ImageConstants";
 import Image from "next/image";
+import InteractiveHoverButton from "../ui/interactive-hover-button";
+import InteractiveShimmerButton from "../ui/interactive-shimmer-button";
 
 const Header: NextPage<LangProps> = async ({ params }) => {
   const lang = (await params).lang;
   const dict = await getDictionary(lang);
   return (
-    <div className="text-textTitleColor mx-auto w-screen">
+    <div className=" text-textTitleColor mx-auto w-screen">
       <MorphingText texts={[dict.home.headerTitleFull, dict.home.headerTitleFull2]} />
       <h1 className="font-normal text-textHeadlineColor mt-[110px] text-center text-[1.5rem] w-3/6 mx-auto space-x-3">
         <span>{dict.home.headerDesc[0]}</span>
         <span className="font-bold">{dict.home.headerDesc[1]}</span>
         <span>{dict.home.headerDesc[2]}</span>
       </h1>
-      <div className="absolute">
-        <BlurAnimation />
-        <div className="relative w-4/5 px-3rem rounded-xl mt-[120px] bg-transparent container mx-auto">
+      <div className="flex justify-center items-center w-full mx-auto container mt-12 space-x-5">
+        <InteractiveHoverButton text={dict.showCase.showCase} />
+        <InteractiveShimmerButton text={dict.home.orderNow}/>
+      </div>
+      <div className="pt-[90px]">
+        {/* <BlurAnimation /> */}
+        <div className="relative w-[85%] px-3rem rounded-3xl bg-transparent container mx-auto">
           <BorderBeam />
-          <div className="bg-gray-200 h-full w-full absolute rounded-xl opacity-40  border-2 border-white"></div>
+          <div className="bg-gray-200 h-full w-full absolute rounded-3xl opacity-40  border-2 border-white"></div>
           <div className="h-full w-full rounded-xl relative p-3">
             <Image className="h-full w-full rounded-xl" src={ImageConstants.project.umsiid} alt="ums iid" width={3000} height={3000} />
           </div>
