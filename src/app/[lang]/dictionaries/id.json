@@ -1,8 +1,46 @@
 {
   "home": {
-    "home": "Beranda"
+    "home": "Beranda",
+    "headerTitleFull": "Your Solutions, Overlogic.",
+    "headerTitleFull2": "Your Vision, Our logic.",
+    "headerTitle": ["Your ", "vision, ", "our ", "logic."],
+    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
+    "headerDesc": ["Agensi", "pengembangan perangkat lunak", "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"],
+    "orderNow": "Pesan Sekarang",
+    "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
+
+    "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
+    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini."
   },
-  "company": {},
-  "pricing": {},
-  "showCase": {}
+  "company": {
+    "company": "Perusahaan"
+  },
+  "pricing": {
+    "title": "",
+    "subTitle": "Jelajahi paket harga kami yang dirancang untuk beradaptasi dengan tujuan unik Anda, memastikan setiap tahap visi Anda didukung dengan teknologi modern dan eksekusi yang mulus",
+    "flexible": "Rencana",
+    "pricing": "Harga",
+    "plansForEveryStageOf": "yang Fleksibel untuk setiap tahap",
+    "yourVision": "Visi Anda",
+    "from": "Mulai",
+    "order": "Pesan",
+    "basic": {
+      "title": "Dasar",
+      "subTitle": "Memulai langkah pertama bisnis Anda di dunia digital bersama Overlogic.",
+      "features": ["Desain yang dapat disesuaikan", "Alat kolaborasi yang disempurnakan", "Dukungan prioritas", "Pemeliharaan dan pembaruan dasar"]
+    },
+    "professional": {
+      "title": "Profesional",
+      "subTitle": "Tingkatkan visibilitas dan performa bisnis Anda dengan teknologi profesional. Untuk bisnis yang ingin tumbuh dan bersinar di dunia digital.",
+      "features": ["Semua anfaat di paket dasar", "Skalabilitas tinggi", "Performa yang di tingkatkan", "Bantan pencadangan"]
+    },
+    "advanced": {
+      "title": "Lanjutan",
+      "subTitle": "Solusi eksklusif dan fleksibel untuk kebutuhan teknologi spesifik bisnis Anda.",
+      "features": ["Paket Dasar + Profesional", "Pemeliharaan & pembaruan yang diperpanjang", "Dukungan & Pelatihan", "Solusi perangkat lunak yang disesuaikan"]
+    }
+  },
+  "showCase": {
+    "showCase": "Portofolio"
+  }
 }
