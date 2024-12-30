@@ -16,7 +16,44 @@
     "company": "Company"
   },
   "pricing": {
-    "pricing": "Pricing"
+    "title": "",
+    "subTitle":"Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
+    "flexible": "Flexible",
+    "pricing": "Pricing",
+    "plansForEveryStageOf": "Plans for every stage of",
+    "yourVision": "Your Vision",
+    "from": "From",
+    "order": "Order",
+    "basic": {
+      "title": "Basic",
+      "subTitle": "Ignite your business' first steps in the digital world with Overlogic.",
+      "features": [
+        "Customizable designs",
+        "Enhanced collaboration tools",
+        "Priority support",
+        "Basic maintenance and updates"
+      ]
+    },
+    "professional":{
+      "title": "Professional",
+      "subTitle": "Increase your business visibility and performance with professional technology. For businesses that want to grow and shine in the digital world.",
+      "features": [
+        "All basic package benefits",
+        "High scalability",
+        "Performance Enhancement",
+        "Backup Support"
+      ]
+    },
+    "advanced": {
+      "title": "Advanced",
+      "subTitle": "Exclusive and flexible solutions for your business's specific technology needs.",
+      "features": [
+        "Benefit from basic & professional packages ",
+        "Extended maintenance and updates",
+        "Premium support and training",
+        "Customized software solutions"
+      ]
+    }
   },
   "showCase": {
     "showCase": "Show Case"

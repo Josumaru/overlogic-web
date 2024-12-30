@@ -9,6 +9,8 @@ import github from "@/assets/images/logos/github.svg";
 import instagram from "@/assets/images/logos/instagram.svg";
 import linkedIn from "@/assets/images/logos/linked-in.svg";
 import umsIid from "@/assets/images/logos/ums-iid.png";
+// Common
+import gradient from "@/assets/images/common/gradient.jpg";
 
 export const ImageConstants = {
   icon: {
@@ -23,5 +25,8 @@ export const ImageConstants = {
     instagram,
     linkedIn,
     umsIid
+  },
+  common: {
+    gradient,
   },
 };

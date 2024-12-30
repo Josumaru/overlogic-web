@@ -18,10 +18,10 @@ const NavigationBar: NextPage<LangProps> = async ({ params }) => {
       {/* Navigation Links */}
       <ul className="flex items-center space-x-10 py-[0.7rem] px-7 bg-background border border-gray-300 shadow-sm rounded-2xl text-sm text-textTitleColor">
         <li>
-          <Link href={""}>{dict.home.home}</Link>
+          <Link href={"/"}>{dict.home.home}</Link>
         </li>
         <li>
-          <Link href={""}>{dict.pricing.pricing}</Link>
+          <Link href={"/pricing"}>{dict.pricing.pricing}</Link>
         </li>
         <li>
           <Link href={""}>{dict.showCase.showCase}</Link>

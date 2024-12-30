@@ -47,7 +47,9 @@ const Header: NextPage<LangProps> = async ({ params }) => {
       <div className="pt-[80px]">
         <BlurAnimation />
         <div className="relative w-[85%] rounded-[2rem] bg-transparent container mx-auto">
-          <BorderBeam />
+          <BorderBeam
+          
+           />
           <div className="bg-transparent h-full w-full absolute rounded-[2rem] border border-white"></div>
           <div className="bg-white h-full w-full absolute rounded-[2rem] opacity-40"></div>
           <div className="h-full w-full rounded-[1.5rem] relative p-[0.6rem]">
