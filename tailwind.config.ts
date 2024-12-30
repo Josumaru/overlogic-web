@@ -106,6 +106,14 @@ export default {
   				'100%': {
   					'offset-distance': '100%'
   				}
+  			},
+  			grid: {
+  				'0%': {
+  					transform: 'translateY(-50%)'
+  				},
+  				'100%': {
+  					transform: 'translateY(0)'
+  				}
   			}
   		},
   		animation: {
@@ -114,8 +122,9 @@ export default {
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			'shimmer-slide': 'shimmer-slide var(--speed) ease-in-out infinite alternate',
   			'spin-around': 'spin-around calc(var(--speed) * 2) infinite linear',
-  			'rainbow': 'rainbow var(--speed, 2s) infinite linear',
-  			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear'
+  			rainbow: 'rainbow var(--speed, 2s) infinite linear',
+  			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
+  			grid: 'grid 15s linear infinite'
   		}
   	}
   },

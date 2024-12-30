@@ -5,6 +5,8 @@ import FeatureItem from "./feature-item";
 import PricingButton from "./pricing-button";
 import { BorderBeam } from "../ui/border-beam";
 import { ImageConstants } from "@/constants/ImageConstants";
+import SectionTitle from "../common/text/section-title";
+import SectionDesc from "../common/text/section-desc";
 
 interface Props {
   params: Promise<Lang>;
@@ -14,17 +16,15 @@ const Pricing: NextPage<Props> = async ({ params }) => {
   const lang = (await params).lang;
   const dict = await getDictionary(lang);
   return (
-    <div className="container px-5 pt-32">
+    <div className="container px-3 md:px-10 pt-32">
       <div>
-        <p className="w-[65%] text-lg sm:text-xl md:text-5xl font-bold">
+        <SectionTitle>
           {dict.pricing.flexible}{" "}
           <span className="text-primary">{dict.pricing.pricing}</span>{" "}
           {dict.pricing.plansForEveryStageOf}{" "}
           <span className="text-primary">{dict.pricing.yourVision}</span>
-        </p>
-        <p className="w-full md:w-1/2 text-textHeadlineColor text-sm md:text-base">
-          {dict.pricing.subTitle}
-        </p>
+        </SectionTitle>
+        <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
       </div>
       <section className="overflow-hidden py-8 text-neutral-800 dark:text-neutral-50 lg:pb-32">
         <div className="container mx-auto px-4">
@@ -67,10 +67,10 @@ const Pricing: NextPage<Props> = async ({ params }) => {
               >
                 <div className="relative h-full rounded-2xl bg-white dark:bg-neutral-900">
                   <BorderBeam
-                    // borderWidth={4}
-                    // size={500}
-                    // colorTo="#ffffff00"
-                    // colorFrom="#2f6cf9"
+                  // borderWidth={4}
+                  // size={500}
+                  // colorTo="#ffffff00"
+                  // colorFrom="#2f6cf9"
                   />
                   <div
                     className="p-12"

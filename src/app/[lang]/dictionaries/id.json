@@ -10,7 +10,19 @@
     "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
 
     "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
-    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini."
+    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
+    "services": {
+      "title": ["Bangun", "bisnis Anda", "kuasai","", "pasar", ", kalahkan", "kompetitor", "dengan", "layanan kami"],
+      "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
+      "performance": {
+        "title": "Performa",
+        "subTitle": "Tingkatkan kecepatan aplikasi Anda dan hindari kegagalan sistem dalam bisnis Anda"
+      },
+      "business": {
+        "title": "Menguasai Dunia dengan Bisnis Anda: Waktunya Bersinar!",
+        "subTitle": "Saatnya dunia tahu, ini adalah era Anda. Tunjukkan kekuatan Anda, dan biarkan bisnis Anda menggetarkan dunia! 🌍✨"
+      }
+    }
   },
   "company": {
     "company": "Perusahaan"
