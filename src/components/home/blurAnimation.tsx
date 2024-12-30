@@ -8,8 +8,7 @@ const BlurAnimation = () => {
   const [positions, setPositions] = useState<{ top: string; left: string }[]>([]);
 
   useEffect(() => {
-    const elementHeight = 24;
-    const maxAttempts = 500;
+    const maxAttempts = 400;
     const minDistance = 20;
 
     const calculateDistance = (pos1: { top: number; left: number }, pos2: { top: number; left: number }) => Math.sqrt(Math.pow(pos1.top - pos2.top, 2) + Math.pow(pos1.left - pos2.left, 2));
@@ -18,10 +17,18 @@ const BlurAnimation = () => {
       const generatedPositionsTemp: { top: number; left: number }[] = [];
       let attempts = 0;
 
+      const areaConstraints = [
+        { topRange: [0, 30], leftRange: [0, 3] },
+        { topRange: [0, 30], leftRange: [98, 100] },
+        { topRange: [0, 10], leftRange: [10, 90] },
+      ];
+
       while (generatedPositionsTemp.length < colors.length && attempts < maxAttempts) {
+        const constraint = areaConstraints[generatedPositionsTemp.length % areaConstraints.length];
+
         const newPos = {
-          top: Math.random() * (30 - elementHeight),
-          left: Math.random() * 100,
+          top: Math.random() * (constraint.topRange[1] - constraint.topRange[0]) + constraint.topRange[0],
+          left: Math.random() * (constraint.leftRange[1] - constraint.leftRange[0]) + constraint.leftRange[0],
         };
 
         if (generatedPositionsTemp.every((pos) => calculateDistance(pos, newPos) > minDistance)) {

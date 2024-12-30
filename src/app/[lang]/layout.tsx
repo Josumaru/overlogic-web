@@ -24,13 +24,13 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Lang;
+  params: Promise<Lang>;
 }>) {
   const lang = (await params).lang;
   return (
     <html lang={lang}>
       <body className={`${plusJakartaSans.variable} antialiased`}>
-        {/* <NavigationBar /> */}
+        <NavigationBar params={params} />
         {children}
         {/* <Footer /> */}
       </body>
