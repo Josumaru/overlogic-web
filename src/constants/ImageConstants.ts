@@ -8,6 +8,7 @@ import overlogic from "@/assets/images/logos/overlogic.png";
 import github from "@/assets/images/logos/github.svg";
 import instagram from "@/assets/images/logos/instagram.svg";
 import linkedIn from "@/assets/images/logos/linked-in.svg";
+import umsIid from "@/assets/images/logos/ums-iid.png";
 
 export const ImageConstants = {
   icon: {
@@ -20,6 +21,7 @@ export const ImageConstants = {
     overlogic,
     github,
     instagram,
-    linkedIn
+    linkedIn,
+    umsIid
   },
 };
