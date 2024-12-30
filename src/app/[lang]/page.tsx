@@ -1,9 +1,9 @@
 import { NextPage } from "next";
-import Header from "@/components/home/header";
+import Header from "@/components/home/header/header";
 import { LangProps } from "@/types/lang";
 import Services from "@/components/home/services/services";
 
-const Page: NextPage<LangProps> = async ({params}) => {
+const Page: NextPage<LangProps> = async ({ params }) => {
   return (
     <div>
       <Header params={params} />
