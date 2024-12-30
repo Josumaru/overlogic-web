@@ -14,15 +14,15 @@ const Pricing: NextPage<Props> = async ({ params }) => {
   const lang = (await params).lang;
   const dict = await getDictionary(lang);
   return (
-    <div className="container">
+    <div className="container px-5">
       <div>
-        <p className="text-5xl font-bold">
+        <p className="text-lg sm:text-xl md:text-5xl font-bold">
           {dict.pricing.flexible}{" "}
           <span className="text-primary">{dict.pricing.pricing}</span>{" "}
-          {dict.pricing.plansForEveryStageOf} <br />{" "}
+          {dict.pricing.plansForEveryStageOf}{" "}
           <span className="text-primary">{dict.pricing.yourVision}</span>
         </p>
-        <p className="w-full md:w-1/2 text-textHeadlineColor">
+        <p className="w-full md:w-1/2 text-textHeadlineColor text-sm md:text-base">
           {dict.pricing.subTitle}
         </p>
       </div>
