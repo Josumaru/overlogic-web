@@ -8,6 +8,8 @@ import { BorderBeam } from "@/components/ui/border-beam";
 import InteractiveShimmerButton from "@/components/ui/interactive-shimmer-button";
 import Marquee from "@/components/ui/marquee";
 import MorphingText from "@/components/ui/morphing-text";
+import { Dock, DockIcon } from "@/components/ui/dock";
+import Link from "next/link";
 
 const teams: Object[] = [
   {
@@ -42,13 +44,31 @@ const Header: NextPage<LangProps> = async ({ params }) => {
         <InteractiveShimmerButton text={dict.home.orderNow} />
       </div>
 
+      {/* Social Media */}
+      <Dock className="flex items-center bg-white/20 space-x-4 py-[0.7rem] px-7 border mt-[80px] border-white shadow-sm rounded-2xl">
+        <DockIcon>
+          <Link href={"https://www.instagram.com/overlogic.id/"} target="blank">
+            <Image className="" src={ImageConstants.logo.instagram} height={30} width={30} alt="instagram-logo" />
+          </Link>
+        </DockIcon>
+        <DockIcon>
+          <Link href={"https://www.linkedin.com/company/overlogic-id/"} target="blank">
+            <Image className="" src={ImageConstants.logo.linkedIn} height={30} width={30} alt="linked-in-logo" />
+          </Link>
+        </DockIcon>
+        <DockIcon>
+          <Link href={"https://github.com/overlogic-universe"} target="blank">
+            <Image className="" src={ImageConstants.logo.github} height={30} width={30} alt="github-logo" />
+          </Link>
+        </DockIcon>
+      </Dock>
+
       {/* Show Case */}
-      <div className="pt-[80px] container flex justify-center mx-auto">
+      <div className="pt-[15px] container flex justify-center mx-auto">
         <div className="w-[85%] relative rounded-[2rem] bg-transparent mx-auto">
           <BorderBeam colorFrom="#0000FF" />
           <div className="-z-50 absolute container w-full blur-3xl h-[70%] rounded-full bg-gradient-to-l from-secondary via-primary to-secondary animate-sunriseGlow"></div>
-          <div className="bg-transparent h-full w-full absolute rounded-[2rem] border border-white"></div>
-          <div className="bg-white h-full w-full absolute rounded-[2rem] opacity-40"></div>
+          <div className="bg-white/30 h-full w-full absolute rounded-[2rem] border border-white"></div>
           <div className="h-full w-full rounded-[1.5rem] relative p-[0.6rem]">
             <Image className="h-full w-full rounded-[1.5rem]" src={ImageConstants.project.umsiid} alt="ums iid" width={3000} height={3000} />
           </div>
@@ -58,12 +78,12 @@ const Header: NextPage<LangProps> = async ({ params }) => {
               maskImage: "linear-gradient(to top, black 40%, transparent)",
               WebkitMaskImage: "linear-gradient(to top, black 40%, transparent)",
             }}
-          ></div>{" "}
+          ></div>
         </div>
       </div>
 
       {/* Trusted By Leading Team */}
-      <div className="flex flex-col justify-center items-center mt-[4rem]">
+      <div className="flex flex-col justify-center items-center mt-[4rem] ">
         <h3 className="font-extrabold text-2xl">{dict.home.trustedByLeadingTeam}</h3>
         <div className="container w-[65%] relative h-[4rem] mt-8 flex flex-col items-center justify-center overflow-hidden rounded-lg">
           <Marquee pauseOnHover className="[--duration:100s]">
