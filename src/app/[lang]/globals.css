@@ -110,10 +110,10 @@
 
 ::-moz-selection {
   color: var(--section-background);
-  background: var(--color-one)!important;
+  background: var(--selection-background-primary-color)!important;
 }
 
 ::selection {
   color: var(--section-background);
-  background: var(--color-one);
+  background: var(--selection-background-primary-color);
 }
