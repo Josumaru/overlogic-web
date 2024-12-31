@@ -56,7 +56,7 @@ const LanguageDropdown = () => {
       {/* Dropdown */}
       <div
         ref={dropdownRef}
-        className={`absolute top-full right-0 mt-2 w-[8rem] bg-background shadow-md border border-gray-300 rounded-lg transition-all duration-300 ease-in-out ${isOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}
+        className={`absolute top-full text-sm right-0 mt-2 w-[8rem] bg-background shadow-md border border-gray-300 rounded-lg transition-all duration-300 ease-in-out ${isOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}
       >
         {/* Select Language */}
         <button className="block w-full px-4 py-2 text-left hover:bg-gray-100 hover:rounded-t-md" onClick={() => changeLanguage("EN")}>
