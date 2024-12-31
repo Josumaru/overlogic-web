@@ -32,7 +32,7 @@ export default async function RootLayout({
       <body className={`${plusJakartaSans.variable} antialiased`}>
         <NavigationBar params={params} />
         {children}
-        {/* <Footer /> */}
+        <Footer params={params}/>
       </body>
     </html>
   );
