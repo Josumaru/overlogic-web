@@ -11,6 +11,42 @@
 
     "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
     "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
+    "testimonials": {
+      "title":["Testimoni", "Pelanggan - Bagaimana", "Solusi", "Overlogic", "Mendorong Sukses dan", "Inovasi"],
+      "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
+      "reviews": [
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josuro"
+        }
+      ]
+    },
     "services": {
       "title": ["Bangun", "bisnis Anda", "kuasai","", "pasar", ", kalahkan", "kompetitor", "dengan", "layanan kami"],
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",

@@ -11,6 +11,48 @@
 
     "faqTitle": ["Discover more about ", "through this ", "our logic ", "Frequently Asked Questions"],
     "faqDesc": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
+    "testimonials": {
+      "title": ["Customer", "Testimonials - How", "Overlogic's", "Solutions", "Drive Success and", "Innovation"],
+      "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
+      "reviews": [
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        }
+      ]
+    },
     "services": {
       "title": ["Build your", "business", "dominate", "the", "market", ", beat your", "competitors", "with", "our services"],
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
