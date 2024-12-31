@@ -1,4 +1,5 @@
 // Icon
+import language from "@/assets/images/icons/lang.svg";
 
 // Project
 import umsiid from "@/assets/images/projects/ums-iid.png";
@@ -14,7 +15,7 @@ import gradient from "@/assets/images/common/gradient.jpg";
 
 export const ImageConstants = {
   icon: {
-    github,
+    language
   },
   project: {
     umsiid,
