@@ -6,79 +6,11 @@ import Link from "next/link";
 import OverlogicLogo from "../navigation/overlogicLogo";
 import { Sun } from "lucide-react";
 import GradientBorderSeparator from "@/components/ui/gradient-border-separator";
+import { getDictionary } from "@/app/[lang]/dictionaries";
 
-const Footer: NextPage<LangProps> = ({ params }) => {
-  const links = [
-    {
-      title: "Service",
-      subtitles: [
-        {
-          name: "Website Developtment",
-          url: "",
-        },
-        {
-          name: "Android Developtment",
-          url: "",
-        },
-        {
-          name: "Backend Developtment",
-          url: "",
-        },
-      ],
-    },
-    {
-      title: "Product",
-      subtitles: [
-        {
-          name: "UMS IID",
-          url: "https://ums-iid.com/",
-        },
-        {
-          name: "Anugerah",
-          url: "https://anugerahpowdercoating.com/",
-        },
-        {
-          name: "Pineleaf",
-          url: "https://pineleaf.id/",
-        },
-      ],
-    },
-    {
-      title: "Overlogic",
-      subtitles: [
-        {
-          name: "Websites",
-          url: "https://overlogic.id",
-        },
-        {
-          name: "Instagram",
-          url: "https://www.instagram.com/overlogic.id/",
-        },
-        {
-          name: "Linkedin",
-          url: "https://www.linkedin.com/in/overlogic",
-        },
-        { name: "Discord", url: "https://discord.com/app" },
-      ],
-    },
-    {
-      title: "Domain",
-      subtitles: [
-        {
-          name: "overlogic.io",
-          url: "https://overlogic.io",
-        },
-        {
-          name: "status.overlogic.io",
-          url: "https://stats.overlogic.io",
-        },
-        {
-          name: "airi.overlogic.io",
-          url: "https://airi.overlogic.io",
-        },
-      ],
-    },
-  ];
+const Footer: NextPage<LangProps> = async ({ params }) => {
+  const { lang } = await params;
+  const links = (await getDictionary(lang)).common.footer;
   return (
     <div className="w-full flex items-center justify-center flex-col mt-20">
       <GradientBorderSeparator />
@@ -117,7 +49,7 @@ const Footer: NextPage<LangProps> = ({ params }) => {
                       target="_blank"
                       href={subtitle.url}
                       key={index}
-                      className="mt-1 hover:pl-1 cursor-pointer hover:text-primary hover:underline text-muted-foreground duration-150"
+                      className="mt-1 hover:pl-1 cursor-pointer hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-primary hover:to-secondary text-muted-foreground duration-150"
                     >
                       {subtitle.name}
                     </Link>
@@ -132,7 +64,7 @@ const Footer: NextPage<LangProps> = ({ params }) => {
       <div className="flex items-center w-full justify-center gap-4 font-medium py-5">
         <div className="w-full flex items-center justify-between container px-3 md:px-10">
           <p className="text-muted-foreground">
-            © 2024 Overlogic Universe. All rights reserved.
+            © 2025 Overlogic Universe. All rights reserved.
           </p>
           <p className="text-muted-foreground flex items-center justify-center">
             <span>

@@ -111,5 +111,78 @@
   },
   "showCase": {
     "showCase": "Show Case"
+  },
+  "common": {
+    "footer": [
+      {
+        "title": "Service",
+        "subtitles": [
+          {
+            "name": "Website Developtment",
+            "url": ""
+          },
+          {
+            "name": "Mobile Developtment",
+            "url": ""
+          },
+          {
+            "name": "Backend Developtment",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Product",
+        "subtitles": [
+          {
+            "name": "UMS IID",
+            "url": "https://ums-iid.com/"
+          },
+          {
+            "name": "Anugerah",
+            "url": "https://anugerahpowdercoating.com/"
+          },
+          {
+            "name": "Pineleaf",
+            "url": "https://pineleaf.id/"
+          }
+        ]
+      },
+      {
+        "title": "Overlogic",
+        "subtitles": [
+          {
+            "name": "Websites",
+            "url": "https://overlogic.id"
+          },
+          {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/overlogic.id/"
+          },
+          {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/overlogic"
+          },
+          { "name": "Discord", "url": "https://discord.com/app" }
+        ]
+      },
+      {
+        "title": "Domain",
+        "subtitles": [
+          {
+            "name": "overlogic.io",
+            "url": "https://overlogic.io"
+          },
+          {
+            "name": "status.overlogic.io",
+            "url": "https://stats.overlogic.io"
+          },
+          {
+            "name": "airi.overlogic.io",
+            "url": "https://airi.overlogic.io"
+          }
+        ]
+      }
+    ]
   }
 }
