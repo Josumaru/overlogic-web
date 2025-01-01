@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import OverlogicLogo from "../navigation/overlogicLogo";
 import { Sun } from "lucide-react";
+import GradientBorderSeparator from "@/components/ui/gradient-border-separator";
 
 const Footer: NextPage<LangProps> = ({ params }) => {
   const links = [
@@ -80,7 +81,7 @@ const Footer: NextPage<LangProps> = ({ params }) => {
   ];
   return (
     <div className="w-full flex items-center justify-center flex-col mt-20">
-      <div className="container [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] border-t border-blue-500/70 w-full" />
+      <GradientBorderSeparator />
       <div className="flex container items-center w-full md:justify-center py-10 mt-2 px-3 md:px-10">
         <div className="flex flex-col justify-between w-full md:flex-row">
           <div className="md:w-1/3">
@@ -127,7 +128,7 @@ const Footer: NextPage<LangProps> = ({ params }) => {
           </div>
         </div>
       </div>
-      <div className="container [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] border-t border-blue-500/70 w-full" />
+      <GradientBorderSeparator />
       <div className="flex items-center w-full justify-center gap-4 font-medium py-5">
         <div className="w-full flex items-center justify-between container px-3 md:px-10">
           <p className="text-muted-foreground">
