@@ -3,6 +3,8 @@ import language from "@/assets/images/icons/lang.svg";
 
 // Project
 import umsiid from "@/assets/images/projects/ums-iid.png";
+import pinleaf from "@/assets/images/projects/pinleaf.png";
+import anugerah from "@/assets/images/projects/anugerah.png";
 
 // Logo
 import overlogic from "@/assets/images/logos/overlogic.png";
@@ -19,6 +21,8 @@ export const ImageConstants = {
   },
   project: {
     umsiid,
+    pinleaf,
+    anugerah
   },
   logo: {
     overlogic,

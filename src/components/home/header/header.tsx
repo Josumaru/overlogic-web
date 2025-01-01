@@ -10,6 +10,7 @@ import Marquee from "@/components/ui/marquee";
 import MorphingText from "@/components/ui/morphing-text";
 import { Dock, DockIcon } from "@/components/ui/dock";
 import Link from "next/link";
+import ProjectImages from "./projectImages";
 
 const teams: Object[] = [
   {
@@ -65,20 +66,19 @@ const Header: NextPage<LangProps> = async ({ params }) => {
 
       {/* Show Case */}
       <div className="pt-[15px] container flex justify-center mx-auto">
-        <div className="w-[85%] relative rounded-[2rem] bg-transparent mx-auto">
-          <BorderBeam colorFrom="#0000FF" />
-          <div className="-z-50 absolute container w-full blur-3xl h-[70%] rounded-full bg-gradient-to-l from-secondary via-primary to-secondary animate-sunriseGlow"></div>
-          <div className="bg-white/30 h-full w-full absolute rounded-[2rem] border border-white"></div>
-          <div className="h-full w-full rounded-[1.5rem] relative p-[0.6rem]">
-            <Image className="h-full w-full rounded-[1.5rem]" src={ImageConstants.project.umsiid} alt="ums iid" width={3000} height={3000} />
-          </div>
+        <div className="w-[75%] relative rounded-[2rem] bg-transparent mx-auto">
+          <div className="-z-50 absolute container w-full blur-3xl h-[55%] rounded-full bg-gradient-to-l from-secondary via-primary to-secondary animate-sunriseGlow"></div>
           <div
-            className="absolute bottom-0 h-[5rem] left-0 right-0 bg-background pointer-events-none"
+            className="w-full relative rounded-[2rem] bg-transparent mx-auto"
             style={{
-              maskImage: "linear-gradient(to top, black 40%, transparent)",
-              WebkitMaskImage: "linear-gradient(to top, black 40%, transparent)",
+              maskImage: "linear-gradient(to bottom, black 70%, transparent)",
+              WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent)",
             }}
-          ></div>
+          >
+            <BorderBeam colorFrom="#0000FF" />
+            <div className="bg-white/30 h-full w-full absolute rounded-[2rem] border border-white"></div>
+            <ProjectImages />
+          </div>
         </div>
       </div>
 
@@ -103,24 +103,11 @@ const Header: NextPage<LangProps> = async ({ params }) => {
 export default Header;
 
 {
-  /* <h1 className="flex flex-col md:flex-row items-center justify-center  space-y-4 md:space-y-0 space-x-4">
-        <span className="h-16 text-center font-sans text-[30pt] font-bold leading-none md:h-24 lg:text-[4.5rem]">{dict.home.headerTitle[0]}</span>
-        <span className="flex items-center">
-          <MorphingText texts={[dict.home.headerTitle[1], dict.home.headerTitle2[1]]} />
-        </span>
-      </h1>
-      <h1 className="flex flex-col md:flex-row items-center justify-center">
-        <span className="flex items-center">
-          <MorphingText texts={[`${dict.home.headerTitle[2]}  `, dict.home.headerTitle2[2]]} />
-        </span>{"  "}
-        <span className="h-16 text-center font-sans text-[30pt] font-bold leading-none md:h-24 lg:text-[4.5rem]">{dict.home.headerTitle[3]}</span>
-      </h1> */
-  //   <NeonGradientCard
-  //   borderSize={0}
-  //   neonColors={{
-  //     firstColor: "#316DF9",
-  //     secondColor: "#31F9D4",
-  //   }}
-  //   className="bg-transparent h-full w-full absolute rounded-[2rem] border border-white"
-  // ></NeonGradientCard>
+  /* <div
+              className="absolute bottom-0 h-[5rem] left-0 right-0 bg-background pointer-events-none"
+              // style={{
+              //   maskImage: "linear-gradient(to top, black 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.3) 70%, transparent 100%)",
+              //   WebkitMaskImage: "linear-gradient(to top, black 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.3) 70%, transparent 100%)",
+              // }}
+            ></div> */
 }
