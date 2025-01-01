@@ -7,10 +7,14 @@ import OverlogicLogo from "../navigation/overlogicLogo";
 import { Sun } from "lucide-react";
 import GradientBorderSeparator from "@/components/ui/gradient-border-separator";
 import { getDictionary } from "@/app/[lang]/dictionaries";
+import Status from "./status";
 
 const Footer: NextPage<LangProps> = async ({ params }) => {
   const { lang } = await params;
   const links = (await getDictionary(lang)).common.footer;
+  const response = await fetch("https://overlogic.instatus.com/summary.json")
+  const data = await response.json();
+  const status = data.page.status;
   return (
     <div className="w-full flex items-center justify-center flex-col mt-20">
       <GradientBorderSeparator />
@@ -19,10 +23,7 @@ const Footer: NextPage<LangProps> = async ({ params }) => {
           <div className="md:w-1/3">
             <OverlogicLogo />
             <div className="flex gap-2 h-10">
-              <div className="flex items-center justify-center hover:bg-opacity-10 rounded-lg gap-2">
-                <div className="bg-green-800 bg-opacity-55 h-4 w-4 rounded-full" />
-                <p>All system operational</p>
-              </div>
+              <Status lang={lang} status={status}/>
               {/* {SocialImageConstants.map((social, index) => (
                 <Link
                   href={social.url}
