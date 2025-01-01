@@ -86,10 +86,10 @@ const Header: NextPage<LangProps> = async ({ params }) => {
       <div className="flex flex-col justify-center items-center mt-[4rem] ">
         <h3 className="font-extrabold text-2xl">{dict.home.trustedByLeadingTeam}</h3>
         <div className="container w-[65%] relative h-[4rem] mt-8 flex flex-col items-center justify-center overflow-hidden rounded-lg">
-          <Marquee pauseOnHover className="[--duration:100s]">
+          <Marquee pauseOnHover={false} className="[--duration:100s]">
             {teams.map((data, index) => {
               const [logo] = Object.values(data);
-              return <Image key={index} src={logo} alt={`${Object.keys(data)[index]}`} width={200} height={1000} className="mx-4 aspect-auto object-contain" />;
+              return <Image key={index} src={logo} alt={`${Object.keys(data)}`} width={170} height={1000} className="mx-4 aspect-auto object-contain" />;
             })}
           </Marquee>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
