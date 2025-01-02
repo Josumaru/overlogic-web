@@ -54,9 +54,26 @@
     "services": {
       "title": ["Build your", "business", "dominate", "the", "market", ", beat your", "competitors", "with", "our services"],
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
+      "more": "Learn more",
+      "trusted": {
+        "title": "Trusted",
+        "subTitle": "Pineleafcare, UMS IID, Anugerah Powder Coating Blora trust us as their IT partner in increasing their productivity in business and limited events."
+      },
+      "price": {
+        "title": "Affordable Price",
+        "subTitle": "Get a good deal by contacting the Overlogic ID team and get up to 40% discount"
+      },
+      "seo": {
+        "title": "Search Engine Optimalization",
+        "subTitle": "Make your website searchable on the internet and at the top and boost your business with Overlogic Universe."
+      },
       "performance": {
         "title": "Performance",
         "subTitle": "Increase the speed of your applications and avoid system failures in your business"
+      },
+      "security": {
+        "title": "Security",
+        "subTitle": "Protect your sensitive data and protect your customers' information with our advanced security measures"
       },
       "business": {
         "title": "Conquer the World with Your Business: It's Your Time to Shine!",

@@ -12,18 +12,18 @@ import Status from "./status";
 const Footer: NextPage<LangProps> = async ({ params }) => {
   const { lang } = await params;
   const links = (await getDictionary(lang)).common.footer;
-  const response = await fetch("https://overlogic.instatus.com/summary.json")
+  const response = await fetch("https://overlogic.instatus.com/summary.json");
   const data = await response.json();
   const status = data.page.status;
   return (
-    <div className="w-full flex items-center justify-center flex-col mt-20">
+    <div className="w-full flex items-center justify-center flex-col mt-20 px-3 md:px-10">
       <GradientBorderSeparator />
-      <div className="flex container items-center w-full md:justify-center py-10 mt-2 px-3 md:px-10">
+      <div className="flex container items-center w-full md:justify-center py-10 mt-2">
         <div className="flex flex-col justify-between w-full md:flex-row">
           <div className="md:w-1/3">
             <OverlogicLogo />
             <div className="flex gap-2 h-10">
-              <Status lang={lang} status={status}/>
+              <Status lang={lang} status={status} />
               {/* {SocialImageConstants.map((social, index) => (
                 <Link
                   href={social.url}
@@ -63,9 +63,10 @@ const Footer: NextPage<LangProps> = async ({ params }) => {
       </div>
       <GradientBorderSeparator />
       <div className="flex items-center w-full justify-center gap-4 font-medium py-5">
-        <div className="w-full flex items-center justify-between container px-3 md:px-10">
-          <p className="text-muted-foreground">
-            © 2025 Overlogic Universe. All rights reserved.
+        <div className="w-full flex items-center justify-between container">
+          <p className="text-muted-foreground flex items-center justify-center">
+            © 2025 Overlogic Universe.{" "}
+            <span className="hidden lg:block"> All rights reserved.</span>
           </p>
           <p className="text-muted-foreground flex items-center justify-center">
             <span>

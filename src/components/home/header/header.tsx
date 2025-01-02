@@ -14,13 +14,13 @@ import ProjectImages from "./projectImages";
 
 const teams: Object[] = [
   {
-    "UMS IID": ImageConstants.logo.umsIid,
+    "UMS IID": ImageConstants.logo.umsIidLogo,
   },
   {
-    "Anugerah Powder Coating": ImageConstants.logo.overlogic,
+    "Anugerah Powder Coating": ImageConstants.logo.anugerahLogo,
   },
   {
-    "Pinleaf Care": ImageConstants.logo.umsIid,
+    "Pinleaf Care": ImageConstants.logo.pineleafLogo,
   },
 ];
 
@@ -89,7 +89,7 @@ const Header: NextPage<LangProps> = async ({ params }) => {
           <Marquee pauseOnHover={false} className="[--duration:100s]">
             {teams.map((data, index) => {
               const [logo] = Object.values(data);
-              return <Image key={index} src={logo} alt={`${Object.keys(data)}`} width={170} height={1000} className="mx-4 aspect-auto object-contain" />;
+              return <Image key={index} src={logo} alt={`${Object.keys(data)}`} width={170} height={1000} className="mx-4 aspect-auto object-contain brightness-[0.6]" />;
             })}
           </Marquee>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>

@@ -50,9 +50,26 @@
     "services": {
       "title": ["Bangun", "bisnis Anda", "kuasai","", "pasar", ", kalahkan", "kompetitor", "dengan", "layanan kami"],
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
+      "more": "Pelajari lebih",
+      "trusted": {
+        "title": "Terpercaya",
+        "subTitle": "Pineleafcare, UMS IID, Anugerah Powder Coating Blora mempercayai kami sebagai mitra IT mereka dalam meningkatkan produktivitas mereka dalam bisnis dan acara-acara terbatas."
+      },
+      "price": {
+        "title": "Harga Terjangkau",
+        "subTitle": "Dapatkan penawaran menarik dengan menghubungi tim Overlogic ID dan dapatkan diskon hingga 40%"
+      },
+      "seo": {
+        "title": "Optimalisasi Mesin Pencari",
+        "subTitle": "Jadikan situs web Anda mudah dicari di internet dan berada di posisi teratas dan tingkatkan bisnis Anda dengan Overlogic Universe."
+      },
       "performance": {
         "title": "Performa",
         "subTitle": "Tingkatkan kecepatan aplikasi Anda dan hindari kegagalan sistem dalam bisnis Anda"
+      },
+      "security": {
+        "title": "Keamanan",
+        "subTitle": "Lindungi data sensitif Anda dan lindungi informasi pelanggan Anda dengan langkah-langkah keamanan canggih kami"
       },
       "business": {
         "title": "Menguasai Dunia dengan Bisnis Anda: Waktunya Bersinar!",

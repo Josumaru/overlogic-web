@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 
 import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { BellIcon, GlobeIcon, Share2Icon, Zap } from "lucide-react";
+import { BadgeDollarSign, BellIcon, Building2, GlobeIcon, LockKeyholeIcon, SearchIcon, Share2Icon, Zap } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
@@ -15,28 +15,6 @@ import CurvedSeparator from "@/components/ui/curved-separator";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
 
-const files = [
-  {
-    name: "bitcoin.pdf",
-    body: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.",
-  },
-  {
-    name: "finances.xlsx",
-    body: "A spreadsheet or worksheet is a file made of rows and columns that help sort data, arrange data easily, and calculate numerical data.",
-  },
-  {
-    name: "logo.svg",
-    body: "Scalable Vector Graphics is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.",
-  },
-  {
-    name: "keys.gpg",
-    body: "GPG keys are used to encrypt and decrypt email, files, directories, and whole disk partitions and to authenticate messages.",
-  },
-  {
-    name: "seed.txt",
-    body: "A seed phrase, seed recovery phrase or backup seed phrase is a list of words which store all the information needed to recover Bitcoin funds on-chain.",
-  },
-];
 
 const Services: NextPage<LangProps> = async ({ params }) => {
   const lang = (await params).lang;
@@ -45,11 +23,11 @@ const Services: NextPage<LangProps> = async ({ params }) => {
 
   const services = [
     {
-      Icon: FileTextIcon,
-      name: "Save your files",
-      description: "We automatically save your files as you type.",
+      Icon: Building2,
+      name: servicesDict.trusted.title,
+      description: servicesDict.trusted.subTitle,
       href: "#",
-      cta: "Learn more",
+      cta: servicesDict.more,
       className: "col-span-3 lg:col-span-1",
       background: (
         <div></div>
@@ -85,11 +63,36 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       name: servicesDict.performance.title,
       description: servicesDict.performance.subTitle,
       href: "#",
-      cta: "Learn more",
+      cta: servicesDict.more,
       className: "col-span-3 lg:col-span-2",
       background: (
         <div>
-          {/* <RetroGrid /> */}
+          <RetroGrid />
+        </div>
+      ),
+    },
+    {
+      Icon: LockKeyholeIcon,
+      name: servicesDict.security.title,
+      description: servicesDict.security.subTitle,
+      href: "#",
+      cta: servicesDict.more,
+      className: "col-span-2",
+      background: (
+        <div>
+        </div>
+      ),
+    },
+    {
+      Icon: BadgeDollarSign,
+      name: servicesDict.price.title,
+      description: servicesDict.price.subTitle,
+      href: "#",
+      cta: servicesDict.more,
+      className: "col-span-1",
+      background: (
+        <div>
+          {/* <RetroGrid angle={25}/> */}
         </div>
       ),
     },
@@ -98,7 +101,7 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       name: servicesDict.business.title,
       description: servicesDict.business.subTitle,
       href: "#",
-      cta: "Learn more",
+      cta: servicesDict.more,
       className: "col-span-3 lg:col-span-2",
       background: (
         <div>
@@ -107,12 +110,12 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       ),
     },
     {
-      Icon: CalendarIcon,
-      name: "Calendar",
-      description: "Use the calendar to filter your files by date.",
+      Icon: SearchIcon,
+      name: servicesDict.seo.title,
+      description: servicesDict.seo.subTitle,
       className: "col-span-3 lg:col-span-1",
       href: "#",
-      cta: "Learn more",
+      cta: servicesDict.more,
       background: (
         <div>
           {/* <Calendar
@@ -143,11 +146,12 @@ const Services: NextPage<LangProps> = async ({ params }) => {
           </SectionTitle>
           <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
         </div>
-        <BentoGrid>
+        <BentoGrid className="bg-transparent">
           {services.map((feature, idx) => (
             <BentoCard key={idx} {...feature} />
           ))}
         </BentoGrid>
+        <CurvedSeparator down={true}/>
       </div>
     </div>
   );

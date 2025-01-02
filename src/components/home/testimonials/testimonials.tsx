@@ -50,15 +50,15 @@ const Testimonials: NextPage<LangProps> = async ({ params }) => {
   const firstRow = reviews.slice(0, reviews.length / 2);
   const secondRow = reviews.slice(reviews.length / 2);
   return (
-    <div className="flex items-center justify-center px-3 md:px-10">
-      <div className="container relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background">
+    <div className="flex items-center justify-center px-3 md:px-10 bg-transparent">
+      <div className="container relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg">
         <div className="z-10 w-full">
-        <CurvedSeparator />
+        {/* <CurvedSeparator /> */}
           <SectionTitle>
             <span className="text-primary">{dict.title[0]}</span>{" "}
             {dict.title[1]}{" "}
             <span className="text-primary">{dict.title[2]}</span>{" "}
-            {dict.title[3]} <br />
+            {dict.title[3]} <br className="hidden lg:block"/>
             {dict.title[4]}{" "}
             <span className="text-primary">{dict.title[5]}</span>
           </SectionTitle>
