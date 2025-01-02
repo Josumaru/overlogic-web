@@ -9,8 +9,6 @@
     "orderNow": "Order Now",
     "trustedByLeadingTeam": "Trusted By Leading Team",
 
-    "faqTitle": ["Discover more about ", "through this ", "our logic ", "Frequently Asked Questions"],
-    "faqDesc": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
     "testimonials": {
       "title": ["Customer", "Testimonials - How", "Overlogic's", "Solutions", "Drive Success and", "Innovation"],
       "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
@@ -64,6 +62,28 @@
         "title": "Conquer the World with Your Business: It's Your Time to Shine!",
         "subTitle": "The world needs to know—this is your era. Unleash your power and let your business shake the world! 🌍✨"
       }
+    },
+    "faq":{
+      "title": ["Discover more about", "our logic" , "through this", "Frequently Asked Questions"],
+      "subTitle":"Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
+      "faqData": [
+          {
+            "question": "How do I update my billing information?",
+            "answer": "To contact customer support, look for a 'Contact us' or 'Help' button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+          },
+          {
+            "question": "How can I contact customer support?",
+            "answer": "To contact customer support, look for a 'Contact us' or 'Help' button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+          },
+          {
+            "question": "How do I update my profile information?",
+            "answer": "To contact customer support, look for a 'Contact us' or 'Help' button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+          },
+          {
+            "question": "How do I find my purchase history?",
+            "answer": "To contact customer support, look for a 'Contact us' or 'Help' button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+          }
+      ]
     }
   },
   "company": {

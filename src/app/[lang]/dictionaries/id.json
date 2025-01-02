@@ -58,7 +58,30 @@
         "title": "Menguasai Dunia dengan Bisnis Anda: Waktunya Bersinar!",
         "subTitle": "Saatnya dunia tahu, ini adalah era Anda. Tunjukkan kekuatan Anda, dan biarkan bisnis Anda menggetarkan dunia! 🌍✨"
       }
-    }
+    },
+    "faq": {
+      "title": ["Temukan lebih banyak tentang", "logika kami", "melalui", "Pertanyaan yang Sering Diajukan"],
+      "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
+      "faqData": [
+          {
+            "question": "Bagaimana cara memperbarui informasi penagihan saya?",
+            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
+          },
+          {
+            "question": "Bagaimana cara menghubungi dukungan pelanggan?",
+            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
+          },
+          {
+            "question": "Bagaimana cara memperbarui informasi profil saya?",
+            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
+          },
+          {
+            "question": "Bagaimana cara menemukan riwayat pembelian saya?",
+            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
+          }
+      ]
+  }
+
   },
   "company": {
     "company": "Perusahaan"
