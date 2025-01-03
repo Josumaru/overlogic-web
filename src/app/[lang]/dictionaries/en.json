@@ -163,15 +163,19 @@
         "title": "Service",
         "subtitles": [
           {
-            "name": "Website Developtment",
+            "name": "Website Development",
             "url": ""
           },
           {
-            "name": "Mobile Developtment",
+            "name": "Mobile Development",
             "url": ""
           },
           {
-            "name": "Backend Developtment",
+            "name": "Backend Development",
+            "url": ""
+          },
+          {
+            "name": "AI Development",
             "url": ""
           }
         ]
