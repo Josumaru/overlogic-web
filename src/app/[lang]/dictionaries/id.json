@@ -80,23 +80,32 @@
       "title": ["Temukan lebih banyak tentang", "logika kami", "melalui", "Pertanyaan yang Sering Diajukan"],
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
-          {
-            "question": "Bagaimana cara memperbarui informasi penagihan saya?",
-            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
-          },
-          {
-            "question": "Bagaimana cara menghubungi dukungan pelanggan?",
-            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
-          },
-          {
-            "question": "Bagaimana cara memperbarui informasi profil saya?",
-            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
-          },
-          {
-            "question": "Bagaimana cara menemukan riwayat pembelian saya?",
-            "answer": "Untuk menghubungi dukungan pelanggan, cari tombol atau tautan 'Hubungi kami' atau 'Bantuan' di situs web atau platform. Anda bisa mengirim email, menelepon, atau mengobrol dengan dukungan pelanggan untuk mendapatkan bantuan."
-          }
+        {
+          "question": "What is Overlogic?",
+          "answer": "Overlogic adalah agency pengembangan perangkat lunak terpercaya yang memberikan solusi melalui pemikiran mendalam, inovatif, dan berbasis teknologi modern, serta mendukung transformasi digital yang efisien, inklusif, dan berkelanjutan."
+        },
+        {
+          "question": "Layanan apa saja yang disediakan Overlogic?",
+          "answer": "Overlogic menyediakan layanan pengembangan web, pengembangan aplikasi, desain UI/UX, dan kemitraan pengembangan perangkat lunak yang disesuaikan dengan kebutuhan bisnis Anda."
+        },
+        {
+          "question": "Bagaimana cara menghubungi Overlogic untuk permintaan proyek?",
+          "answer": "Anda dapat memesan langsung di situs web kami dengan paket yang tersedia. Jika ada permintaan khusus, silakan hubungi kami di email@overlogicuniverse.com."
+        },        
+        {
+          "question": "Industri apa saja yang dilayani oleh Overlogic?",
+          "answer": "Overlogic melayani berbagai industri, termasuk pendidikan, kesehatan, ritel, dan lainnya. Solusi kami disesuaikan untuk berbagai sektor bisnis."
+        },
+        {
+          "question": "Apakah Overlogic menyediakan dukungan pasca-pengembangan?",
+          "answer": "Ya, kami menyediakan dukungan dan pemeliharaan pasca-pengembangan yang komprehensif untuk memastikan solusi digital Anda berjalan dengan lancar."
+        },
+        {
+          "question": "Berapa lama waktu yang dibutuhkan untuk menyelesaikan sebuah proyek?",
+          "answer": "Waktu penyelesaian proyek bervariasi tergantung pada kompleksitas dan kebutuhan. Setelah konsultasi awal, kami akan memberikan perkiraan waktu yang disesuaikan dengan proyek Anda."
+        }
       ]
+
   }
 
   },
