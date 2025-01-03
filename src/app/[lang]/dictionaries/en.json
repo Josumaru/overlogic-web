@@ -9,8 +9,107 @@
     "orderNow": "Order Now",
     "trustedByLeadingTeam": "Trusted By Leading Team",
 
-    "faqTitle": ["Discover more about ", "through this ", "our logic ", "Frequently Asked Questions"],
-    "faqDesc": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section."
+    "testimonials": {
+      "title": ["Customer", "Testimonials - How", "Overlogic's", "Solutions", "Drive Success and", "Innovation"],
+      "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
+      "reviews": [
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        },
+        {
+          "name": "Josumaru",
+          "username": "@josurou",
+          "body": "Overlogic is indeed beyond logic, I can't say words",
+          "img": "https://avatar.vercel.sh/josuro"
+        }
+      ]
+    },
+    "services": {
+      "title": ["Build your", "business", "dominate", "the", "market", ", beat your", "competitors", "with", "our services"],
+      "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
+      "more": "Learn more",
+      "trusted": {
+        "title": "Trusted",
+        "subTitle": "Pineleafcare, UMS IID, Anugerah Powder Coating Blora trust us as their IT partner in increasing their productivity in business and limited events."
+      },
+      "price": {
+        "title": "Affordable Price",
+        "subTitle": "Get a good deal by contacting the Overlogic ID team and get up to 40% discount"
+      },
+      "seo": {
+        "title": "Search Engine Optimalization",
+        "subTitle": "Make your website searchable on the internet and at the top and boost your business with Overlogic Universe."
+      },
+      "performance": {
+        "title": "Performance",
+        "subTitle": "Increase the speed of your applications and avoid system failures in your business"
+      },
+      "security": {
+        "title": "Security",
+        "subTitle": "Protect your sensitive data and protect your customers' information with our advanced security measures"
+      },
+      "business": {
+        "title": "Conquer the World with Your Business: It's Your Time to Shine!",
+        "subTitle": "The world needs to know—this is your era. Unleash your power and let your business shake the world! 🌍✨"
+      }
+    },
+    "faq":{
+      "title": ["Discover more about", "our logic" , "through this", "Frequently Asked Questions"],
+      "subTitle":"Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
+      "faqData": [
+        {
+          "question": "What is Overlogic",
+          "answer": "Overlogic is a trusted software development agency that delivers solutions through deep thinking, innovation, and modern technology, and supports efficient, inclusive, and sustainable digital transformation."
+        },
+        {
+          "question": "What services does Overlogic provide?",
+          "answer": "Overlogic offers web development, app development, UI/UX design, and software development partnership services tailored to meet your business needs."
+        },
+        {
+          "question": "How can I contact Overlogic for a project inquiry?",
+          "answer": "You can place an order directly on our website using the available packages. If you have special requests, feel free to contact us at email@overlogicuniverse.com."
+        },        
+        {
+          "question": "What industries does Overlogic serve?",
+          "answer": "Overlogic serves various industries, including education, healthcare, retail, and more. Our solutions are customized to fit different business sectors."
+        },
+        {
+          "question": "Does Overlogic provide post-development support?",
+          "answer": "Yes, we provide comprehensive post-development support and maintenance to ensure your digital solutions perform seamlessly."
+        },
+        {
+          "question": "How long does it take for a project to be completed?",
+          "answer": "Project timelines vary based on complexity and requirements. After an initial consultation, we provide an estimated timeline tailored to your project."
+        }
+      ]
+    }
   },
   "company": {
     "company": "Company"
@@ -57,5 +156,82 @@
   },
   "showCase": {
     "showCase": "Show Case"
+  },
+  "common": {
+    "footer": [
+      {
+        "title": "Service",
+        "subtitles": [
+          {
+            "name": "Website Development",
+            "url": ""
+          },
+          {
+            "name": "Mobile Development",
+            "url": ""
+          },
+          {
+            "name": "Backend Development",
+            "url": ""
+          },
+          {
+            "name": "AI Development",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Product",
+        "subtitles": [
+          {
+            "name": "UMS IID",
+            "url": "https://ums-iid.com/"
+          },
+          {
+            "name": "Anugerah",
+            "url": "https://anugerahpowdercoating.com/"
+          },
+          {
+            "name": "Pineleaf",
+            "url": "https://pineleaf.id/"
+          }
+        ]
+      },
+      {
+        "title": "Overlogic",
+        "subtitles": [
+          {
+            "name": "Websites",
+            "url": "https://overlogic.id"
+          },
+          {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/overlogic.id/"
+          },
+          {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/overlogic"
+          },
+          { "name": "Discord", "url": "https://discord.com/app" }
+        ]
+      },
+      {
+        "title": "Domain",
+        "subtitles": [
+          {
+            "name": "overlogic.io",
+            "url": "https://overlogic.io"
+          },
+          {
+            "name": "status.overlogic.io",
+            "url": "https://stats.overlogic.io"
+          },
+          {
+            "name": "airi.overlogic.io",
+            "url": "https://airi.overlogic.io"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,0 +1,1 @@
+export const buildLangUrl = (path: string, lang: string) => `/${lang}${path.startsWith("/") ? path : `/${path}`}`;
