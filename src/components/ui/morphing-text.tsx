@@ -98,11 +98,11 @@ const Texts: React.FC<Pick<MorphingTextProps, "texts">> = ({ texts }) => {
   return (
     <>
       <span
-        className="absolute mt-[9rem] inset-x-0 top-0 m-auto inline-block w-full"
+        className="absolute md:mt-[9rem] mt-[8rem] inset-x-0 top-0 m-auto inline-block w-full"
         ref={text1Ref}
       />
       <span
-        className="absolute mt-[9rem] inset-x-0 top-0 m-auto inline-block w-full"
+        className="absolute md:mt-[9rem] mt-[8rem] inset-x-0 top-0 m-auto inline-block w-full"
         ref={text2Ref}
       />
     </>
