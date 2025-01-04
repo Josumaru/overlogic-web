@@ -34,7 +34,7 @@ const Status: NextPage<Props> = async ({ lang, status }) => {
           className="h-4 w-4 rounded-full"
           style={{ backgroundColor: color }}
         />
-        <p className="hover:pl-1 cursor-pointer hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-primary hover:to-secondary text-muted-foreground transition-color duration-150">{message}</p>
+        <p className="hover:pl-1 cursor-pointer hover:text-primary text-muted-foreground transition-color duration-150">{message}</p>
       </div>
     </Link>
   );
