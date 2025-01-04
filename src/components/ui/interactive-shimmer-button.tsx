@@ -32,7 +32,7 @@ const InteractiveShimmerButton = React.forwardRef<HTMLButtonElement, Interactive
           } as React.CSSProperties
         }
         className={cn(
-          "group relative h-14 w-72 cursor-pointer overflow-hidden rounded-3xl border border-white hover:border-primary bg-white text-center font-semibold text-lg dark:border-zinc-800 dark:bg-zinc-950",
+          "group relative md:h-14 h-12 md:w-72 w-40 cursor-pointer overflow-hidden rounded-3xl border border-white hover:border-primary bg-white text-center font-semibold md:text-lg text-sm",
           "[border-radius:var(--radius)] [background:var(--bg)] hover:[background:var(--hover-bg)]",
           className
         )}
