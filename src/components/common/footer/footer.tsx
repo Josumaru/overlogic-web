@@ -16,7 +16,7 @@ const Footer: NextPage<LangProps> = async ({ params }) => {
   const data = await response.json();
   const status = data.page.status;
   return (
-    <div className="w-full flex items-center justify-center flex-col mt-20 px-3 md:px-10">
+    <div className="w-full flex bg-indigo-50 items-center justify-center flex-col mt-20 px-3 md:px-10">
       <GradientBorderSeparator />
       <div className="flex container items-center w-full md:justify-center py-10 mt-2">
         <div className="flex flex-col justify-between w-full md:flex-row">
@@ -24,20 +24,6 @@ const Footer: NextPage<LangProps> = async ({ params }) => {
             <OverlogicLogo />
             <div className="flex gap-2 h-10">
               <Status lang={lang} status={status} />
-              {/* {SocialImageConstants.map((social, index) => (
-                <Link
-                  href={social.url}
-                  target="_blank"
-                  key={index}
-                  className={`duration-200 hover:pt-2`}
-                >
-                  <Image
-                    src={social.icon}
-                    alt={social.alt}
-                    className="dark:invert"
-                  />
-                </Link>
-              ))} */}
             </div>
           </div>
           <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row w-full justify-between">
@@ -50,7 +36,7 @@ const Footer: NextPage<LangProps> = async ({ params }) => {
                       target="_blank"
                       href={subtitle.url}
                       key={index}
-                      className="mt-1 hover:pl-1 cursor-pointer hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-primary hover:to-secondary text-muted-foreground duration-150"
+                      className="mt-1 hover:pl-1 cursor-pointer hover:text-primary text-muted-foreground duration-150"
                     >
                       {subtitle.name}
                     </Link>

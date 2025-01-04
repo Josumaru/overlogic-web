@@ -31,15 +31,15 @@ export default function ProjectImages() {
   const [imageSrc] = Object.values(currentProject);
 
   return (
-    <div className="h-full w-full rounded-[1.5rem] relative p-[0.6rem] overflow-hidden">
-      <div className="h-full w-full rounded-[1.5rem] bg-background">
+    <div className="h-full w-full md:rounded-[1.5rem] rounded-[0.5rem]  relative p-[0.6rem] overflow-hidden">
+      <div className="h-full w-full md:rounded-[1.5rem] rounded-[0.5rem]  bg-background">
       <div
-        className={`h-full w-full rounded-[1.5rem] transition-opacity duration-500 ${
+        className={`h-full w-full md:rounded-[1.5rem] rounded-[0.5rem]  transition-opacity duration-500 ${
           fade ? "opacity-0" : "opacity-100"
         }`}
       >
         <Image
-          className="h-full w-full rounded-[1.5rem]"
+          className="h-full w-full md:rounded-[1.5rem] rounded-[0.5rem] "
           src={imageSrc}
           alt={altText}
           width={3000}
