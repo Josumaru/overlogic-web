@@ -98,14 +98,9 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, var(--selection-background-secondary-color), var(--selection-background-primary-color));
-  background-color: var(--color-one); /* Thumb color */
+  background: var(--color-one); /* Thumb color */
   border-radius: 8px; /* Make thumb more rounded */
   border: 2px solid transparent; /* Add spacing */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-one-75); /* Thumb color on hover */
 }
 
 ::-moz-selection {

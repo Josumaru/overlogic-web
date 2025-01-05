@@ -26,7 +26,7 @@ const faqData: FaqItem[] = faqDict.faqData
         </SectionTitle>
         <SectionDesc>{faqDict.subTitle}</SectionDesc>
 
-        {/* Menyisipkan FaqList */}
+        {/* Faq List */}
         <FaqList faqData={faqData} />
       </div>
     </div>
