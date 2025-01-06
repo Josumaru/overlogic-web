@@ -30,8 +30,8 @@
           "title": "UMS IID",
           "description": "Kompetisi dan pameran inovasi di Universitas Muhammadiyah Surakarta yang berlangsung selama 5 hari.",
           "company": "umsIidLogo",
-          "category": "Kompetisi Internasional",
-          "platform": "Website",
+          "category": "Acara Internasional",
+          "platform": "Web",
           "image": "umsiid",
           "link": "https://ums-iid.com/"
         },
@@ -40,18 +40,18 @@
           "description": "Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda.",
           "company": "anugerahLogo",
           "category": "Profil Perusahaan",
-          "platform": "Mobile",
+          "platform": "Web",
           "image": "anugerah",
-          "link": "https://ums-iid.com/"
+          "link": "https://anugerahpowdercoating.com/"
         },
         {
           "title": "Pineleaf Care",
           "description": "Brand Premium Care yang bergerak di bidang Product Development dan Sales Retail sabun pembersih dan perawatan sepatu (Shoe Cleaner) yang berdiri tanggal 07 Maret 2015 di Kota Surakarta.",
           "company": "pineleafLogo",
           "category": "Profil Perusahaan",
-          "platform": "Website",
+          "platform": "Web",
           "image": "pineleaf",
-          "link": "https://Pineleaf Care"
+          "link": "https://pineleaf.id/"
         }
       ]
     },
