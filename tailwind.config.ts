@@ -61,16 +61,16 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		keyframes: {
-			sunriseGlow: {
-				'0%, 100%': {
-				  transform: 'scale(1)',
-				  opacity: '0.7',
-				},
-				'50%': {
-				  transform: 'scale(1.2)',
-				  opacity: '1',
-				},
-			},
+  			sunriseGlow: {
+  				'0%, 100%': {
+  					transform: 'scale(1)',
+  					opacity: '0.7'
+  				},
+  				'50%': {
+  					transform: 'scale(1.2)',
+  					opacity: '1'
+  				}
+  			},
   			blob: {
   				'0%': {
   					transform: 'translate(0px, 0px) scale(1)'
@@ -135,7 +135,7 @@ export default {
   			}
   		},
   		animation: {
-			sunriseGlow: 'sunriseGlow 6s infinite ease-in-out',
+  			sunriseGlow: 'sunriseGlow 6s infinite ease-in-out',
   			blob: 'blob 10s infinite',
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
