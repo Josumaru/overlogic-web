@@ -3,14 +3,67 @@
     "home": "Home",
     "headerTitleFull": "Your Solutions, Overlogic.",
     "headerTitleFull2": "Your Vision, Our logic.",
-    "headerTitle": ["Your ", "vision, ", "our ", "  logic."],
-    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
-    "headerDesc": ["Trusted", "software development", "agency committed to delivering high-quality digital solutions"],
+    "headerTitle": [
+      "Your ",
+      "vision, ",
+      "our ",
+      "  logic."
+    ],
+    "headerTitle2": [
+      "Your ",
+      "solutions, ",
+      "Over",
+      "logic."
+    ],
+    "headerDesc": [
+      "Trusted",
+      "software development",
+      "agency committed to delivering high-quality digital solutions"
+    ],
     "orderNow": "Order Now",
     "trustedByLeadingTeam": "Trusted By Leading Team",
-
+    "projects": {
+      "title": "Our Latest Projects",
+      "seeMore": "See full showcase",
+      "data": [
+        {
+          "title": "UMS IID",
+          "description": "an innovation competition and exhibition at Universitas Muhammadiyah Surakarta that took place over 5 days.",
+          "company": "umsIidLogo",
+          "category": "International Competition",
+          "platform": "Website",
+          "image": "umsiid",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Anugerah Powder Coating",
+          "description": "Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda.",
+          "company": "anugerahLogo",
+          "category": "Company Profile",
+          "platform": "Mobile",
+          "image": "anugerah",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Pineleaf Care",
+          "description": "Brand Premium Care yang bergerak di bidang Product Development dan Sales Retail sabun pembersih dan perawatan sepatu (Shoe Cleaner) yang berdiri tanggal 07 Maret 2015 di Kota Surakarta.",
+          "company": "pineleafLogo",
+          "category": "Company Profile",
+          "platform": "Website",
+          "image": "pineleaf",
+          "link": "https://Pineleaf Care"
+        }
+      ]
+    },
     "testimonials": {
-      "title": ["Customer", "Testimonials - How", "Overlogic's", "Solutions", "Drive Success and", "Innovation"],
+      "title": [
+        "Customer",
+        "Testimonials - How",
+        "Overlogic's",
+        "Solutions",
+        "Drive Success and",
+        "Innovation"
+      ],
       "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
       "reviews": [
         {
@@ -52,7 +105,17 @@
       ]
     },
     "services": {
-      "title": ["Build your", "business", "dominate", "the", "market", ", beat your", "competitors", "with", "our services"],
+      "title": [
+        "Build your",
+        "business",
+        "dominate",
+        "the",
+        "market",
+        ", beat your",
+        "competitors",
+        "with",
+        "our services"
+      ],
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
       "more": "Learn more",
       "trusted": {
@@ -80,9 +143,14 @@
         "subTitle": "The world needs to know—this is your era. Unleash your power and let your business shake the world! 🌍✨"
       }
     },
-    "faq":{
-      "title": ["Discover more about", "our logic" , "through this", "Frequently Asked Questions"],
-      "subTitle":"Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
+    "faq": {
+      "title": [
+        "Discover more about",
+        "our logic",
+        "through this",
+        "Frequently Asked Questions"
+      ],
+      "subTitle": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
       "faqData": [
         {
           "question": "What is Overlogic",
@@ -95,7 +163,7 @@
         {
           "question": "How can I contact Overlogic for a project inquiry?",
           "answer": "You can place an order directly on our website using the available packages. If you have special requests, feel free to contact us at email@overlogicuniverse.com."
-        },        
+        },
         {
           "question": "What industries does Overlogic serve?",
           "answer": "Overlogic serves various industries, including education, healthcare, retail, and more. Our solutions are customized to fit different business sectors."
@@ -116,7 +184,7 @@
   },
   "pricing": {
     "title": "",
-    "subTitle":"Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
+    "subTitle": "Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
     "flexible": "Flexible",
     "pricing": "Pricing",
     "plansForEveryStageOf": "Plans for every stage of",
@@ -133,7 +201,7 @@
         "Basic maintenance and updates"
       ]
     },
-    "professional":{
+    "professional": {
       "title": "Professional",
       "subTitle": "Increase your business visibility and performance with professional technology. For businesses that want to grow and shine in the digital world.",
       "features": [
@@ -212,7 +280,10 @@
             "name": "Linkedin",
             "url": "https://www.linkedin.com/in/overlogic"
           },
-          { "name": "Discord", "url": "https://discord.com/app" }
+          {
+            "name": "Discord",
+            "url": "https://discord.com/app"
+          }
         ]
       },
       {

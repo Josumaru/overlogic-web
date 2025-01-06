@@ -3,16 +3,74 @@
     "home": "Beranda",
     "headerTitleFull": "Your Solutions, Overlogic.",
     "headerTitleFull2": "Your Vision, Our logic.",
-    "headerTitle": ["Your ", "vision, ", "our ", "logic."],
-    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
-    "headerDesc": ["Agensi", "pengembangan perangkat lunak", "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"],
+    "headerTitle": [
+      "Your ",
+      "vision, ",
+      "our ",
+      "logic."
+    ],
+    "headerTitle2": [
+      "Your ",
+      "solutions, ",
+      "Over",
+      "logic."
+    ],
+    "headerDesc": [
+      "Agensi",
+      "pengembangan perangkat lunak",
+      "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"
+    ],
     "orderNow": "Pesan Sekarang",
     "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
-
-    "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
+    "projects": {
+      "title": "Portofolio Terbaru Kami",
+      "seeMore": "Lihat semua portofolio",
+      "data": [
+        {
+          "title": "UMS IID",
+          "description": "Kompetisi dan pameran inovasi di Universitas Muhammadiyah Surakarta yang berlangsung selama 5 hari.",
+          "company": "umsIidLogo",
+          "category": "Kompetisi Internasional",
+          "platform": "Website",
+          "image": "umsiid",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Anugerah Powder Coating",
+          "description": "Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda.",
+          "company": "anugerahLogo",
+          "category": "Profil Perusahaan",
+          "platform": "Mobile",
+          "image": "anugerah",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Pineleaf Care",
+          "description": "Brand Premium Care yang bergerak di bidang Product Development dan Sales Retail sabun pembersih dan perawatan sepatu (Shoe Cleaner) yang berdiri tanggal 07 Maret 2015 di Kota Surakarta.",
+          "company": "pineleafLogo",
+          "category": "Profil Perusahaan",
+          "platform": "Website",
+          "image": "pineleaf",
+          "link": "https://Pineleaf Care"
+        }
+      ]
+    },
+    "faqTitle": [
+      "Temukan lebih banyak tentang ",
+      "melalui ",
+      "logika kami ",
+      "Pertanyaan yang Sering Diajukan"
+    ],
     "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
     "testimonials": {
-      "title":["Testimoni", "Pelanggan - Bagaimana", "Solusi", "Overlogic", "Mendorong Sukses dan", "Inovasi"],
+      "title": [
+        "Testimoni",
+        "Pelanggan - Bagaimana",
+        "Solusi",
+        "Overlogic",
+        "Mendorong Sukses dan",
+        "Inovasi"
+      ],
       "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
       "reviews": [
         {
@@ -48,7 +106,17 @@
       ]
     },
     "services": {
-      "title": ["Bangun", "bisnis Anda", "kuasai","", "pasar", ", kalahkan", "kompetitor", "dengan", "layanan kami"],
+      "title": [
+        "Bangun",
+        "bisnis Anda",
+        "kuasai",
+        "",
+        "pasar",
+        ", kalahkan",
+        "kompetitor",
+        "dengan",
+        "layanan kami"
+      ],
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
       "more": "Pelajari lebih",
       "trusted": {
@@ -77,7 +145,12 @@
       }
     },
     "faq": {
-      "title": ["Temukan lebih banyak tentang", "logika kami", "melalui", "Pertanyaan yang Sering Diajukan"],
+      "title": [
+        "Temukan lebih banyak tentang",
+        "logika kami",
+        "melalui",
+        "Pertanyaan yang Sering Diajukan"
+      ],
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
         {
@@ -91,7 +164,7 @@
         {
           "question": "Bagaimana cara menghubungi Overlogic untuk permintaan proyek?",
           "answer": "Anda dapat memesan langsung di situs web kami dengan paket yang tersedia. Jika ada permintaan khusus, silakan hubungi kami di email@overlogicuniverse.com."
-        },        
+        },
         {
           "question": "Industri apa saja yang dilayani oleh Overlogic?",
           "answer": "Overlogic melayani berbagai industri, termasuk pendidikan, kesehatan, ritel, dan lainnya. Solusi kami disesuaikan untuk berbagai sektor bisnis."
@@ -105,9 +178,7 @@
           "answer": "Waktu penyelesaian proyek bervariasi tergantung pada kompleksitas dan kebutuhan. Setelah konsultasi awal, kami akan memberikan perkiraan waktu yang disesuaikan dengan proyek Anda."
         }
       ]
-
-  }
-
+    }
   },
   "company": {
     "company": "Perusahaan"
@@ -124,17 +195,32 @@
     "basic": {
       "title": "Dasar",
       "subTitle": "Memulai langkah pertama bisnis Anda di dunia digital bersama Overlogic.",
-      "features": ["Desain yang dapat disesuaikan", "Alat kolaborasi yang disempurnakan", "Dukungan prioritas", "Pemeliharaan dan pembaruan dasar"]
+      "features": [
+        "Desain yang dapat disesuaikan",
+        "Alat kolaborasi yang disempurnakan",
+        "Dukungan prioritas",
+        "Pemeliharaan dan pembaruan dasar"
+      ]
     },
     "professional": {
       "title": "Profesional",
       "subTitle": "Tingkatkan visibilitas dan performa bisnis Anda dengan teknologi profesional. Untuk bisnis yang ingin tumbuh dan bersinar di dunia digital.",
-      "features": ["Semua anfaat di paket dasar", "Skalabilitas tinggi", "Performa yang di tingkatkan", "Bantan pencadangan"]
+      "features": [
+        "Semua anfaat di paket dasar",
+        "Skalabilitas tinggi",
+        "Performa yang di tingkatkan",
+        "Bantan pencadangan"
+      ]
     },
     "advanced": {
       "title": "Lanjutan",
       "subTitle": "Solusi eksklusif dan fleksibel untuk kebutuhan teknologi spesifik bisnis Anda.",
-      "features": ["Paket Dasar + Profesional", "Pemeliharaan & pembaruan yang diperpanjang", "Dukungan & Pelatihan", "Solusi perangkat lunak yang disesuaikan"]
+      "features": [
+        "Paket Dasar + Profesional",
+        "Pemeliharaan & pembaruan yang diperpanjang",
+        "Dukungan & Pelatihan",
+        "Solusi perangkat lunak yang disesuaikan"
+      ]
     }
   },
   "showCase": {
@@ -195,7 +281,10 @@
             "name": "Linkedin",
             "url": "https://www.linkedin.com/in/overlogic"
           },
-          { "name": "Discord", "url": "https://discord.com/app" }
+          {
+            "name": "Discord",
+            "url": "https://discord.com/app"
+          }
         ]
       },
       {
