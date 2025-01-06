@@ -14,8 +14,14 @@ import linkedIn from "@/assets/images/logos/linked-in.svg";
 import umsIidLogo from "@/assets/images/logos/ums-iid.png";
 import pineleafLogo from "@/assets/images/logos/pineleaf.png";
 import anugerahLogo from "@/assets/images/logos/anugerah.png";
+
 // Common
 import gradient from "@/assets/images/common/gradient.jpg";
+
+// Teams
+import joko from "@/assets/images/teams/joko.png";
+import rafli from "@/assets/images/teams/rafli.png";
+import sulthon from "@/assets/images/teams/sulthon.png";
 
 export const ImageConstants = {
   icon: {
@@ -37,5 +43,10 @@ export const ImageConstants = {
   },
   common: {
     gradient,
+  },
+  teams: {
+    joko,
+    rafli,
+    sulthon
   },
 };
