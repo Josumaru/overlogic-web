@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import { NextPage } from "next";
@@ -9,7 +10,7 @@ import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
 interface TeamMemberProps {
 	name: string;
 	role: string;
-	image: any;
+	image: string;
 	socialLinks: {
 		instagram?: string;
 		github?: string;
@@ -19,31 +20,37 @@ interface TeamMemberProps {
 
 const TeamMember: React.FC<TeamMemberProps> = ( { name, role, image, socialLinks } ) => (
 	<div className="relative group">
-		<NeonGradientCard className="max-w-sm items-center justify-center text-center">
+		<NeonGradientCard
+			className="flex items-center justify-center text-start hover:scale-105 hover:cursor-pointer transition-all duration-300 p-0">
 			<div className="relative h-full bg-white rounded-lg overflow-hidden">
-				<Image src={ image } alt={ name } className="w-full h-80 object-cover" />
-				<div className="p-4">
+				<Image src={ image } alt={ name } className=" w-full h-96 object-cover" />
+				<div
+					className="absolute bottom-0 inset-0 bg-gradient-to-b from-transparent to-primary opacity-50 rounded-md"></div>
+				<div className="p-4 absolute bottom-0 z-50 text-white">
 					<h3 className="text-xl font-semibold">{ name }</h3>
-					<p className="text-gray-600">{ role }</p>
-					<div className="flex gap-2 mt-2">
+					<p className="text-white">{ role }</p>
+					<div className="flex items-center gap-2 mt-2">
 						{ socialLinks.instagram && (
-							<a href={ socialLinks.instagram } className="text-gray-600 hover:text-blue-600">
+							<Link href={ socialLinks.instagram }
+							      className="bg-white p-1 rounded-md transition-all duration-300 hover:cursor-pointer hover:scale-75">
 								<span className="sr-only">Instagram</span>
 								<Image src={ ImageConstants.logo.instagram } alt={ "instagram-logo" } height={ 20 }
 								       width={ 20 } />
-							</a>
+							</Link>
 						) }
 						{ socialLinks.github && (
-							<a href={ socialLinks.github } className="text-gray-600 hover:text-blue-600">
+							<Link href={ socialLinks.github }
+							      className="bg-white p-1 rounded-md transition-all duration-300 hover:cursor-pointer hover:scale-75">
 								<span className="sr-only">Github</span>
 								<Image src={ ImageConstants.logo.github } alt={ "github-logo" } height={ 20 } width={ 20 } />
-							</a>
+							</Link>
 						) }
 						{ socialLinks.linkedin && (
-							<a href={ socialLinks.linkedin } className="text-gray-600 hover:text-blue-600">
+							<Link href={ socialLinks.linkedin }
+							      className="bg-white p-1 rounded-md transition-all duration-300 hover:cursor-pointer hover:scale-75">
 								<span className="sr-only">LinkedIn</span>
 								<Image src={ ImageConstants.logo.linkedIn } alt={ "linkedin-logo" } height={ 20 } width={ 20 } />
-							</a>
+							</Link>
 						) }
 					</div>
 				</div>
@@ -54,11 +61,13 @@ const TeamMember: React.FC<TeamMemberProps> = ( { name, role, image, socialLinks
 
 const Team: NextPage<LangProps> = async ( { params } ) => {
 	const lang = (await params).lang;
+	const dictionary = await getDictionary( lang );
+	const teamDict = dictionary.home.teams;
 
 	const teamMembers = [
 		{
 			name: "Sulthon Kaffah Al Farizzi",
-			role: "Chief Executive Officer",
+			role: "CEO of Overlogic",
 			image: ImageConstants.teams.sulthon,
 			socialLinks: {
 				instagram: "#",
@@ -68,7 +77,7 @@ const Team: NextPage<LangProps> = async ( { params } ) => {
 		},
 		{
 			name: "Joko Supriyanto",
-			role: "Chief Technology Officer",
+			role: "CTO & Founder of Overlogic",
 			image: ImageConstants.teams.joko,
 			socialLinks: {
 				instagram: "#",
@@ -78,7 +87,7 @@ const Team: NextPage<LangProps> = async ( { params } ) => {
 		},
 		{
 			name: "Muhammad Rafli Silehu",
-			role: "Chief Operation Officer",
+			role: "COO & Founder of Overlogic",
 			image: ImageConstants.teams.rafli,
 			socialLinks: {
 				instagram: "#",
@@ -91,19 +100,22 @@ const Team: NextPage<LangProps> = async ( { params } ) => {
 	return (
 		<section className="my-32">
 			<div className="container mx-auto">
-				<h2 className="text-3xl font-bold text-blue-600 mb-8">Our Team</h2>
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+				<h2 className="text-3xl font-bold text-primary mb-8">Who We Are</h2>
+				{/*when small just show 1, when medium show 2*/ }
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 					{ teamMembers.map( ( member ) => (
 						<TeamMember key={ member.name } { ...member } />
 					) ) }
 				</div>
-				<div className="flex justify-end gap-4 mt-6">
-					<button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200">
+				<div className="flex justify-center gap-4 mt-6 md:mt-12 z-50">
+					<button
+						className="p-2 rounded-full bg-gray-200 transition-all duration-200 hover:cursor-pointer hover:scale-105 hover:invert">
 						<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={ 2 } d="M15 19l-7-7 7-7" />
 						</svg>
 					</button>
-					<button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200">
+					<button
+						className="p-2 rounded-full bg-gray-200 transition-all duration-200 hover:cursor-pointer hover:scale-105 hover:invert">
 						<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={ 2 } d="M9 5l7 7-7 7" />
 						</svg>
