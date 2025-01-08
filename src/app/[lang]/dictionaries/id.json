@@ -5,50 +5,108 @@
     "headerTitleFull2": "Your Vision, Our logic.",
     "headerTitle": ["Your ", "vision, ", "our ", "logic."],
     "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
-    "headerDesc": ["Agensi", "pengembangan perangkat lunak", "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"],
+    "headerDesc": [
+      "Agensi",
+      "pengembangan perangkat lunak",
+      "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"
+    ],
     "orderNow": "Pesan Sekarang",
     "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
-
-    "faqTitle": ["Temukan lebih banyak tentang ", "melalui ", "logika kami ", "Pertanyaan yang Sering Diajukan"],
+    "projects": {
+      "title": "Portofolio Terbaru Kami",
+      "seeMore": "Lihat semua portofolio",
+      "data": [
+        {
+          "title": "UMS IID",
+          "description": "Kompetisi dan pameran inovasi di Universitas Muhammadiyah Surakarta yang berlangsung selama 5 hari.",
+          "company": "umsIidLogo",
+          "category": "Acara Internasional",
+          "platform": "Web",
+          "image": "umsiid",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Anugerah Powder Coating",
+          "description": "Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda.",
+          "company": "anugerahLogo",
+          "category": "Profil Perusahaan",
+          "platform": "Web",
+          "image": "anugerah",
+          "link": "https://anugerahpowdercoating.com/"
+        },
+        {
+          "title": "Pineleaf Care",
+          "description": "Brand Premium Care yang bergerak di bidang Product Development dan Sales Retail sabun pembersih dan perawatan sepatu (Shoe Cleaner) yang berdiri tanggal 07 Maret 2015 di Kota Surakarta.",
+          "company": "pineleafLogo",
+          "category": "Profil Perusahaan",
+          "platform": "Web",
+          "image": "pineleaf",
+          "link": "https://pineleaf.id/"
+        }
+      ]
+    },
+    "faqTitle": [
+      "Temukan lebih banyak tentang ",
+      "melalui ",
+      "logika kami ",
+      "Pertanyaan yang Sering Diajukan"
+    ],
     "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
     "testimonials": {
-      "title":["Testimoni", "Pelanggan - Bagaimana", "Solusi", "Overlogic", "Mendorong Sukses dan", "Inovasi"],
+      "title": [
+        "Testimoni",
+        "Pelanggan - Bagaimana",
+        "Solusi",
+        "Overlogic",
+        "Mendorong Sukses dan",
+        "Inovasi"
+      ],
       "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
       "reviews": [
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         }
       ]
     },
     "services": {
-      "title": ["Bangun", "bisnis Anda", "kuasai","", "pasar", ", kalahkan", "kompetitor", "dengan", "layanan kami"],
+      "title": [
+        "Bangun",
+        "Bisnis Anda",
+        "Kuasai",
+        "",
+        "Pasar",
+        ", Kalahkan",
+        "Kompetitor",
+        "dengan",
+        "Layanan Overlogic"
+      ],
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
       "more": "Pelajari lebih",
       "trusted": {
@@ -74,10 +132,23 @@
       "business": {
         "title": "Menguasai Dunia dengan Bisnis Anda: Waktunya Bersinar!",
         "subTitle": "Saatnya dunia tahu, ini adalah era Anda. Tunjukkan kekuatan Anda, dan biarkan bisnis Anda menggetarkan dunia! 🌍✨"
-      }
+      },
+      "chart": [
+        { "stats": "Performa", "range": 100 },
+        { "stats": "Harga", "range": 20 },
+        { "stats": "SEO", "range": 100 },
+        { "stats": "Keamanan", "range": 100 },
+        { "stats": "Kecepatan", "range": 100 },
+        { "stats": "Dukungan Penuh", "range": 100 }
+      ]
     },
     "faq": {
-      "title": ["Temukan lebih banyak tentang", "logika kami", "melalui", "Pertanyaan yang Sering Diajukan"],
+      "title": [
+        "Temukan lebih banyak tentang",
+        "logika kami",
+        "melalui",
+        "Pertanyaan yang Sering Diajukan"
+      ],
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
         {
@@ -91,7 +162,7 @@
         {
           "question": "Bagaimana cara menghubungi Overlogic untuk permintaan proyek?",
           "answer": "Anda dapat memesan langsung di situs web kami dengan paket yang tersedia. Jika ada permintaan khusus, silakan hubungi kami di email@overlogicuniverse.com."
-        },        
+        },
         {
           "question": "Industri apa saja yang dilayani oleh Overlogic?",
           "answer": "Overlogic melayani berbagai industri, termasuk pendidikan, kesehatan, ritel, dan lainnya. Solusi kami disesuaikan untuk berbagai sektor bisnis."
@@ -105,9 +176,7 @@
           "answer": "Waktu penyelesaian proyek bervariasi tergantung pada kompleksitas dan kebutuhan. Setelah konsultasi awal, kami akan memberikan perkiraan waktu yang disesuaikan dengan proyek Anda."
         }
       ]
-
-  }
-
+    }
   },
   "company": {
     "company": "Perusahaan"
@@ -124,97 +193,124 @@
     "basic": {
       "title": "Dasar",
       "subTitle": "Memulai langkah pertama bisnis Anda di dunia digital bersama Overlogic.",
-      "features": ["Desain yang dapat disesuaikan", "Alat kolaborasi yang disempurnakan", "Dukungan prioritas", "Pemeliharaan dan pembaruan dasar"]
+      "features": [
+        "Desain yang dapat disesuaikan",
+        "Alat kolaborasi yang disempurnakan",
+        "Dukungan prioritas",
+        "Pemeliharaan dan pembaruan dasar"
+      ]
     },
     "professional": {
       "title": "Profesional",
       "subTitle": "Tingkatkan visibilitas dan performa bisnis Anda dengan teknologi profesional. Untuk bisnis yang ingin tumbuh dan bersinar di dunia digital.",
-      "features": ["Semua anfaat di paket dasar", "Skalabilitas tinggi", "Performa yang di tingkatkan", "Bantan pencadangan"]
+      "features": [
+        "Semua manfaat di paket dasar",
+        "Skalabilitas tinggi",
+        "Performa yang di tingkatkan",
+        "Bantan pencadangan"
+      ]
     },
     "advanced": {
       "title": "Lanjutan",
       "subTitle": "Solusi eksklusif dan fleksibel untuk kebutuhan teknologi spesifik bisnis Anda.",
-      "features": ["Paket Dasar + Profesional", "Pemeliharaan & pembaruan yang diperpanjang", "Dukungan & Pelatihan", "Solusi perangkat lunak yang disesuaikan"]
+      "features": [
+        "Paket Dasar + Profesional",
+        "Pemeliharaan & pembaruan yang diperpanjang",
+        "Dukungan & Pelatihan",
+        "Solusi perangkat lunak yang disesuaikan"
+      ]
     }
   },
   "showCase": {
     "showCase": "Portofolio"
   },
   "common": {
-    "footer": [
-      {
-        "title": "Layanan",
-        "subtitles": [
-          {
-            "name": "Pengembangan Website",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan Mobile",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan Backend",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan ecerdasan Buatan",
-            "url": ""
-          }
-        ]
+    "footer": {
+      "links": [
+        {
+          "title": "Layanan",
+          "subtitles": [
+            {
+              "name": "Pengembangan Website",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan Mobile",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan Backend",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan kecerdasan Buatan",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Produk",
+          "subtitles": [
+            {
+              "name": "UMS IID",
+              "url": "https://ums-iid.com/"
+            },
+            {
+              "name": "Anugerah",
+              "url": "https://anugerahpowdercoating.com/"
+            },
+            {
+              "name": "Pineleaf",
+              "url": "https://pineleaf.id/"
+            }
+          ]
+        },
+        {
+          "title": "Overlogic",
+          "subtitles": [
+            {
+              "name": "Websites",
+              "url": "https://overlogic.id"
+            },
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/overlogic.id/"
+            },
+            {
+              "name": "Linkedin",
+              "url": "https://www.linkedin.com/in/overlogic"
+            },
+            {
+              "name": "Discord",
+              "url": "https://discord.com/app"
+            }
+          ]
+        },
+        {
+          "title": "Domain",
+          "subtitles": [
+            {
+              "name": "overlogic.io",
+              "url": "https://overlogic.io"
+            },
+            {
+              "name": "status.overlogic.io",
+              "url": "https://stats.overlogic.io"
+            },
+            {
+              "name": "airi.overlogic.io",
+              "url": "https://airi.overlogic.io"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "up": "Semua sistem beroperasi",
+        "hasIissues": "Beberapa sistem mengalami masalah",
+        "underMaintenance": "Sistem dalam pemeliharaan",
+        "loading": "Memuat status"
       },
-      {
-        "title": "Produk",
-        "subtitles": [
-          {
-            "name": "UMS IID",
-            "url": "https://ums-iid.com/"
-          },
-          {
-            "name": "Anugerah",
-            "url": "https://anugerahpowdercoating.com/"
-          },
-          {
-            "name": "Pineleaf",
-            "url": "https://pineleaf.id/"
-          }
-        ]
-      },
-      {
-        "title": "Overlogic",
-        "subtitles": [
-          {
-            "name": "Websites",
-            "url": "https://overlogic.id"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/overlogic.id/"
-          },
-          {
-            "name": "Linkedin",
-            "url": "https://www.linkedin.com/in/overlogic"
-          },
-          { "name": "Discord", "url": "https://discord.com/app" }
-        ]
-      },
-      {
-        "title": "Domain",
-        "subtitles": [
-          {
-            "name": "overlogic.io",
-            "url": "https://overlogic.io"
-          },
-          {
-            "name": "status.overlogic.io",
-            "url": "https://stats.overlogic.io"
-          },
-          {
-            "name": "airi.overlogic.io",
-            "url": "https://airi.overlogic.io"
-          }
-        ]
-      }
-    ]
+      "right": "Semua hak cipta dilindungi undang-undang"
+    }
   }
 }

@@ -14,17 +14,28 @@ import linkedIn from "@/assets/images/logos/linked-in.svg";
 import umsIidLogo from "@/assets/images/logos/ums-iid.png";
 import pineleafLogo from "@/assets/images/logos/pineleaf.png";
 import anugerahLogo from "@/assets/images/logos/anugerah.png";
+
 // Common
 import gradient from "@/assets/images/common/gradient.jpg";
 
+// Teams
+import joko from "@/assets/images/teams/joko.png";
+import rafli from "@/assets/images/teams/rafli.png";
+import sulthon from "@/assets/images/teams/sulthon.png";
+
+// Services
+import seoLight from "@/assets/images/services/seo-light.png";
+import seoDark from "@/assets/images/services/seo-dark.png";
+
+
 export const ImageConstants = {
   icon: {
-    language
+    language,
   },
   project: {
     umsiid,
     pinleaf,
-    anugerah
+    anugerah,
   },
   logo: {
     overlogic,
@@ -33,9 +44,18 @@ export const ImageConstants = {
     linkedIn,
     umsIidLogo,
     anugerahLogo,
-    pineleafLogo
+    pineleafLogo,
   },
   common: {
     gradient,
+  },
+  teams: {
+    joko,
+    rafli,
+    sulthon,
+  },
+  services: {
+    seoLight,
+    seoDark
   },
 };

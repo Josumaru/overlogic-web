@@ -5,12 +5,55 @@
     "headerTitleFull2": "Your Vision, Our logic.",
     "headerTitle": ["Your ", "vision, ", "our ", "  logic."],
     "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
-    "headerDesc": ["Trusted", "software development", "agency committed to delivering high-quality digital solutions"],
+    "headerDesc": [
+      "Trusted",
+      "software development",
+      "agency committed to delivering high-quality digital solutions"
+    ],
     "orderNow": "Order Now",
     "trustedByLeadingTeam": "Trusted By Leading Team",
-
+    "projects": {
+      "title": "Our Latest Projects",
+      "seeMore": "See full showcase",
+      "data": [
+        {
+          "title": "UMS IID",
+          "description": "Innovation competition and exhibition at Universitas Muhammadiyah Surakarta that took place over 5 days.",
+          "company": "umsIidLogo",
+          "category": "International Events",
+          "platform": "Web",
+          "image": "umsiid",
+          "link": "https://ums-iid.com/"
+        },
+        {
+          "title": "Anugerah Powder Coating",
+          "description": "The best coating service with high quality to protect and beautify your metal products.",
+          "company": "anugerahLogo",
+          "category": "Company Profile",
+          "platform": "Web",
+          "image": "anugerah",
+          "link": "https://anugerahpowdercoating.com/"
+        },
+        {
+          "title": "Pineleaf Care",
+          "description": "Premium Care Brand engaged in Product Development and Retail Sales of shoe cleaning and care soap (Shoe Cleaner) established on March 7, 2015 in Surakarta City.",
+          "company": "pineleafLogo",
+          "category": "Company Profile",
+          "platform": "Web",
+          "image": "pineleaf",
+          "link": "https://pineleaf.id/"
+        }
+      ]
+    },
     "testimonials": {
-      "title": ["Customer", "Testimonials - How", "Overlogic's", "Solutions", "Drive Success and", "Innovation"],
+      "title": [
+        "Customer",
+        "Testimonials - How",
+        "Overlogic's",
+        "Solutions",
+        "Drive Success and",
+        "Innovation"
+      ],
       "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
       "reviews": [
         {
@@ -52,7 +95,17 @@
       ]
     },
     "services": {
-      "title": ["Build your", "business", "dominate", "the", "market", ", beat your", "competitors", "with", "our services"],
+      "title": [
+        "Build Your",
+        "Business",
+        "Dominate",
+        "the",
+        "Market",
+        ", Beat Your",
+        "Competitors",
+        "with",
+        "Overlogic services"
+      ],
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
       "more": "Learn more",
       "trusted": {
@@ -78,11 +131,24 @@
       "business": {
         "title": "Conquer the World with Your Business: It's Your Time to Shine!",
         "subTitle": "The world needs to know—this is your era. Unleash your power and let your business shake the world! 🌍✨"
-      }
+      },
+      "chart": [
+        { "stats": "Performance", "range": 100 },
+        { "stats": "Price", "range": 20 },
+        { "stats": "SEO", "range": 100 },
+        { "stats": "Security", "range": 100 },
+        { "stats": "Speed", "range": 100 },
+        { "stats": "Full Support", "range": 100 }
+      ]
     },
-    "faq":{
-      "title": ["Discover more about", "our logic" , "through this", "Frequently Asked Questions"],
-      "subTitle":"Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
+    "faq": {
+      "title": [
+        "Discover more about",
+        "our logic",
+        "through this",
+        "Frequently Asked Questions"
+      ],
+      "subTitle": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
       "faqData": [
         {
           "question": "What is Overlogic",
@@ -95,7 +161,7 @@
         {
           "question": "How can I contact Overlogic for a project inquiry?",
           "answer": "You can place an order directly on our website using the available packages. If you have special requests, feel free to contact us at email@overlogicuniverse.com."
-        },        
+        },
         {
           "question": "What industries does Overlogic serve?",
           "answer": "Overlogic serves various industries, including education, healthcare, retail, and more. Our solutions are customized to fit different business sectors."
@@ -116,7 +182,7 @@
   },
   "pricing": {
     "title": "",
-    "subTitle":"Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
+    "subTitle": "Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
     "flexible": "Flexible",
     "pricing": "Pricing",
     "plansForEveryStageOf": "Plans for every stage of",
@@ -133,7 +199,7 @@
         "Basic maintenance and updates"
       ]
     },
-    "professional":{
+    "professional": {
       "title": "Professional",
       "subTitle": "Increase your business visibility and performance with professional technology. For businesses that want to grow and shine in the digital world.",
       "features": [
@@ -158,80 +224,92 @@
     "showCase": "Show Case"
   },
   "common": {
-    "footer": [
-      {
-        "title": "Service",
-        "subtitles": [
-          {
-            "name": "Website Development",
-            "url": ""
-          },
-          {
-            "name": "Mobile Development",
-            "url": ""
-          },
-          {
-            "name": "Backend Development",
-            "url": ""
-          },
-          {
-            "name": "AI Development",
-            "url": ""
-          }
-        ]
+    "footer": {
+      "links": [
+        {
+          "title": "Service",
+          "subtitles": [
+            {
+              "name": "Website Development",
+              "url": ""
+            },
+            {
+              "name": "Mobile Development",
+              "url": ""
+            },
+            {
+              "name": "Backend Development",
+              "url": ""
+            },
+            {
+              "name": "AI Development",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "subtitles": [
+            {
+              "name": "UMS IID",
+              "url": "https://ums-iid.com/"
+            },
+            {
+              "name": "Anugerah",
+              "url": "https://anugerahpowdercoating.com/"
+            },
+            {
+              "name": "Pineleaf",
+              "url": "https://pineleaf.id/"
+            }
+          ]
+        },
+        {
+          "title": "Overlogic",
+          "subtitles": [
+            {
+              "name": "Websites",
+              "url": "https://overlogic.id"
+            },
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/overlogic.id/"
+            },
+            {
+              "name": "Linkedin",
+              "url": "https://www.linkedin.com/in/overlogic"
+            },
+            {
+              "name": "Discord",
+              "url": "https://discord.com/app"
+            }
+          ]
+        },
+        {
+          "title": "Domain",
+          "subtitles": [
+            {
+              "name": "overlogic.io",
+              "url": "https://overlogic.io"
+            },
+            {
+              "name": "status.overlogic.io",
+              "url": "https://stats.overlogic.io"
+            },
+            {
+              "name": "airi.overlogic.io",
+              "url": "https://airi.overlogic.io"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "up": "All system operational",
+        "hasIissues": "Some systems experiencing issues",
+        "underMaintenance": "System under maintenance",
+        "loading": "Loading status"
       },
-      {
-        "title": "Product",
-        "subtitles": [
-          {
-            "name": "UMS IID",
-            "url": "https://ums-iid.com/"
-          },
-          {
-            "name": "Anugerah",
-            "url": "https://anugerahpowdercoating.com/"
-          },
-          {
-            "name": "Pineleaf",
-            "url": "https://pineleaf.id/"
-          }
-        ]
-      },
-      {
-        "title": "Overlogic",
-        "subtitles": [
-          {
-            "name": "Websites",
-            "url": "https://overlogic.id"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/overlogic.id/"
-          },
-          {
-            "name": "Linkedin",
-            "url": "https://www.linkedin.com/in/overlogic"
-          },
-          { "name": "Discord", "url": "https://discord.com/app" }
-        ]
-      },
-      {
-        "title": "Domain",
-        "subtitles": [
-          {
-            "name": "overlogic.io",
-            "url": "https://overlogic.io"
-          },
-          {
-            "name": "status.overlogic.io",
-            "url": "https://stats.overlogic.io"
-          },
-          {
-            "name": "airi.overlogic.io",
-            "url": "https://airi.overlogic.io"
-          }
-        ]
-      }
-    ]
+      "right": "All rights reserved"
+    }
   }
 }
