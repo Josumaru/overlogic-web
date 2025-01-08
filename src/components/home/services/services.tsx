@@ -1,7 +1,16 @@
 import { NextPage } from "next";
 
 import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { BadgeDollarSign, BellIcon, Building2, GlobeIcon, LockKeyholeIcon, SearchIcon, Share2Icon, Zap } from "lucide-react";
+import {
+  BadgeDollarSign,
+  BellIcon,
+  Building2,
+  GlobeIcon,
+  LockKeyholeIcon,
+  SearchIcon,
+  Share2Icon,
+  Zap,
+} from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
@@ -14,7 +23,10 @@ import { getDictionary } from "@/app/[lang]/dictionaries";
 import CurvedSeparator from "@/components/ui/curved-separator";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
-
+import { SecurityAnimatedBeam } from "./security-animated-beam";
+import Image from "next/image";
+import { ImageConstants } from "@/constants/ImageConstants";
+import { PriceRadarChart } from "./price-radar-chart";
 
 const Services: NextPage<LangProps> = async ({ params }) => {
   const lang = (await params).lang;
@@ -30,32 +42,8 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       cta: servicesDict.more,
       className: "col-span-3 lg:col-span-1",
       background: (
-        <div></div>
-        // <Marquee
-        //   pauseOnHover
-        //   className="absolute top-10 [--duration:20s] [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] "
-        // >
-        //   {files.map((f, idx) => (
-        //     <figure
-        //       key={idx}
-        //       className={cn(
-        //         "relative w-32 cursor-pointer overflow-hidden rounded-xl border p-4",
-        //         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-        //         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
-        //         "transform-gpu blur-[1px] transition-all duration-300 ease-out hover:blur-none"
-        //       )}
-        //     >
-        //       <div className="flex flex-row items-center gap-2">
-        //         <div className="flex flex-col">
-        //           <figcaption className="text-sm font-medium dark:text-white ">
-        //             {f.name}
-        //           </figcaption>
-        //         </div>
-        //       </div>
-        //       <blockquote className="mt-2 text-xs">{f.body}</blockquote>
-        //     </figure>
-        //   ))}
-        // </Marquee>
+        <div>
+        </div>
       ),
     },
     {
@@ -77,9 +65,10 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       description: servicesDict.security.subTitle,
       href: "#",
       cta: servicesDict.more,
-      className: "col-span-2",
+      className: "col-span-3 lg:col-span-2",
       background: (
         <div>
+          <SecurityAnimatedBeam className="absolute right-2 top-4 h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
         </div>
       ),
     },
@@ -89,10 +78,10 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       description: servicesDict.price.subTitle,
       href: "#",
       cta: servicesDict.more,
-      className: "col-span-1",
+      className: "col-span-3 lg:col-span-1",
       background: (
-        <div>
-          {/* <RetroGrid angle={25}/> */}
+        <div className="absolute h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_3%,#000_100%)] group-hover:scale-105">
+          <PriceRadarChart params={servicesDict.chart} />
         </div>
       ),
     },
@@ -105,7 +94,7 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       className: "col-span-3 lg:col-span-2",
       background: (
         <div>
-          {/* <Globe /> */}
+          {/* <Image src={ImageConstants.services.seo} alt={servicesDict.business.title}/> */}
         </div>
       ),
     },
@@ -117,12 +106,11 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       href: "#",
       cta: servicesDict.more,
       background: (
-        <div>
-          {/* <Calendar
-            mode="single"
-            selected={new Date(2022, 4, 11, 0, 0, 0)}
-            className="absolute right-0 top-10 origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
-          /> */}
+        <div className="absolute h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_2%,#000_100%)] group-hover:scale-105">
+          <Image
+            src={ImageConstants.services.seoLight}
+            alt={servicesDict.seo.title}
+          />
         </div>
       ),
     },
@@ -151,7 +139,7 @@ const Services: NextPage<LangProps> = async ({ params }) => {
             <BentoCard key={idx} {...feature} />
           ))}
         </BentoGrid>
-        <CurvedSeparator down={true}/>
+        <CurvedSeparator down={true} />
       </div>
     </div>
   );

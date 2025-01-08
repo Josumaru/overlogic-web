@@ -3,18 +3,8 @@
     "home": "Beranda",
     "headerTitleFull": "Your Solutions, Overlogic.",
     "headerTitleFull2": "Your Vision, Our logic.",
-    "headerTitle": [
-      "Your ",
-      "vision, ",
-      "our ",
-      "logic."
-    ],
-    "headerTitle2": [
-      "Your ",
-      "solutions, ",
-      "Over",
-      "logic."
-    ],
+    "headerTitle": ["Your ", "vision, ", "our ", "logic."],
+    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
     "headerDesc": [
       "Agensi",
       "pengembangan perangkat lunak",
@@ -76,46 +66,46 @@
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         },
         {
           "name": "Josumaru",
           "username": "@josurou",
-          "body": "Overlogic memang diluat logika, aku tidak bisa  berkata kata",
-          "img": "https://avatar.vercel.sh/josuro"
+          "body": "Overlogic memang diluar logika, aku tidak bisa  berkata kata",
+          "img": "https://avatar.vercel.sh/josurou"
         }
       ]
     },
     "services": {
       "title": [
         "Bangun",
-        "bisnis Anda",
-        "kuasai",
+        "Bisnis Anda",
+        "Kuasai",
         "",
-        "pasar",
-        ", kalahkan",
-        "kompetitor",
+        "Pasar",
+        ", Kalahkan",
+        "Kompetitor",
         "dengan",
-        "layanan kami"
+        "Layanan Overlogic"
       ],
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
       "more": "Pelajari lebih",
@@ -142,7 +132,15 @@
       "business": {
         "title": "Menguasai Dunia dengan Bisnis Anda: Waktunya Bersinar!",
         "subTitle": "Saatnya dunia tahu, ini adalah era Anda. Tunjukkan kekuatan Anda, dan biarkan bisnis Anda menggetarkan dunia! 🌍✨"
-      }
+      },
+      "chart": [
+        { "stats": "Performa", "range": 100 },
+        { "stats": "Harga", "range": 20 },
+        { "stats": "SEO", "range": 100 },
+        { "stats": "Keamanan", "range": 100 },
+        { "stats": "Kecepatan", "range": 100 },
+        { "stats": "Dukungan Penuh", "range": 100 }
+      ]
     },
     "faq": {
       "title": [
@@ -206,7 +204,7 @@
       "title": "Profesional",
       "subTitle": "Tingkatkan visibilitas dan performa bisnis Anda dengan teknologi profesional. Untuk bisnis yang ingin tumbuh dan bersinar di dunia digital.",
       "features": [
-        "Semua anfaat di paket dasar",
+        "Semua manfaat di paket dasar",
         "Skalabilitas tinggi",
         "Performa yang di tingkatkan",
         "Bantan pencadangan"
@@ -227,83 +225,92 @@
     "showCase": "Portofolio"
   },
   "common": {
-    "footer": [
-      {
-        "title": "Layanan",
-        "subtitles": [
-          {
-            "name": "Pengembangan Website",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan Mobile",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan Backend",
-            "url": ""
-          },
-          {
-            "name": "Pengembangan ecerdasan Buatan",
-            "url": ""
-          }
-        ]
+    "footer": {
+      "links": [
+        {
+          "title": "Layanan",
+          "subtitles": [
+            {
+              "name": "Pengembangan Website",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan Mobile",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan Backend",
+              "url": ""
+            },
+            {
+              "name": "Pengembangan kecerdasan Buatan",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Produk",
+          "subtitles": [
+            {
+              "name": "UMS IID",
+              "url": "https://ums-iid.com/"
+            },
+            {
+              "name": "Anugerah",
+              "url": "https://anugerahpowdercoating.com/"
+            },
+            {
+              "name": "Pineleaf",
+              "url": "https://pineleaf.id/"
+            }
+          ]
+        },
+        {
+          "title": "Overlogic",
+          "subtitles": [
+            {
+              "name": "Websites",
+              "url": "https://overlogic.id"
+            },
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/overlogic.id/"
+            },
+            {
+              "name": "Linkedin",
+              "url": "https://www.linkedin.com/in/overlogic"
+            },
+            {
+              "name": "Discord",
+              "url": "https://discord.com/app"
+            }
+          ]
+        },
+        {
+          "title": "Domain",
+          "subtitles": [
+            {
+              "name": "overlogic.io",
+              "url": "https://overlogic.io"
+            },
+            {
+              "name": "status.overlogic.io",
+              "url": "https://stats.overlogic.io"
+            },
+            {
+              "name": "airi.overlogic.io",
+              "url": "https://airi.overlogic.io"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "up": "Semua sistem beroperasi",
+        "hasIissues": "Beberapa sistem mengalami masalah",
+        "underMaintenance": "Sistem dalam pemeliharaan",
+        "loading": "Memuat status"
       },
-      {
-        "title": "Produk",
-        "subtitles": [
-          {
-            "name": "UMS IID",
-            "url": "https://ums-iid.com/"
-          },
-          {
-            "name": "Anugerah",
-            "url": "https://anugerahpowdercoating.com/"
-          },
-          {
-            "name": "Pineleaf",
-            "url": "https://pineleaf.id/"
-          }
-        ]
-      },
-      {
-        "title": "Overlogic",
-        "subtitles": [
-          {
-            "name": "Websites",
-            "url": "https://overlogic.id"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/overlogic.id/"
-          },
-          {
-            "name": "Linkedin",
-            "url": "https://www.linkedin.com/in/overlogic"
-          },
-          {
-            "name": "Discord",
-            "url": "https://discord.com/app"
-          }
-        ]
-      },
-      {
-        "title": "Domain",
-        "subtitles": [
-          {
-            "name": "overlogic.io",
-            "url": "https://overlogic.io"
-          },
-          {
-            "name": "status.overlogic.io",
-            "url": "https://stats.overlogic.io"
-          },
-          {
-            "name": "airi.overlogic.io",
-            "url": "https://airi.overlogic.io"
-          }
-        ]
-      }
-    ]
+      "right": "Semua hak cipta dilindungi undang-undang"
+    }
   }
 }

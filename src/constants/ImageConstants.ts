@@ -23,14 +23,19 @@ import joko from "@/assets/images/teams/joko.png";
 import rafli from "@/assets/images/teams/rafli.png";
 import sulthon from "@/assets/images/teams/sulthon.png";
 
+// Services
+import seoLight from "@/assets/images/services/seo-light.png";
+import seoDark from "@/assets/images/services/seo-dark.png";
+
+
 export const ImageConstants = {
   icon: {
-    language
+    language,
   },
   project: {
     umsiid,
     pinleaf,
-    anugerah
+    anugerah,
   },
   logo: {
     overlogic,
@@ -39,7 +44,7 @@ export const ImageConstants = {
     linkedIn,
     umsIidLogo,
     anugerahLogo,
-    pineleafLogo
+    pineleafLogo,
   },
   common: {
     gradient,
@@ -47,6 +52,10 @@ export const ImageConstants = {
   teams: {
     joko,
     rafli,
-    sulthon
+    sulthon,
+  },
+  services: {
+    seoLight,
+    seoDark
   },
 };

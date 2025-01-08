@@ -3,18 +3,8 @@
     "home": "Home",
     "headerTitleFull": "Your Solutions, Overlogic.",
     "headerTitleFull2": "Your Vision, Our logic.",
-    "headerTitle": [
-      "Your ",
-      "vision, ",
-      "our ",
-      "  logic."
-    ],
-    "headerTitle2": [
-      "Your ",
-      "solutions, ",
-      "Over",
-      "logic."
-    ],
+    "headerTitle": ["Your ", "vision, ", "our ", "  logic."],
+    "headerTitle2": ["Your ", "solutions, ", "Over", "logic."],
     "headerDesc": [
       "Trusted",
       "software development",
@@ -106,15 +96,15 @@
     },
     "services": {
       "title": [
-        "Build your",
-        "business",
-        "dominate",
+        "Build Your",
+        "Business",
+        "Dominate",
         "the",
-        "market",
-        ", beat your",
-        "competitors",
+        "Market",
+        ", Beat Your",
+        "Competitors",
         "with",
-        "our services"
+        "Overlogic services"
       ],
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
       "more": "Learn more",
@@ -141,7 +131,15 @@
       "business": {
         "title": "Conquer the World with Your Business: It's Your Time to Shine!",
         "subTitle": "The world needs to know—this is your era. Unleash your power and let your business shake the world! 🌍✨"
-      }
+      },
+      "chart": [
+        { "stats": "Performance", "range": 100 },
+        { "stats": "Price", "range": 20 },
+        { "stats": "SEO", "range": 100 },
+        { "stats": "Security", "range": 100 },
+        { "stats": "Speed", "range": 100 },
+        { "stats": "Full Support", "range": 100 }
+      ]
     },
     "faq": {
       "title": [
@@ -226,83 +224,92 @@
     "showCase": "Show Case"
   },
   "common": {
-    "footer": [
-      {
-        "title": "Service",
-        "subtitles": [
-          {
-            "name": "Website Development",
-            "url": ""
-          },
-          {
-            "name": "Mobile Development",
-            "url": ""
-          },
-          {
-            "name": "Backend Development",
-            "url": ""
-          },
-          {
-            "name": "AI Development",
-            "url": ""
-          }
-        ]
+    "footer": {
+      "links": [
+        {
+          "title": "Service",
+          "subtitles": [
+            {
+              "name": "Website Development",
+              "url": ""
+            },
+            {
+              "name": "Mobile Development",
+              "url": ""
+            },
+            {
+              "name": "Backend Development",
+              "url": ""
+            },
+            {
+              "name": "AI Development",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "subtitles": [
+            {
+              "name": "UMS IID",
+              "url": "https://ums-iid.com/"
+            },
+            {
+              "name": "Anugerah",
+              "url": "https://anugerahpowdercoating.com/"
+            },
+            {
+              "name": "Pineleaf",
+              "url": "https://pineleaf.id/"
+            }
+          ]
+        },
+        {
+          "title": "Overlogic",
+          "subtitles": [
+            {
+              "name": "Websites",
+              "url": "https://overlogic.id"
+            },
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/overlogic.id/"
+            },
+            {
+              "name": "Linkedin",
+              "url": "https://www.linkedin.com/in/overlogic"
+            },
+            {
+              "name": "Discord",
+              "url": "https://discord.com/app"
+            }
+          ]
+        },
+        {
+          "title": "Domain",
+          "subtitles": [
+            {
+              "name": "overlogic.io",
+              "url": "https://overlogic.io"
+            },
+            {
+              "name": "status.overlogic.io",
+              "url": "https://stats.overlogic.io"
+            },
+            {
+              "name": "airi.overlogic.io",
+              "url": "https://airi.overlogic.io"
+            }
+          ]
+        }
+      ],
+      "status": {
+        "up": "All system operational",
+        "hasIissues": "Some systems experiencing issues",
+        "underMaintenance": "System under maintenance",
+        "loading": "Loading status"
       },
-      {
-        "title": "Product",
-        "subtitles": [
-          {
-            "name": "UMS IID",
-            "url": "https://ums-iid.com/"
-          },
-          {
-            "name": "Anugerah",
-            "url": "https://anugerahpowdercoating.com/"
-          },
-          {
-            "name": "Pineleaf",
-            "url": "https://pineleaf.id/"
-          }
-        ]
-      },
-      {
-        "title": "Overlogic",
-        "subtitles": [
-          {
-            "name": "Websites",
-            "url": "https://overlogic.id"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/overlogic.id/"
-          },
-          {
-            "name": "Linkedin",
-            "url": "https://www.linkedin.com/in/overlogic"
-          },
-          {
-            "name": "Discord",
-            "url": "https://discord.com/app"
-          }
-        ]
-      },
-      {
-        "title": "Domain",
-        "subtitles": [
-          {
-            "name": "overlogic.io",
-            "url": "https://overlogic.io"
-          },
-          {
-            "name": "status.overlogic.io",
-            "url": "https://stats.overlogic.io"
-          },
-          {
-            "name": "airi.overlogic.io",
-            "url": "https://airi.overlogic.io"
-          }
-        ]
-      }
-    ]
+      "right": "All rights reserved"
+    }
   }
 }
