@@ -11,7 +11,7 @@
       "agency committed to delivering high-quality digital solutions"
     ],
     "orderNow": "Order Now",
-    "trustedByLeadingTeam": "Trusted By Leading Team",
+    "trustedByLeadingTeam": "Trusted By Leading Company",
     "projects": {
       "title": "Our Latest Projects",
       "seeMore": "See full showcase",
@@ -46,14 +46,7 @@
       ]
     },
     "testimonials": {
-      "title": [
-        "Customer",
-        "Testimonials - How",
-        "Overlogic's",
-        "Solutions",
-        "Drive Success and",
-        "Innovation"
-      ],
+      "title": "Customer Testimonials - How Overlogic's Solutions Drive Success and Innovation",
       "subTitle": "Explore the Impact of Overlogic's Innovative Solutions and How They Have Helped Our Clients Achieve Sustainable Growth, Efficiency, and Success in Their Industries",
       "reviews": [
         {
@@ -95,17 +88,7 @@
       ]
     },
     "services": {
-      "title": [
-        "Build Your",
-        "Business",
-        "Dominate",
-        "the",
-        "Market",
-        ", Beat Your",
-        "Competitors",
-        "with",
-        "Overlogic services"
-      ],
+      "title": "Build Your Business Dominate the Market , Beat Your Competitors with Overlogic service",
       "subTitle": "Trust your application development and maintenance to us, all features will be quickly created with modern technology and security.",
       "more": "Learn more",
       "trusted": {
@@ -142,12 +125,7 @@
       ]
     },
     "faq": {
-      "title": [
-        "Discover more about",
-        "our logic",
-        "through this",
-        "Frequently Asked Questions"
-      ],
+      "title": "Discover more about our logic through this Frequently Asked Question",
       "subTitle": "Find answers to common inquiries and dive deeper into the logic behind our services with this comprehensive FAQ section.",
       "faqData": [
         {
@@ -178,15 +156,44 @@
     }
   },
   "company": {
-    "company": "Company"
+    "company": "Company",
+    "header": {
+      "aboutOverlogicUniverse": "About Overlogic Universe",
+      "title": "Building the Digital World, Embracing the Future",
+      "subTitle": "Overlogic Universe was founded with a passion to bring revolutionary changes to the digital world. Since 2023, we have been helping individuals and companies turn their visions into reality through smart and innovative digital solutions. With an experienced team committed to delivering the highest quality, we are ready to lead your journey toward a more advanced, efficient, and impactful digital transformation. Join us on this path toward a more connected and opportunity-filled future!"
+    },
+    "visionMission": {
+      "title": "Overlogic Universe Helps Businesses Solve Many Problems",
+      "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities.",
+      "visionMision": [
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet the Overlogic Team, Driving Your Business Forward",
+      "subTitle": "Our unity is the foundation of your success"
+    },
+    "gallery": {
+      "title": "Overlogic Gallery, A Portrait of Innovation and Togetherness",
+      "subTitle": "Every moment is part of our journey to success"
+    }
   },
   "pricing": {
-    "title": "",
+    "title": "Pricing Plans for every stage of Your Vision",
     "subTitle": "Explore our pricing plans designed to adapt to your unique goals, ensuring every stage of your vision is supported with modern technology and seamless execution",
     "flexible": "Flexible",
     "pricing": "Pricing",
-    "plansForEveryStageOf": "Plans for every stage of",
-    "yourVision": "Your Vision",
     "from": "From",
     "order": "Order",
     "basic": {

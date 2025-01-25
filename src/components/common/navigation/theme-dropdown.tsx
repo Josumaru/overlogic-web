@@ -6,7 +6,7 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { ImageConstants } from "@/constants/ImageConstants";
 import { useRouter, usePathname } from "next/navigation";
 
-const LanguageDropdown = () => {
+const ThemeDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState("EN");
   const router = useRouter();
@@ -70,4 +70,4 @@ const LanguageDropdown = () => {
   );
 };
 
-export default LanguageDropdown;
+export default ThemeDropdown;

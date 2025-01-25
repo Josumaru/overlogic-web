@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { getDictionary } from "@/app/[lang]/dictionaries";
+import { getDictionary } from "@/util/dictionaries";
 import { LangProps } from "@/types/lang";
 import { ImageConstants } from "@/constants/ImageConstants";
 import Image from "next/image";
@@ -46,7 +46,7 @@ const Header: NextPage<LangProps> = async ({ params }) => {
       </div>
 
       {/* Social Media */}
-      <Dock className="flex items-center bg-white/20 space-x-4 py-[0.7rem] px-7 border md:mt-[80px] mt-[60px] border-white shadow-sm rounded-2xl">
+      {/* <Dock className="flex items-center bg-white/20 space-x-4 py-[0.7rem] px-7 border md:mt-[80px] mt-[60px] border-white shadow-sm rounded-2xl">
         <DockIcon>
           <Link href={"https://www.instagram.com/overlogic.id/"} target="blank">
             <Image className="" src={ImageConstants.logo.instagram} height={30} width={30} alt="instagram-logo" />
@@ -62,10 +62,10 @@ const Header: NextPage<LangProps> = async ({ params }) => {
             <Image className="" src={ImageConstants.logo.github} height={30} width={30} alt="github-logo" />
           </Link>
         </DockIcon>
-      </Dock>
+      </Dock> */}
 
       {/* Show Case */}
-      <div className="pt-[15px] container flex justify-center mx-auto">
+      <div className="pt-[95px] container flex justify-center mx-auto">
         <div className="md:w-[75%] w-[85%] relative md:rounded-[2rem] rounded-[1rem] bg-transparent mx-auto">
           <div className="-z-50 absolute container w-full blur-3xl h-[55%] rounded-full bg-gradient-to-l from-secondary via-primary to-secondary animate-sunriseGlow"></div>
           <div
@@ -89,7 +89,7 @@ const Header: NextPage<LangProps> = async ({ params }) => {
           <Marquee pauseOnHover={false} className="[--duration:100s]">
             {teams.map((data, index) => {
               const [logo] = Object.values(data);
-              return <Image key={index} src={logo} alt={`${Object.keys(data)}`} width={170} height={1000} className="md:mx-4 mx-1 aspect-auto object-contain brightness-[0.6]" />;
+              return <Image key={index} src={logo} alt={`${Object.keys(data)}`} width={170} height={1000} className="md:mx-4 mx-1 aspect-auto object-contain brightness-[0]" />;
             })}
           </Marquee>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>

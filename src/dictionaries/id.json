@@ -11,7 +11,7 @@
       "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"
     ],
     "orderNow": "Pesan Sekarang",
-    "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
+    "trustedByLeadingTeam": "Dipercaya Oleh Mitra Terkemuka",
     "projects": {
       "title": "Portofolio Terbaru Kami",
       "seeMore": "Lihat semua portofolio",
@@ -53,14 +53,7 @@
     ],
     "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
     "testimonials": {
-      "title": [
-        "Testimoni",
-        "Pelanggan - Bagaimana",
-        "Solusi",
-        "Overlogic",
-        "Mendorong Sukses dan",
-        "Inovasi"
-      ],
+      "title": "Testimoni Pelanggan - Bagaimana Solusi Overlogic Mendorong Sukses dan Inovasi",
       "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
       "reviews": [
         {
@@ -96,17 +89,7 @@
       ]
     },
     "services": {
-      "title": [
-        "Bangun",
-        "Bisnis Anda",
-        "Kuasai",
-        "",
-        "Pasar",
-        ", Kalahkan",
-        "Kompetitor",
-        "dengan",
-        "Layanan Overlogic"
-      ],
+      "title": "Bangun Bisnis Anda Kuasai Pasar, Kalahkan Kompetitor dengan Layanan Overlogic",
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
       "more": "Pelajari lebih",
       "trusted": {
@@ -143,16 +126,11 @@
       ]
     },
     "faq": {
-      "title": [
-        "Temukan lebih banyak tentang",
-        "logika kami",
-        "melalui",
-        "Pertanyaan yang Sering Diajukan"
-      ],
+      "title": "Temukan lebih banyak tentang logika kami melalui Pertanyaan yang Sering Diajuka",
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
         {
-          "question": "What is Overlogic?",
+          "question": "Apa itu Overlogic?",
           "answer": "Overlogic adalah agency pengembangan perangkat lunak terpercaya yang memberikan solusi melalui pemikiran mendalam, inovatif, dan berbasis teknologi modern, serta mendukung transformasi digital yang efisien, inklusif, dan berkelanjutan."
         },
         {
@@ -179,15 +157,44 @@
     }
   },
   "company": {
-    "company": "Perusahaan"
+    "company": "Perusahaan",
+    "header": {
+      "aboutOverlogicUniverse": "Tentang Overlogic Universe",
+      "title": "Membangun Dunia Digital, Menyongsong Masa Depan",
+      "subTitle": "Overlogic Universe didirikan dengan semangat untuk membawa perubahan revolusioner di dunia digital. Sejak tahun 2023, kami telah membantu individu dan perusahaan mengubah visi mereka menjadi kenyataan melalui solusi digital yang cerdas dan inovatif. Dengan tim yang berpengalaman dan berkomitmen untuk kualitas terbaik, kami siap memimpin perjalanan Anda menuju transformasi digital yang lebih canggih, efisien, dan berdampak. Bergabunglah dengan kami dalam perjalanan menuju masa depan yang lebih terhubung dan penuh peluang!"
+    },
+    "visionMission": {
+      "title": "Overlogic Universe Helps Businesses Solve Many Problems",
+      "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities.",
+      "visionMision": [
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        }
+      ]
+    },
+    "team": {
+      "title": "Kenali Tim Overlogic, Mendorong Bisnis Anda Maju",
+      "subTitle": "Kebersamaan kami adalah fondasi kesuksesan Anda"
+    },
+    "gallery": {
+      "title": "Galeri Overlogic, Potret Inovasi dan Kebersamaan",
+      "subTitle": "Setiap momen adalah bagian dari perjalanan kesuksesan kami"
+    }
   },
   "pricing": {
-    "title": "",
+    "title": "Harga yang Fleksibel untuk setiap tahap Visi Anda",
     "subTitle": "Jelajahi paket harga kami yang dirancang untuk beradaptasi dengan tujuan unik Anda, memastikan setiap tahap visi Anda didukung dengan teknologi modern dan eksekusi yang mulus",
     "flexible": "Rencana",
     "pricing": "Harga",
-    "plansForEveryStageOf": "yang Fleksibel untuk setiap tahap",
-    "yourVision": "Visi Anda",
     "from": "Mulai",
     "order": "Pesan",
     "basic": {
@@ -296,10 +303,6 @@
             {
               "name": "status.overlogic.io",
               "url": "https://stats.overlogic.io"
-            },
-            {
-              "name": "airi.overlogic.io",
-              "url": "https://airi.overlogic.io"
             }
           ]
         }

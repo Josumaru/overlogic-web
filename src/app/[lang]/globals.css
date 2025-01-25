@@ -34,11 +34,11 @@
     --selection-background-primary-color: hsl(222, 94%, 58%);
     --selection-background-secondary-color: hsl(169, 94%, 58%);
     --selection-background-teriary-color: hsl(55, 94%, 58%);
-    --color-1: 0 100% 63%;
-    --color-2: 270 100% 63%;
-    --color-3: 210 100% 63%;
-    --color-4: 195 100% 63%;
-    --color-5: 90 100% 63%;
+    --color-1: 222, 94%, 58%;
+    --color-2: 169, 94%, 58%;
+    --color-3: 55, 94%, 58%;
+    --color-4: 222, 94%, 58%;
+    --color-5: 169, 94%, 58%;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -66,6 +66,11 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --color-1: 222, 94%, 58%;
+    --color-2: 169, 94%, 58%;
+    --color-3: 55, 94%, 58%;
+    --color-4: 222, 94%, 58%;
+    --color-5: 169, 94%, 58%;
   }
 }
 
@@ -86,6 +91,18 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
 }
 
 /* Custom scrollbar for Webkit browsers (Chrome, Safari, etc.) */

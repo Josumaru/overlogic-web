@@ -17,11 +17,11 @@ const FaqList: NextPage<{ faqData: FaqItem[] }> = ({ faqData }) => {
           <div
             key={index}
             className="accordion py-8 px-6 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50 accordion-active:bg-indigo-50"
+            onClick={() => handleToggle(index)}
           >
             <button
               className="accordion-toggle group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary"
               aria-controls={`faq-collapse-${index}`}
-              onClick={() => handleToggle(index)}
             >
               <h5 className="font-medium">{faq.question}</h5>
               <svg

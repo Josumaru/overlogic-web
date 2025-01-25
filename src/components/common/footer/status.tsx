@@ -1,12 +1,11 @@
 "use client";
-import { getDictionary } from "@/app/[lang]/dictionaries";
+import { getDictionary } from "@/util/dictionaries";
 import { Lang, LangProps } from "@/types/lang";
 import { NextPage } from "next";
 import Link from "next/link";
 import { use, useEffect, useState } from "react";
 
 interface Props {
-  params: Promise<Lang>;
   dict: {
     up: string;
     hasIissues: string;
@@ -15,10 +14,9 @@ interface Props {
   };
 }
 
-const Status: NextPage<Props> = ({ params, dict }) => {
+const Status: NextPage<Props> = ({ dict }) => {
   const [color, setColor] = useState<string>("gray");
   const [message, setMessage] = useState<string>(dict.loading);
-  const { lang } = use(params);
 
   useEffect(() => {
     const fetchDict = async () => {
@@ -47,7 +45,7 @@ const Status: NextPage<Props> = ({ params, dict }) => {
       }
     };
     fetchDict();
-  }, [lang]);
+  }, []);
 
   return (
     <Link href={"https://overlogic.instatus.com"} target="_blank">
@@ -56,7 +54,7 @@ const Status: NextPage<Props> = ({ params, dict }) => {
           className="h-4 w-4 rounded-full"
           style={{ backgroundColor: color }}
         />
-        <p className="cursor-pointer hover:text-primary text-muted-foreground transition-color duration-150">
+        <p className="cursor-pointer hover:text-primary dark:text-white transition-color duration-150">
           {message}
         </p>
       </div>
