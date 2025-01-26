@@ -24,7 +24,7 @@ const InteractiveShimmerButton = React.forwardRef<HTMLButtonElement, Interactive
           {
             "--spread": "90deg",
             "--shimmer-color": shimmerColor,
-            "--radius": "1.5rem",
+            "--radius": "20rem",
             "--speed": shimmerDuration,
             "--cut": shimmerSize,
             "--bg": `linear-gradient(to right, ${primaryColor}, ${secondaryColor})`,
@@ -32,7 +32,7 @@ const InteractiveShimmerButton = React.forwardRef<HTMLButtonElement, Interactive
           } as React.CSSProperties
         }
         className={cn(
-          "group relative md:h-14 h-12 md:w-72 w-40 cursor-pointer overflow-hidden rounded-3xl border border-white hover:border-primary bg-white text-center font-semibold md:text-lg text-sm",
+          "group relative md:h-14 h-12 md:w-72 w-40 cursor-pointer overflow-hidden rounded-full border border-background hover:border-primary bg-background text-center font-semibold md:text-lg text-sm",
           "[border-radius:var(--radius)] [background:var(--bg)] hover:[background:var(--hover-bg)]",
           className
         )}
@@ -43,23 +43,23 @@ const InteractiveShimmerButton = React.forwardRef<HTMLButtonElement, Interactive
           size={100} 
           duration={5} 
           borderWidth={3} 
-          colorFrom="#ffffff" 
-          colorTo="#ffffff" 
+          colorFrom="hsl(var(--background))"
+          colorTo="hsl(var(--background))"
           delay={0} 
           className="absolute inset-0" 
         />
 
         {/* Button text */}
-        <span className="inline-block translate-x-1 text-white transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0">
+        <span className="inline-block translate-x-1 dark:text-background transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0">
           {text}
         </span>
-        <div className="absolute text-textTitleColor top-0 z-10 flex h-full w-full translate-x-12 items-center justify-center gap-2 opacity-0 transition-all duration-300 group-hover:-translate-x-1 group-hover:opacity-100 dark:text-zinc-900">
+        <div className="absolute top-0 z-10 flex h-full w-full translate-x-12 items-center justify-center gap-2 opacity-0 transition-all duration-300 group-hover:-translate-x-1 group-hover:opacity-100">
           <span>{text}</span>
           <ArrowRight />
         </div>
 
         {/* Background circle animation */}
-        <div className="absolute left-[20%] top-[40%] h-0 w-0 scale-[1] rounded-lg bg-background transition-all duration-300 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-background"></div>
+        <div className="absolute left-[20%] top-[40%] h-0 w-0 scale-[1] rounded-full bg-background transition-all duration-300 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-background"></div>
       </button>
     );
   }

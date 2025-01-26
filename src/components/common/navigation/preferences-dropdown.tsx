@@ -84,7 +84,7 @@ const LanguageDropdown = () => {
   };
 
   return (
-    <Dock className="relative text-textTitleColor flex items-center h-[3rem] px-1 bg-background border mx-0 shadow-sm rounded-2xl dark:text-gray-300">
+    <Dock className="relative text-text-title-color flex items-center h-[3rem] px-1 bg-background border mx-0 shadow-sm rounded-2xl dark:text-gray-300">
       {/* Trigger Dropdown */}
       <div className="flex items-center justify-center">
         {preferences.map((preference, index) => (
@@ -92,7 +92,7 @@ const LanguageDropdown = () => {
             key={index}
             className="flex items-center justify-center px-3 py-2 rounded-xl space-x-1 hover:cursor-pointer hover:bg-gray-100 dark:hover:bg-zinc-800"
             onClick={() => {
-              setIsOpen((prev) => !prev);
+              setIsOpen(prev => !prev);
               setCurrentPreference(preference.type);
             }}
           >
@@ -115,7 +115,7 @@ const LanguageDropdown = () => {
       {/* Dropdown */}
       <div
         ref={dropdownRef}
-        className={`absolute top-full text-sm right-0 mt-2 w-full bg-background shadow-md border border-gray-300  dark:border-zinc-800 rounded-lg transition-all duration-300 ease-in-out ${
+        className={`absolute p-1 top-full text-sm right-0 mt-2 w-full bg-background shadow-md border border-gray-300 dark:border-zinc-800 rounded-2xl transition-all duration-300 ease-in-out ${
           isOpen
             ? "opacity-100 scale-100"
             : "opacity-0 scale-95 pointer-events-none"
@@ -126,8 +126,10 @@ const LanguageDropdown = () => {
           ? preferences[0].prefs.map((pref, index) => (
               <button
                 key={index}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-l hover:rounded-t-md"
-                onClick={() => changeLanguage(pref.value)}
+                className="block rounded-xl w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800"
+                onClick={() => {
+                  changeLanguage(pref.value);
+                }}
               >
                 {pref.name}
               </button>
@@ -135,8 +137,11 @@ const LanguageDropdown = () => {
           : preferences[1].prefs.map((pref, index) => (
               <button
                 key={index}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-l hover:rounded-t-md"
-                onClick={() => setTheme(pref.value)}
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-xl"
+                onClick={() => {
+                  setTheme(pref.value);
+                  setIsOpen(false);
+                }}
               >
                 {pref.name}
               </button>

@@ -53,8 +53,18 @@ const Testimonials: NextPage<LangProps> = async ({ params }) => {
     <div className="flex items-center justify-center px-3 md:px-10 bg-transparent">
       <div className="container relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg">
         <div className="z-10 w-full">
-        {/* <CurvedSeparator /> */}
-          <SectionTitle coloredText={[]} text={dict.title}/>
+          {/* <CurvedSeparator /> */}
+          <SectionTitle
+            coloredText={[
+              "Testimonials",
+              "Overlogic's",
+              "Success",
+              "Pelanggan",
+              "Overlogic",
+              "Sukses",
+            ]}
+            text={dict.title}
+          />
           <SectionDesc>{dict.subTitle}</SectionDesc>
         </div>
         <Marquee pauseOnHover className="[--duration:20s]">

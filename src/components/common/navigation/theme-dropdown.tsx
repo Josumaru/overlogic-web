@@ -45,7 +45,7 @@ const ThemeDropdown = () => {
   };
 
   return (
-    <div className="relative text-textTitleColor flex items-center h-[3rem] px-1 bg-background border border-gray-300 shadow-sm rounded-2xl">
+    <div className="relative text-text-title-color flex items-center h-[3rem] px-1 bg-background border border-gray-300 shadow-sm rounded-2xl">
       {/* Trigger Dropdown */}
       <div className="flex items-center justify-center px-3 py-2 rounded-xl space-x-1 hover:cursor-pointer hover:bg-gray-100" onClick={() => setIsOpen((prev) => !prev)}>
         <Image src={ImageConstants.icon.language} height={20} width={20} alt="lang-icon" />

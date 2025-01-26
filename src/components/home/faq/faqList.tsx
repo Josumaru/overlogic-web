@@ -2,6 +2,7 @@
 import { NextPage } from "next";
 import { useState } from "react";
 import { FaqItem } from "./faq";
+import { cn } from "@/lib/utils";
 
 const FaqList: NextPage<{ faqData: FaqItem[] }> = ({ faqData }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -16,11 +17,11 @@ const FaqList: NextPage<{ faqData: FaqItem[] }> = ({ faqData }) => {
         {faqData.map((faq, index) => (
           <div
             key={index}
-            className="accordion py-8 px-6 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50 accordion-active:bg-indigo-50"
+            className={cn("accordion py-8 px-6 border-b border-solid dark:border-zinc-900 border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50 dark:hover:bg-zinc-700 accordion-active:bg-indigo-50", openIndex === index ? "bg-indigo-50 dark:bg-zinc-700" : "")}
             onClick={() => handleToggle(index)}
           >
             <button
-              className="accordion-toggle group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary"
+              className="accordion-toggle text-text-title-color group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary"
               aria-controls={`faq-collapse-${index}`}
             >
               <h5 className="font-medium">{faq.question}</h5>
@@ -50,7 +51,7 @@ const FaqList: NextPage<{ faqData: FaqItem[] }> = ({ faqData }) => {
               }`}
               aria-labelledby={`faq-heading-${index}`}
             >
-              <p className="text-base leading-6">{faq.answer}</p>
+              <p className="text-base text-text-title-color leading-6">{faq.answer}</p>
             </div>
           </div>
         ))}

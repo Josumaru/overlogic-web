@@ -19,7 +19,7 @@ const Faq: NextPage<LangProps> = async ({ params }) => {
   return (
     <div className="flex items-center justify-center px-3 md:px-10 mt-[5rem]">
       <div className="container">
-        <SectionTitle text={faqDict.title} coloredText={[]} />
+        <SectionTitle text={faqDict.title} coloredText={["Discover", "logic", "Asked", "Temukan", "logika", "Diajukan"]} />
         <SectionDesc>{faqDict.subTitle}</SectionDesc>
 
         {/* Faq List */}

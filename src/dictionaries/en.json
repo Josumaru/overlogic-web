@@ -227,9 +227,39 @@
       ]
     }
   },
-  "showCase": {
-    "showCase": "Show Case"
+  "showcase": {
+    "showcase": "Portfolio",
+    "title": "Smart Steps Towards Digitalization",
+    "subTitle": "Discover how our solutions can transform the way you run your business.",
+    "type": {
+      "web": "Website",
+      "mobile": "Mobile Apps",
+      "ai": "Artificial Intelligence"
+    },
+    "projects": {
+      "umsiid": {
+        "title": "UMS IID",
+        "description": "UMS International Innovation Day is an innovation competition and exhibition at Universitas Muhammadiyah Surakarta that took place over 5 days. The event encouraged the creative ideas of national and international students with the theme of SDG 3, and included an opening ceremony, exhibition, presentation, judging, innovation talk, and awarding. The event involves academics, students, and communities to create sustainable solutions and strengthen UMS' role at the international level."
+      },
+      "pinleaf": {
+        "title": "Pinleaf",
+        "description": "Pineleafcare is the pioneer of shoe, bag and stroller care solutions in Indonesia, Pineleafcare Franchise! The best solution for shoe, bag and stroller care business with training support and professional partnership system."
+      },
+      "anugerah": {
+        "title": "Anugerah Powder Coating Blora",
+        "description": "Premium Powder Coating services not only enhance the beauty of metal surfaces, but also provide strong protection from pollution, fine scratches, and oxidation. Experience the perfect combination of durability and shine with our durable coatings, ensuring maximum protection for the long term."
+      },
+      "josumaru": {
+        "title": "Josumaru",
+        "description": "A web portfolio created by one of Overlogic Universe's developers that was created by combining Next.JS, TypeScript, React, Tailwind CSS, and Aceternity UI."
+      },
+      "vido": {
+        "title": "VIDO - Virtual Doctor",
+        "description": "Modern Healthcare Solutions Considerate and cute Assistant Best of the best. Now you can consult anywhere and everywhere with a cute and caring assitant, with us of course."
+      }
+    }
   },
+
   "common": {
     "footer": {
       "links": [

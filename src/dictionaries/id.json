@@ -45,13 +45,6 @@
         }
       ]
     },
-    "faqTitle": [
-      "Temukan lebih banyak tentang ",
-      "melalui ",
-      "logika kami ",
-      "Pertanyaan yang Sering Diajukan"
-    ],
-    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
     "testimonials": {
       "title": "Testimoni Pelanggan - Bagaimana Solusi Overlogic Mendorong Sukses dan Inovasi",
       "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
@@ -126,7 +119,7 @@
       ]
     },
     "faq": {
-      "title": "Temukan lebih banyak tentang logika kami melalui Pertanyaan yang Sering Diajuka",
+      "title": "Temukan lebih banyak tentang logika kami melalui Pertanyaan yang Sering Diajukan",
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
         {
@@ -228,8 +221,37 @@
       ]
     }
   },
-  "showCase": {
-    "showCase": "Portofolio"
+  "showcase": {
+    "showcase": "Portofolio",
+    "title": "Langkah Cerdas Menuju Digitalisasi",
+    "subTitle": "Pelajari bagaimana solusi kami dapat mengubah cara Anda menjalankan bisnis.",
+    "type": {
+      "web": "Website",
+      "mobile": "Aplikasi Seluler",
+      "ai": "Kecerdasan Buatan"
+    },
+    "projects": {
+      "umsiid": {
+        "title": "UMS IID",
+        "description": "UMS International Innovation Day merupakan kompetisi dan pameran inovasi di Universitas Muhammadiyah Surakarta yang berlangsung selama 5 hari. Acara ini mendorong ide-ide kreatif mahasiswa nasional dan internasional dengan tema SDG 3, dan mencakup upacara pembukaan, pameran, presentasi, penjurian, bincang-bincang inovasi, dan penganugerahan. Acara ini melibatkan akademisi, mahasiswa, dan masyarakat untuk menciptakan solusi berkelanjutan dan memperkuat peran UMS di tingkat internasional."
+      },
+      "pinleaf": {
+        "title": "Pinleafcare",
+        "description": "Pineleafcare adalah pionir solusi perawatan sepatu, tas, dan stroller di Indonesia, Waralaba Pineleafcare! Solusi terbaik untuk bisnis perawatan sepatu, tas, dan stroller dengan dukungan pelatihan dan sistem kemitraan profesional."
+      },
+      "anugerah": {
+        "title": "Anugerah Powder Coating Blora",
+        "description": "Layanan Powder Coating premium tidak hanya meningkatkan keindahan permukaan logam, tetapi juga memberikan perlindungan yang kuat dari polusi, goresan halus, dan oksidasi. Rasakan kombinasi sempurna antara daya tahan dan kilau dengan lapisan coating kami yang tahan lama, memastikan perlindungan maksimal untuk jangka panjang."
+      },
+      "josumaru": {
+        "title": "Portofolio Websites",
+        "description": "Sebuah web portofolio yang dibuat oleh salahsatu developer Overlogic Universe yang dibuat denga memadukan Next.JS, TypeScript, React, Tailwind CSS, dan Aceternity UI"
+      },
+      "vido": {
+        "title": "VIDO - Virtual Doctor",
+        "description": "Solusi Perawatan Kesehatan Modern Asisten yang penuh perhatian dan imut Terbaik dari yang terbaik. Sekarang Anda dapat berkonsultasi di mana saja dan kapan saja dengan asisten yang ramah dan penuh perhatian, tentu saja dengan kami."
+      }
+    }
   },
   "common": {
     "footer": {

@@ -6,9 +6,9 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			tertiary: '#F9E831',
-  			textTitleColor: '#24223E',
-  			textHeadlineColor: '#5E5A90',
+  			tertiary: 'hsl(var(--tertiary))',
+  			"text-title-color": 'hsl(var(--text-title-color))',
+  			"text-headline-color": 'hsl(var(--text-headline-color))',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

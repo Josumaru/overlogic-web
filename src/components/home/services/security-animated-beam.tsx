@@ -45,30 +45,30 @@ export function SecurityAnimatedBeam({ className }: { className?: string }) {
     >
       <div className="flex size-full flex-col max-w-lg max-h-[200px] items-stretch justify-between gap-10">
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div1Ref}>
-            <LockKeyholeIcon />
+          <Circle ref={div1Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
           </Circle>
-          <Circle ref={div5Ref}>
-            <LockKeyholeIcon />
-          </Circle>
-        </div>
-        <div className="flex flex-row items-center justify-between">
-          <Circle ref={div2Ref}>
-            <LockKeyholeIcon />
-          </Circle>
-          <Circle ref={div4Ref} className="size-16">
-            <LockKeyholeIcon />
-          </Circle>
-          <Circle ref={div6Ref}>
-            <LockKeyholeIcon />
+          <Circle ref={div5Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
           </Circle>
         </div>
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div3Ref}>
-            <LockKeyholeIcon />
+          <Circle ref={div2Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
           </Circle>
-          <Circle ref={div7Ref}>
-            <LockKeyholeIcon />
+          <Circle ref={div4Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
+          </Circle>
+          <Circle ref={div6Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
+          </Circle>
+        </div>
+        <div className="flex flex-row items-center justify-between">
+          <Circle ref={div3Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
+          </Circle>
+          <Circle ref={div7Ref} className="dark:bg-zinc-800">
+            <LockKeyholeIcon className="dark:text-zinc-300" />
           </Circle>
         </div>
       </div>

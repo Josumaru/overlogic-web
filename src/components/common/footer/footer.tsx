@@ -28,7 +28,7 @@ const Footer: NextPage<Lang> = async ({ lang }) => {
             <h1 className="dark:text-gray-300 mt-4">
               Build by{" "}
               <span className="text-[#039ee4]">
-                <Link href="https://instagram.com/overlogic.id">
+                <Link target="_blank" href="https://instagram.com/overlogic.id">
                   @overlogic.id
                 </Link>
               </span>

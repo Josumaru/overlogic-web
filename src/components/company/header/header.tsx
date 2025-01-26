@@ -46,7 +46,7 @@ const Header: NextPage<Lang> = async ({ lang }) => {
                   "transformation",
                   "connected",
                 ].includes(text)
-                  ? `<span class="text-black font-semibold">${text}</span>`
+                  ? `<span class="text-black dark:text-white font-semibold">${text}</span>`
                   : text
               )
               .join(" "),

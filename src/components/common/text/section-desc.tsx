@@ -6,7 +6,7 @@ interface Props {
 
 const SectionDesc: NextPage<Props> = ({ children }) => {
   return (
-    <p className="w-full my-5 lg:w-1/2 text-textHeadlineColor ">
+    <p className="w-full my-5 lg:w-1/2 text-text-headline-color ">
       {children}
     </p>
   );

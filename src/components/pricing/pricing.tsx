@@ -19,7 +19,17 @@ const Pricing: NextPage<Props> = async ({ params }) => {
     <div className="px-3 md:px-10 pt-32 w-full flex items-center justify-center">
       <div className="container w-full">
         <div>
-          <SectionTitle text={dict.pricing.title} coloredText={[]} />
+          <SectionTitle
+            text={dict.pricing.title}
+            coloredText={[
+              "Pricing",
+              "every",
+              "Vision",
+              "Harga",
+              "Fleksibel",
+              "Visi",
+            ]}
+          />
           <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
         </div>
         <section className="overflow-hidden py-8 text-neutral-800 dark:text-neutral-50 lg:pb-32 px-4">

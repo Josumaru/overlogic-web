@@ -14,12 +14,12 @@ const NavigationBar: NextPage<Lang> = async ({ lang }) => {
   return (
     <nav className="fixed top-0 flex items-center md:justify-center justify-between mx-auto space-x-6 w-full z-50 px-6 py-6 transition-all duration-300">
       {/* Logo */}
-      <Dock className="mx-0 px-7 h-[3rem] flex items-center justify-center bg-background border shadow-sm rounded-2xl">
+      <div className="mx-0 px-7 h-[3rem] flex items-center justify-center bg-background border shadow-sm rounded-2xl">
         <OverlogicLogo />
-      </Dock>
+      </div>
 
       {/* Navigation Links */}
-      <Dock className="md:flex hidden items-center space-x-8 h-[3rem] px-8 bg-background border shadow-sm rounded-2xl text-sm text-textTitleColor">
+      <Dock className="md:flex hidden items-center space-x-8 h-[3rem] px-8 bg-background border shadow-sm rounded-2xl text-sm text-text-title-color">
         <DockIcon className="hover:text-primary dark:text-gray-300">
           <Link href={buildLangUrl("/", lang)}>{dict.home.home}</Link>
         </DockIcon>
@@ -27,7 +27,7 @@ const NavigationBar: NextPage<Lang> = async ({ lang }) => {
           <Link href={buildLangUrl("/pricing", lang)}>{dict.pricing.pricing}</Link>
         </DockIcon>
         <DockIcon className="hover:text-primary dark:text-gray-300" style={{ minWidth: "auto" }}>
-          <Link href={buildLangUrl("/showcase", lang)}>{dict.showCase.showCase}</Link>
+          <Link href={buildLangUrl("/showcase", lang)}>{dict.showcase.showcase}</Link>
         </DockIcon>
         <DockIcon className="hover:text-primary dark:text-gray-300">
           <Link href={buildLangUrl("/company", lang)}>{dict.company.company}</Link>

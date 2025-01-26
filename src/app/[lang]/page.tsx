@@ -12,8 +12,8 @@ const Page: NextPage<LangProps> = async ({ params }) => {
     <div>
       <Header params={params} />
       <Services params={params} />
-      <Project params={params} />
-      <Team params={params} />
+      {/* <Project params={params} />
+      <Team params={params} /> */}
       <Testimonials params={params} />
       <Faq params={params} />
     </div>

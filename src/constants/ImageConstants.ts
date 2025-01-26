@@ -5,6 +5,8 @@ import language from "@/assets/images/icons/lang.svg";
 import umsiid from "@/assets/images/projects/ums-iid.png";
 import pinleaf from "@/assets/images/projects/pinleaf.png";
 import anugerah from "@/assets/images/projects/anugerah.png";
+import josumaru from "@/assets/images/projects/josumaru.png";
+import vido from "@/assets/images/projects/vido.png";
 
 // Logo
 import overlogic from "@/assets/images/logos/overlogic.png";
@@ -75,5 +77,12 @@ export const ImageConstants = {
   services: {
     seoLight,
     seoDark,
+  },
+  showcase: {
+    umsiid,
+    pinleaf,
+    anugerah,
+    josumaru,
+    vido,
   },
 };

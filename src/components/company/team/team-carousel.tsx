@@ -11,7 +11,8 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
-
+import { TextAnimate } from "@/components/ui/text-animate";
+import { motion } from "framer-motion";
 interface Props {}
 
 const TeamCarousel: NextPage<Props> = ({}) => {
@@ -146,7 +147,7 @@ const TeamCarousel: NextPage<Props> = ({}) => {
     if (!isDragging || !carousel) return;
 
     const x = e.pageX - carousel.offsetLeft;
-    const walk = (x - startX) * 2;
+    const walk = x - startX;
     carousel.scrollLeft = scrollLeft - walk;
   };
 
@@ -174,32 +175,57 @@ const TeamCarousel: NextPage<Props> = ({}) => {
       {teamMembers.map((member, index) => (
         <div
           key={index}
-          className="h-[520px] relative rounded-xl overflow-hidden cursor-pointer transition-all duration-300 ease-in-out"
+          className="h-[520px] relative cursor-pointer transition-all duration-300 ease-in-out"
           style={{
+            maxWidth: window.innerWidth - 36,
             flex: index === currentMember ? "0 0 520px" : "0 0 200px",
           }}
-          onClick={() => setCurrentMember(index)}
+          onClick={() => setCurrentMember(index == currentMember ? -1 : index)}
         >
           <Image
             src={member.image}
             alt={member.name}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-xl"
             width={700}
             height={700}
           />
-          <div className="w-full h-full absolute top-0" />
+          <div
+            className={cn(
+              "w-full h-full absolute top-0 bg-background transition-colors",
+              index == currentMember ? "opacity-0" : "opacity-60"
+            )}
+          />
           {index == currentMember && (
             <Fragment>
               <div className="absolute bottom-0 p-5 h-full w-full flex flex-col justify-end bg-gradient-to-b from-[#ffffff00] dark:to-black to-white">
-                <p className="text-2xl font-semibold dark:text-white text-black">
+                <TextAnimate
+                  animation="blurIn"
+                  by="word"
+                  className="text-2xl font-semibold dark:text-white text-black"
+                >
                   {member.name}
-                </p>
-                <p className="text-xl dark:text-white font-normal text-black">
+                </TextAnimate>
+                <TextAnimate
+                  animation="blurIn"
+                  className="text-xl dark:text-white font-normal text-black"
+                >
                   {member.role}
-                </p>
-                <p className="text-l text-muted-foreground line-clamp-2">
+                </TextAnimate>
+                <motion.p
+                  initial={{
+                    opacity: 0,
+                  }}
+                  animate={{
+                    opacity: 1,
+                  }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeInOut",
+                  }}
+                  className="text-l text-muted-foreground line-clamp-2"
+                >
                   {member.desc}
-                </p>
+                </motion.p>
               </div>
               <div className="absolute top-0 right-0 m-5">
                 <Dock className="bg-background">

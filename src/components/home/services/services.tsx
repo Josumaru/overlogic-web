@@ -117,7 +117,10 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       <div className="container">
         <CurvedSeparator />
         <div className="flex items-end flex-col text-end">
-          <SectionTitle text={servicesDict.title} coloredText={[]} />
+          <SectionTitle
+            text={servicesDict.title}
+            coloredText={["Bangun", "Kuasai", "Kompetitor", "Overlogic", "Build", "Dominate", ""]}
+          />
           <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
         </div>
         <BentoGrid className="bg-transparent">
