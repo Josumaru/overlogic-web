@@ -19,7 +19,7 @@ import { LangProps } from "@/types/lang";
 import { Calendar } from "@/components/ui/calendar";
 import Globe from "@/components/ui/globe";
 import RetroGrid from "@/components/ui/retro-grid";
-import { getDictionary } from "@/app/[lang]/dictionaries";
+import { getDictionary } from "@/util/dictionaries";
 import CurvedSeparator from "@/components/ui/curved-separator";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
@@ -41,10 +41,7 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       href: "#",
       cta: servicesDict.more,
       className: "col-span-3 lg:col-span-1",
-      background: (
-        <div>
-        </div>
-      ),
+      background: <div></div>,
     },
     {
       Icon: Zap,
@@ -120,18 +117,10 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       <div className="container">
         <CurvedSeparator />
         <div className="flex items-end flex-col text-end">
-          <SectionTitle>
-            {servicesDict.title[0]}
-            {", "}
-            <span className="text-primary">{servicesDict.title[1]}</span>{" "}
-            {servicesDict.title[2]} <br className="hidden md:block" />
-            {servicesDict.title[3]}{" "}
-            <span className="text-primary">{servicesDict.title[4]}</span>
-            {servicesDict.title[5]}{" "}
-            <span className="text-primary">{servicesDict.title[6]}</span>{" "}
-            {servicesDict.title[7]}{" "}
-            <span className="text-primary">{servicesDict.title[8]}</span>{" "}
-          </SectionTitle>
+          <SectionTitle
+            text={servicesDict.title}
+            coloredText={["Bangun", "Kuasai", "Kompetitor", "Overlogic", "Build", "Dominate", ""]}
+          />
           <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
         </div>
         <BentoGrid className="bg-transparent">

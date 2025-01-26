@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { NextPage } from "next";
 import { LangProps } from "@/types/lang";
-import { getDictionary } from "@/app/[lang]/dictionaries";
+import { getDictionary } from "@/util/dictionaries";
 import ProjectCard from "./projectCard";
 import { projectImageMapping } from "@/constants/projectImageMapping";
 

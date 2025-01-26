@@ -11,7 +11,7 @@
       "terpercaya yang berkomitmen untuk menyediakan solusi digital berkualitas tinggi"
     ],
     "orderNow": "Pesan Sekarang",
-    "trustedByLeadingTeam": "Dipercaya Oleh Tim Terkemuka",
+    "trustedByLeadingTeam": "Dipercaya Oleh Mitra Terkemuka",
     "projects": {
       "title": "Portofolio Terbaru Kami",
       "seeMore": "Lihat semua portofolio",
@@ -45,22 +45,8 @@
         }
       ]
     },
-    "faqTitle": [
-      "Temukan lebih banyak tentang ",
-      "melalui ",
-      "logika kami ",
-      "Pertanyaan yang Sering Diajukan"
-    ],
-    "faqDesc": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam logika di balik layanan kami melalui bagian FAQ yang lengkap ini.",
     "testimonials": {
-      "title": [
-        "Testimoni",
-        "Pelanggan - Bagaimana",
-        "Solusi",
-        "Overlogic",
-        "Mendorong Sukses dan",
-        "Inovasi"
-      ],
+      "title": "Testimoni Pelanggan - Bagaimana Solusi Overlogic Mendorong Sukses dan Inovasi",
       "subTitle": "Jelajahi Dampak dari Solusi Inovatif Overlogic dan Bagaimana Kami Membantu Klien Kami Mencapai Pertumbuhan Berkelanjutan, Efisiensi, dan Sukses di Industri Mereka",
       "reviews": [
         {
@@ -96,17 +82,7 @@
       ]
     },
     "services": {
-      "title": [
-        "Bangun",
-        "Bisnis Anda",
-        "Kuasai",
-        "",
-        "Pasar",
-        ", Kalahkan",
-        "Kompetitor",
-        "dengan",
-        "Layanan Overlogic"
-      ],
+      "title": "Bangun Bisnis Anda Kuasai Pasar, Kalahkan Kompetitor dengan Layanan Overlogic",
       "subTitle": "Percayakan pengembangan dan pemeliharaan aplikasi Anda kepada kami, semua fitur akan dibuat dengan cepat menggunakan teknologi modern dan keamanan terbaik.",
       "more": "Pelajari lebih",
       "trusted": {
@@ -143,16 +119,11 @@
       ]
     },
     "faq": {
-      "title": [
-        "Temukan lebih banyak tentang",
-        "logika kami",
-        "melalui",
-        "Pertanyaan yang Sering Diajukan"
-      ],
+      "title": "Temukan lebih banyak tentang logika kami melalui Pertanyaan yang Sering Diajukan",
       "subTitle": "Temukan jawaban atas pertanyaan umum dan pelajari lebih dalam tentang logika di balik layanan kami melalui bagian FAQ yang komprehensif ini.",
       "faqData": [
         {
-          "question": "What is Overlogic?",
+          "question": "Apa itu Overlogic?",
           "answer": "Overlogic adalah agency pengembangan perangkat lunak terpercaya yang memberikan solusi melalui pemikiran mendalam, inovatif, dan berbasis teknologi modern, serta mendukung transformasi digital yang efisien, inklusif, dan berkelanjutan."
         },
         {
@@ -179,15 +150,44 @@
     }
   },
   "company": {
-    "company": "Perusahaan"
+    "company": "Perusahaan",
+    "header": {
+      "aboutOverlogicUniverse": "Tentang Overlogic Universe",
+      "title": "Membangun Dunia Digital, Menyongsong Masa Depan",
+      "subTitle": "Overlogic Universe didirikan dengan semangat untuk membawa perubahan revolusioner di dunia digital. Sejak tahun 2023, kami telah membantu individu dan perusahaan mengubah visi mereka menjadi kenyataan melalui solusi digital yang cerdas dan inovatif. Dengan tim yang berpengalaman dan berkomitmen untuk kualitas terbaik, kami siap memimpin perjalanan Anda menuju transformasi digital yang lebih canggih, efisien, dan berdampak. Bergabunglah dengan kami dalam perjalanan menuju masa depan yang lebih terhubung dan penuh peluang!"
+    },
+    "visionMission": {
+      "title": "Overlogic Universe Helps Businesses Solve Many Problems",
+      "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities.",
+      "visionMision": [
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        },
+        {
+          "title": "Through technological innovation and strategic approaches",
+          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+        }
+      ]
+    },
+    "team": {
+      "title": "Kenali Tim Overlogic, Mendorong Bisnis Anda Maju",
+      "subTitle": "Kebersamaan kami adalah fondasi kesuksesan Anda"
+    },
+    "gallery": {
+      "title": "Galeri Overlogic, Potret Inovasi dan Kebersamaan",
+      "subTitle": "Setiap momen adalah bagian dari perjalanan kesuksesan kami"
+    }
   },
   "pricing": {
-    "title": "",
+    "title": "Harga yang Fleksibel untuk setiap tahap Visi Anda",
     "subTitle": "Jelajahi paket harga kami yang dirancang untuk beradaptasi dengan tujuan unik Anda, memastikan setiap tahap visi Anda didukung dengan teknologi modern dan eksekusi yang mulus",
     "flexible": "Rencana",
     "pricing": "Harga",
-    "plansForEveryStageOf": "yang Fleksibel untuk setiap tahap",
-    "yourVision": "Visi Anda",
     "from": "Mulai",
     "order": "Pesan",
     "basic": {
@@ -221,8 +221,37 @@
       ]
     }
   },
-  "showCase": {
-    "showCase": "Portofolio"
+  "showcase": {
+    "showcase": "Portofolio",
+    "title": "Langkah Cerdas Menuju Digitalisasi",
+    "subTitle": "Pelajari bagaimana solusi kami dapat mengubah cara Anda menjalankan bisnis.",
+    "type": {
+      "web": "Website",
+      "mobile": "Aplikasi Seluler",
+      "ai": "Kecerdasan Buatan"
+    },
+    "projects": {
+      "umsiid": {
+        "title": "UMS IID",
+        "description": "UMS International Innovation Day merupakan kompetisi dan pameran inovasi di Universitas Muhammadiyah Surakarta yang berlangsung selama 5 hari. Acara ini mendorong ide-ide kreatif mahasiswa nasional dan internasional dengan tema SDG 3, dan mencakup upacara pembukaan, pameran, presentasi, penjurian, bincang-bincang inovasi, dan penganugerahan. Acara ini melibatkan akademisi, mahasiswa, dan masyarakat untuk menciptakan solusi berkelanjutan dan memperkuat peran UMS di tingkat internasional."
+      },
+      "pinleaf": {
+        "title": "Pinleafcare",
+        "description": "Pineleafcare adalah pionir solusi perawatan sepatu, tas, dan stroller di Indonesia, Waralaba Pineleafcare! Solusi terbaik untuk bisnis perawatan sepatu, tas, dan stroller dengan dukungan pelatihan dan sistem kemitraan profesional."
+      },
+      "anugerah": {
+        "title": "Anugerah Powder Coating Blora",
+        "description": "Layanan Powder Coating premium tidak hanya meningkatkan keindahan permukaan logam, tetapi juga memberikan perlindungan yang kuat dari polusi, goresan halus, dan oksidasi. Rasakan kombinasi sempurna antara daya tahan dan kilau dengan lapisan coating kami yang tahan lama, memastikan perlindungan maksimal untuk jangka panjang."
+      },
+      "josumaru": {
+        "title": "Portofolio Websites",
+        "description": "Sebuah web portofolio yang dibuat oleh salahsatu developer Overlogic Universe yang dibuat denga memadukan Next.JS, TypeScript, React, Tailwind CSS, dan Aceternity UI"
+      },
+      "vido": {
+        "title": "VIDO - Virtual Doctor",
+        "description": "Solusi Perawatan Kesehatan Modern Asisten yang penuh perhatian dan imut Terbaik dari yang terbaik. Sekarang Anda dapat berkonsultasi di mana saja dan kapan saja dengan asisten yang ramah dan penuh perhatian, tentu saja dengan kami."
+      }
+    }
   },
   "common": {
     "footer": {
@@ -296,10 +325,6 @@
             {
               "name": "status.overlogic.io",
               "url": "https://stats.overlogic.io"
-            },
-            {
-              "name": "airi.overlogic.io",
-              "url": "https://airi.overlogic.io"
             }
           ]
         }

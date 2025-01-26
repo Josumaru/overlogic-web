@@ -23,13 +23,13 @@ const MenuBox: NextPage<MenuBoxProps> = ({ lang, dict }) => {
       {/* Toggle Button */}
       <button
         onClick={() => setMenuOpen(!menuOpen)}
-        className="flex items-center justify-center w-[3rem] h-[3rem] shadow-sm border bg-background border-gray-300 rounded-2xl"
+        className="flex items-center justify-center w-[3rem] h-[3rem] shadow-sm border bg-background border-zinc-300 dark:border-zinc-800 rounded-2xl"
       >
         {menuOpen ? (
           /* Close (X) Icon */
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="textTitleColor"
+            fill="text-title-color"
             viewBox="0 0 24 24"
             stroke="currentColor"
             className="w-6 h-6"
@@ -45,7 +45,7 @@ const MenuBox: NextPage<MenuBoxProps> = ({ lang, dict }) => {
           /* Hamburger Icon */
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="textTitleColor"
+            fill="text-title-color"
             viewBox="0 0 24 24"
             stroke="currentColor"
             className="w-6 h-6"
@@ -57,12 +57,12 @@ const MenuBox: NextPage<MenuBoxProps> = ({ lang, dict }) => {
 
       {/* Menu Box */}
       <div
-        className={`fixed left-1/2 transform -translate-x-1/2 mt-2 w-[90%] rounded-xl bg-background shadow-sm border border-gray-300 px-6 py-4 z-40 transition-all duration-500 ease-in-out ${
+        className={`fixed left-1/2 transform -translate-x-1/2 mt-2 w-[90%] rounded-xl bg-background shadow-sm border border-zinc-300 dark:border-zinc-800 px-6 py-4 z-40 transition-all duration-500 ease-in-out ${
           menuOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
         }`}
       >
         {/* Navbar List */}
-        <ul className="space-y-4 flex flex-col items-center justify-center text-sm text-textTitleColor">
+        <ul className="space-y-4 flex flex-col items-center justify-center text-sm text-text-title-color">
           <li className="hover:text-primary">
             <Link href={buildLangUrl("/", lang)}>{dict.home.home}</Link>
           </li>
@@ -70,7 +70,7 @@ const MenuBox: NextPage<MenuBoxProps> = ({ lang, dict }) => {
             <Link href={buildLangUrl("/pricing", lang)}>{dict.pricing.pricing}</Link>
           </li>
           <li className="hover:text-primary">
-            <Link href={buildLangUrl("/showcase", lang)}>{dict.showCase.showCase}</Link>
+            <Link href={buildLangUrl("/showcase", lang)}>{dict.showcase.showcase}</Link>
           </li>
           <li className="hover:text-primary">
             <Link href={buildLangUrl("/company", lang)}>{dict.company.company}</Link>

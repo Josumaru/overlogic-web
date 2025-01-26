@@ -19,7 +19,7 @@ const OverlogicLogo = ({}) => {
   //     window.removeEventListener("scroll", handleScroll);
   //   };
   // }, []);
-  return <Image className={`aspect-auto transition-all duration-300 ${showLogo ? "w-[6.5rem] opacity-100" : "w-0 opacity-0"}`} src={ImageConstants.logo.overlogic} height={3000} width={3000} alt="overlogic-logo" />;
+  return <Image className={`dark:invert aspect-auto transition-all duration-300 ${showLogo ? "w-[6.5rem] opacity-100" : "w-0 opacity-0"}`} src={ImageConstants.logo.overlogic} height={3000} width={3000} alt="overlogic-logo" />;
 };
 
 export default OverlogicLogo;
