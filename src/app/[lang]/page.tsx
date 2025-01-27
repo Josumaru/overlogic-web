@@ -6,17 +6,24 @@ import Testimonials from "@/components/home/testimonials/testimonials";
 import Faq from "@/components/home/faq/faq";
 import Project from "@/components/home/project/project";
 import Team from "@/components/home/team/team";
+import NavigationBar from "@/components/common/navigation/navigation-bar";
+import Footer from "@/components/common/footer/footer";
+import { Fragment } from "react";
 
 const Page: NextPage<LangProps> = async ({ params }) => {
+  const lang = (await params).lang;
+
   return (
-    <div>
+    <Fragment>
+      <NavigationBar lang={lang} />
       <Header params={params} />
       <Services params={params} />
-      {/* <Project params={params} />
-      <Team params={params} /> */}
+      <Project params={params} />
+      <Team params={params} />
       <Testimonials params={params} />
       <Faq params={params} />
-    </div>
+      <Footer lang={lang} />
+    </Fragment>
   );
 };
 

@@ -45,8 +45,15 @@ const Header: NextPage<LangProps> = async ({ params }) => {
 
       {/* Button */}
       <div className="flex justify-center items-center w-full mx-auto container md:mt-12 mt-8 space-x-5">
-        <InteractiveHoverButton text={dict.showcase.showcase} />
-        <InteractiveShimmerButton className="rounded-full" text={dict.home.orderNow} />
+        <Link href={"/showcase"}>
+          <InteractiveHoverButton text={dict.showcase.showcase} />
+        </Link>
+        <Link href={"/order"}>
+          <InteractiveShimmerButton
+            className="rounded-full"
+            text={dict.home.orderNow}
+          />
+        </Link>
       </div>
 
       {/* Social Media */}

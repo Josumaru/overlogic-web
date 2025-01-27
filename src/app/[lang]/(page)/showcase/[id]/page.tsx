@@ -57,7 +57,7 @@ const Page: NextPage<Props> = async ({ params }) => {
       </div>
       <div className="relative h-full rounded-2xl bg-white dark:bg-neutral-900">
         <Image
-          className="rounded-xl w-full"
+          className="rounded-2xl w-full"
           src={selectedShowcase.image}
           alt={selectedShowcase.title}
         />

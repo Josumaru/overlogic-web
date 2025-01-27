@@ -259,7 +259,12 @@
       }
     }
   },
-
+  "order": {
+    "title": "Tell Us Your Needs",
+    "subTitle": "Overlogic Will Always Be There to Fulfill Your Needs.",
+    "next": "Next",
+    "prev": "Previous"
+  },
   "common": {
     "footer": {
       "links": [

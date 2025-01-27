@@ -58,7 +58,9 @@ const Pricing: NextPage<Props> = async ({ params }) => {
                     </ul>
                   </div>
                   <div className="px-12">
-                    <PricingButton>{dict.pricing.order}</PricingButton>
+                    <PricingButton href="/order">
+                      {dict.pricing.order}
+                    </PricingButton>
                   </div>
                 </div>
               </div>
@@ -104,7 +106,9 @@ const Pricing: NextPage<Props> = async ({ params }) => {
                           <FeatureItem key={feature}>{feature}</FeatureItem>
                         ))}
                       </ul>
-                      <PricingButton>{dict.pricing.order}</PricingButton>
+                      <PricingButton href="/order">
+                        {dict.pricing.order}
+                      </PricingButton>
                     </div>
                   </div>
                 </div>
@@ -130,7 +134,9 @@ const Pricing: NextPage<Props> = async ({ params }) => {
                         <FeatureItem key={feature}>{feature}</FeatureItem>
                       ))}
                     </ul>
-                    <PricingButton>{dict.pricing.order}</PricingButton>
+                    <PricingButton href="/order">
+                      {dict.pricing.order}
+                    </PricingButton>
                   </div>
                 </div>
               </div>

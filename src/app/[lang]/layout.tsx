@@ -4,8 +4,6 @@ export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "id" }];
 }
 
-import Footer from "@/components/common/footer/footer";
-import NavigationBar from "@/components/common/navigation/navigation-bar";
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
@@ -39,9 +37,7 @@ export default async function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NavigationBar lang={lang} />
           {children}
-          <Footer lang={lang} />
         </ThemeProvider>
       </body>
     </html>

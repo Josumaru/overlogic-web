@@ -11,10 +11,10 @@ interface Props {
 
 const ShowcaseCard: NextPage<Props> = async ({ showcase, index }) => {
   return (
-    <div className="border-zinc-300 dark:border-zinc-800 p-3 border rounded-xl gap-3 flex flex-col">
+    <div className="border-zinc-300 dark:border-zinc-800 p-3 border rounded-3xl gap-3 flex flex-col">
       <div className="flex justify-between">
         <p className="font-semibold">{showcase.title}</p>
-        <p className="bg-zinc-100 dark:bg-zinc-800 p-2 rounded-lg text-xs">
+        <p className="bg-zinc-100 dark:bg-zinc-800 p-2 rounded-xl text-xs">
           {showcase.type}
         </p>
       </div>

@@ -253,6 +253,12 @@
       }
     }
   },
+  "order": {
+    "title": "Beri Tahu Kami Kebutuhan Anda",
+    "subTitle": "Overlogic akan selalu ada untuk memnuhi kebutuhan anda",
+    "next": "Selanjutnya",
+    "prev": "Sebelumnya"
+  },
   "common": {
     "footer": {
       "links": [
