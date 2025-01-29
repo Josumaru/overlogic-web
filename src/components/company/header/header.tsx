@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AuroraText } from "../../ui/aurora-text";
 import { Lang } from "@/types/lang";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import AuroraHeaderTitle from "./aurora-header-title";
 import Container from "@/components/common/container";
 import SectionTitle from "@/components/common/text/section-title";
@@ -28,23 +28,64 @@ const Header: NextPage<Lang> = async ({ lang }) => {
         </AnimatedGradientText>
       </div>
       <div className="flex justify-center flex-col">
-        <h1 className="text-xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
+        <h1 className="text-3xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           <AuroraHeaderTitle title={dict.header.title} />
         </h1>
       </div>
-      <div>
+      <div className="flex-col gap-2 flex md:hidden">
+        {dict.header.subTitle.map((text, index) => (
+          <p
+            key={index}
+            className={cn("text-muted-foreground text-center")}
+            dangerouslySetInnerHTML={{
+              __html: text
+                .split(" ")
+                .map((text) =>
+                  [
+                    "Overlogic",
+                    "digital",
+                    "solutions.",
+                    "solusi.",
+                    "quality",
+                    "kualitas",
+                    "transformation",
+                    "transformasi",
+                    "revolusioner",
+                    "connected",
+                    "terhubung",
+                  ].includes(text)
+                    ? `<span class="text-black dark:text-white font-semibold">${text}</span>`
+                    : text
+                )
+                .join(" "),
+            }}
+          />
+        ))}
+      </div>
+      <div className="hidden md:block">
         <p
-          className="text-muted-foreground text-center"
+          className={cn("text-muted-foreground text-center")}
           dangerouslySetInnerHTML={{
             __html: dict.header.subTitle
+              .join(" ")
               .split(" ")
               .map((text) =>
                 [
                   "Overlogic",
+                  "digital",
                   "solutions.",
-                  "quality",
-                  "transformation",
-                  "connected",
+                  "solusi.",
+                  "mission",
+                  "misi",
+                  "agency",
+                  "misi",
+                  "inovatif,",
+                  "innovative",
+                  "modern",
+                  "technology-based",
+                  "berbasis",
+                  "teknologi",
+                  "modern"
                 ].includes(text)
                   ? `<span class="text-black dark:text-white font-semibold">${text}</span>`
                   : text

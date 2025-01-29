@@ -7,8 +7,8 @@ export default {
   	extend: {
   		colors: {
   			tertiary: 'hsl(var(--tertiary))',
-  			"text-title-color": 'hsl(var(--text-title-color))',
-  			"text-headline-color": 'hsl(var(--text-headline-color))',
+  			'text-title-color': 'hsl(var(--text-title-color))',
+  			'text-headline-color': 'hsl(var(--text-headline-color))',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -207,6 +207,27 @@ export default {
   					bottom: '50%',
   					right: '25%'
   				}
+  			},
+  			meteor: {
+  				'0%': {
+  					transform: 'rotate(215deg) translateX(0)',
+  					opacity: '1'
+  				},
+  				'70%': {
+  					opacity: '1'
+  				},
+  				'100%': {
+  					transform: 'rotate(215deg) translateX(-500px)',
+  					opacity: '0'
+  				}
+  			},
+  			orbit: {
+  				'0%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg))'
+  				},
+  				'100%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg))'
+  				}
   			}
   		},
   		animation: {
@@ -220,7 +241,9 @@ export default {
   			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
   			grid: 'grid 15s linear infinite',
   			'background-position-spin': 'background-position-spin 3000ms infinite alternate',
-  			gradient: 'gradient 8s linear infinite'
+  			gradient: 'gradient 8s linear infinite',
+  			meteor: 'meteor 5s linear infinite',
+  			orbit: 'orbit calc(var(--duration)*1s) linear infinite'
   		}
   	}
   },

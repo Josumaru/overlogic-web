@@ -6,6 +6,7 @@ import { useRouter, usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { Languages, Moon, Sun } from "lucide-react";
 import { Dock } from "@/components/ui/dock";
+import { cn } from "@/lib/utils";
 
 const LanguageDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,7 +105,7 @@ const LanguageDropdown = () => {
                 <Moon className="h-4 w-4 dark:block hidden" />
               </Fragment>
             )}
-            <p className="text-sm">
+            <p className="text-sm hidden sm:block">
               {preference.type == "lang" ? currentLang : theme?.toUpperCase()}
             </p>
             <ChevronDownIcon />
@@ -115,7 +116,7 @@ const LanguageDropdown = () => {
       {/* Dropdown */}
       <div
         ref={dropdownRef}
-        className={`absolute p-1 top-full text-sm right-0 mt-2 w-full bg-background shadow-md border border-gray-300 dark:border-zinc-800 rounded-2xl transition-all duration-300 ease-in-out ${
+        className={`absolute p-1 top-full gap-1 flex flex-col text-sm right-0 mt-2 w-full bg-background shadow-md border border-gray-300 dark:border-zinc-800 rounded-2xl transition-all duration-300 ease-in-out ${
           isOpen
             ? "opacity-100 scale-100"
             : "opacity-0 scale-95 pointer-events-none"
@@ -126,7 +127,7 @@ const LanguageDropdown = () => {
           ? preferences[0].prefs.map((pref, index) => (
               <button
                 key={index}
-                className="block rounded-xl w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800"
+                className={cn("block rounded-xl w-full px-4 py-2 text-left", pref.value == currentLang ? "dark:bg-zinc-900 bg-zinc-200" : "hover:bg-gray-100 dark:hover:bg-zinc-800")}
                 onClick={() => {
                   changeLanguage(pref.value);
                 }}
@@ -137,7 +138,8 @@ const LanguageDropdown = () => {
           : preferences[1].prefs.map((pref, index) => (
               <button
                 key={index}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-xl"
+                className={cn("block rounded-xl w-full px-4 py-2 text-left", pref.value == theme ? "dark:bg-zinc-900 bg-zinc-200" : "hover:bg-gray-100 dark:hover:bg-zinc-800")}
+
                 onClick={() => {
                   setTheme(pref.value);
                   setIsOpen(false);

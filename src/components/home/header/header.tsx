@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import { LangProps } from "@/types/lang";
 import { ImageConstants } from "@/constants/ImageConstants";
 import Image from "next/image";

@@ -1,9 +1,7 @@
 "use client";
-import { getDictionary } from "@/util/dictionaries";
-import { Lang, LangProps } from "@/types/lang";
 import { NextPage } from "next";
 import Link from "next/link";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface Props {
   dict: {

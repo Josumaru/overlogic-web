@@ -122,7 +122,15 @@
         { "stats": "Security", "range": 100 },
         { "stats": "Speed", "range": 100 },
         { "stats": "Full Support", "range": 100 }
-      ]
+      ],
+      "education": {
+        "title": "Edukasi Teknologi untuk Masa Depan",
+        "subTitle": "Kami tidak hanya membangun software, tetapi juga berbagi ilmu. Program pelatihan dan workshop kami membantu individu dan tim menguasai teknologi terbaru."
+      },
+      "innovation": {
+        "title": "Inovasi Tanpa Batas",
+        "subTitle": "Kami terus mengeksplorasi teknologi terbaru seperti AI, Blockchain, dan Cloud Computing untuk menghadirkan solusi software yang lebih efisien dan cerdas."
+      }
     },
     "faq": {
       "title": "Discover more about our logic through this Frequently Asked Question",
@@ -160,23 +168,34 @@
     "header": {
       "aboutOverlogicUniverse": "About Overlogic Universe",
       "title": "Building the Digital World, Embracing the Future",
-      "subTitle": "Overlogic Universe was founded with a passion to bring revolutionary changes to the digital world. Since 2023, we have been helping individuals and companies turn their visions into reality through smart and innovative digital solutions. With an experienced team committed to delivering the highest quality, we are ready to lead your journey toward a more advanced, efficient, and impactful digital transformation. Join us on this path toward a more connected and opportunity-filled future!"
+      "subTitle": [
+        "Overlogic Universe was founded with a passion to bring revolutionary changes to the digital world. Since 2024, we have been helping individuals and companies turn their visions into reality through smart and innovative digital solutions.",
+        "Overlogic's mission is to be a trusted software development agency that provides solutions through deep, innovative, and modern technology-based thinking, and supports efficient, inclusive, and sustainable digital transformation."
+      ]
     },
     "visionMission": {
       "title": "Overlogic Universe Helps Businesses Solve Many Problems",
       "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities.",
       "visionMision": [
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Innovation",
+          "subTitle": "Developing responsive, secure, and sustainable software solutions that adapt to technological changes and client needs."
         },
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Experience",
+          "subTitle": "Delivering innovative and user-focused digital experiences by blending creative design and the latest technology."
         },
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Collaboration",
+          "subTitle": "Fostering a collaborative and inclusive work environment that supports individual and team growth through skill development and future technologies."
+        },
+        {
+          "title": "Satisfaction",
+          "subTitle": "Prioritizing client satisfaction with a transparent, flexible, and value-based approach to every partnership."
+        },
+        {
+          "title": "Security",
+          "subTitle": "Ensuring product security professionally."
         }
       ]
     },
@@ -263,7 +282,151 @@
     "title": "Tell Us Your Needs",
     "subTitle": "Overlogic Will Always Be There to Fulfill Your Needs.",
     "next": "Next",
-    "prev": "Previous"
+    "prev": "Previous",
+    "services": [
+      "Custom Software Development",
+      "API Development & Integration",
+      "E-commerce Solutions",
+      "Blockchain Development",
+      "DevOps & Cloud Solutions",
+      "Graphic Design",
+      "Logo Design",
+      "Video Editing & Animation",
+      "Motion Graphics",
+      "SEO Optimization",
+      "Content Writing",
+      "Machine Learning Models",
+      "Business Intelligence",
+      "Training & Workshops",
+      "IT Consultation",
+      "Product Management",
+      "Cybersecurity Services"
+    ],
+    "budgets": [
+      "Under 350,000 IDR",
+      "350,000 IDR - Basic",
+      "750,000 IDR - Professional",
+      "1,250,000 IDR - Advanced",
+      "5,000,000+ IDR",
+      "10,000,000+ IDR",
+      "50,000,000+ IDR"
+    ],
+    "form": {
+      "name": {
+        "title": "What's Your Name, Superstar?",
+        "placeholder": "Tell us your legendary name",
+        "value": "Name",
+        "error": "Name must be at least 2 characters and up to 128 characters."
+      },
+      "email": {
+        "title": "Your Email Address",
+        "placeholder": "Drop your best email here",
+        "value": "Email",
+        "error": "Please enter a valid email address (max 64 characters)."
+      },
+      "phone": {
+        "title": "How Can We Reach You?",
+        "placeholder": "Your magic digits go here!",
+        "value": "Phone Number",
+        "error": "Phone number must be between 7 and 16 digits."
+      },
+      "company": {
+        "title": "Your Company Name",
+        "placeholder": "What's your company's awesome name?",
+        "value": "Company Name",
+        "error": "Company name must be between 2 and 128 characters."
+      },
+      "project": {
+        "title": "Your Project Name",
+        "placeholder": "What's the next big thing you're working on?",
+        "value": "Project Name",
+        "error": "Project name must be between 2 and 256 characters."
+      },
+      "position": {
+        "title": "Your Role/Position",
+        "placeholder": "What's your superpower in the team?",
+        "value": "Position",
+        "error": "Position must be at least 2 characters and up to 128 characters."
+      },
+      "services": {
+        "title": "What Services Do You Need?",
+        "value": "Services",
+        "error": "Please select at least one service (max 5 services)."
+      },
+      "budget": {
+        "title": "What's Your Budget Range?",
+        "value": "Budget",
+        "error": "Select at least 1 budget (max 64 characters)."
+      },
+      "brief": {
+        "title": "Project Brief Link",
+        "placeholder": "Drop your project brief link here",
+        "value": "Brief",
+        "error": "Brief must be at least 2 characters and up to 256 characters."
+      },
+      "additional": {
+        "title": "Additional Information",
+        "placeholder": "Anything else we should know? Tell us!",
+        "value": "Additional Info",
+        "error": "Additional information must be at least 2 characters and up to 256 characters."
+      },
+      "question": {
+        "title": "Got Any Questions?",
+        "placeholder": "Ask us anything, we love questions!",
+        "value": "Question",
+        "error": "Question must be at least 2 characters and up to 256 characters."
+      },
+      "testimony": {
+        "title": "Testimony",
+        "placeholder": "Share your experience with us!",
+        "value": "Testimony",
+        "error": "Testimony must be at least 2 characters and up to 512 characters."
+      },
+      "instagram": {
+        "title": "Instagram",
+        "placeholder": "Enter your Instagram username",
+        "value": "Instagram",
+        "error": "Instagram username must be at least 2 characters and up to 64 characters."
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "placeholder": "Enter your X (Twitter) username",
+        "value": "X (Twitter)",
+        "error": "X (Twitter) username must be at least 2 characters and up to 64 characters."
+      }
+    },
+    "testimonial_permission": {
+      "title": "Allow Us to Showcase Your Testimony",
+      "description": "We'd be happy to share your testimony to inspire others."
+    },
+    "toast": {
+      "error": {
+        "value": "Error Occurred!",
+        "desc": "Oops! Something went wrong. Please try again."
+      },
+      "error_network": {
+        "value": "Network Issue",
+        "desc": "Your internet connection seems unstable. Please make sure you're connected properly."
+      },
+      "error_step": {
+        "value": "Step Incomplete",
+        "desc": "Some steps are still pending. Please make sure all information is filled out correctly."
+      },
+      "success": {
+        "value": "Success!",
+        "desc": "Your request has been processed successfully."
+      }
+    },
+    "loading": "Loading...",
+    "sending": "Sending...",
+    "submit": "Submit",
+    "thankYou": {
+      "title": "Thank You!",
+      "message": "We will contact you soon",
+      "button": "Home",
+      "feedback": "Your words mean the world to us."
+    },
+    "review": "Review Your Data"
   },
   "common": {
     "footer": {
@@ -290,7 +453,7 @@
           ]
         },
         {
-          "title": "Product",
+          "title": "Project",
           "subtitles": [
             {
               "name": "UMS IID",
@@ -320,10 +483,6 @@
             {
               "name": "Linkedin",
               "url": "https://www.linkedin.com/in/overlogic"
-            },
-            {
-              "name": "Discord",
-              "url": "https://discord.com/app"
             }
           ]
         },
@@ -333,14 +492,6 @@
             {
               "name": "overlogic.io",
               "url": "https://overlogic.io"
-            },
-            {
-              "name": "status.overlogic.io",
-              "url": "https://stats.overlogic.io"
-            },
-            {
-              "name": "airi.overlogic.io",
-              "url": "https://airi.overlogic.io"
             }
           ]
         }

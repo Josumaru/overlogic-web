@@ -2,7 +2,7 @@ import Container from "@/components/common/container";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
 import { Lang } from "@/types/lang";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import { NextPage } from "next";
 import TeamCarousel from "./team-carousel";
 

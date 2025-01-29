@@ -5,7 +5,7 @@ import Marquee from "@/components/ui/marquee";
 import { LangProps } from "@/types/lang";
 import SectionTitle from "@/components/common/text/section-title";
 import SectionDesc from "@/components/common/text/section-desc";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import CurvedSeparator from "@/components/ui/curved-separator";
 
 const ReviewCard = ({

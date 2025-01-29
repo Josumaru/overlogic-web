@@ -1,4 +1,4 @@
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
 import FaqList from "./faqList";

@@ -1,7 +1,7 @@
 import { IShowcase } from "@/types/showcase";
 import { ImageConstants } from "./ImageConstants";
 import { Lang } from "@/types/lang";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 
 export const ShowcaseConstants = async ({
   lang,

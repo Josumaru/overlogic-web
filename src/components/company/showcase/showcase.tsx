@@ -4,7 +4,7 @@ import { NextPage } from "next";
 import ShowcaseCard from "./showcase-card";
 import SectionTitle from "@/components/common/text/section-title";
 import SectionDesc from "@/components/common/text/section-desc";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 
 const Showcase: NextPage<Lang> = async ({ lang }) => {
   const showcases = await ShowcaseConstants({ lang: lang });

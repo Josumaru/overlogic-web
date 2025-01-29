@@ -2,7 +2,7 @@ import Container from "@/components/common/container";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { ShowcaseConstants } from "@/constants/ShowcaseConstants";
 import { Lang } from "@/types/lang";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import { LucideExternalLink } from "lucide-react";
 import { NextPage } from "next";
 import Image from "next/image";

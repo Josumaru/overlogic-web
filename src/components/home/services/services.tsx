@@ -1,10 +1,11 @@
 import { NextPage } from "next";
 
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
+import { CalendarIcon, FileTextIcon, RocketIcon } from "@radix-ui/react-icons";
 import {
   BadgeDollarSign,
   BellIcon,
   Building2,
+  ComputerIcon,
   GlobeIcon,
   LockKeyholeIcon,
   SearchIcon,
@@ -19,7 +20,7 @@ import { LangProps } from "@/types/lang";
 import { Calendar } from "@/components/ui/calendar";
 import Globe from "@/components/ui/globe";
 import RetroGrid from "@/components/ui/retro-grid";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import CurvedSeparator from "@/components/ui/curved-separator";
 import SectionDesc from "@/components/common/text/section-desc";
 import SectionTitle from "@/components/common/text/section-title";
@@ -27,6 +28,9 @@ import { SecurityAnimatedBeam } from "./security-animated-beam";
 import Image from "next/image";
 import { ImageConstants } from "@/constants/ImageConstants";
 import { PriceRadarChart } from "./price-radar-chart";
+import { Meteors } from "@/components/ui/meteors";
+import { EducationAnimatedBeam } from "./education-animated-beam";
+import { TrustedOrbitingCircles } from "./trusted-orbiting-circle";
 
 const Services: NextPage<LangProps> = async ({ params }) => {
   const lang = (await params).lang;
@@ -41,7 +45,11 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       href: "#",
       cta: servicesDict.more,
       className: "col-span-3 lg:col-span-1",
-      background: <div></div>,
+      background: (
+        <div className="absolute h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_3%,#000_100%)] group-hover:scale-105">
+          <TrustedOrbitingCircles />
+        </div>
+      ),
     },
     {
       Icon: Zap,
@@ -83,15 +91,28 @@ const Services: NextPage<LangProps> = async ({ params }) => {
       ),
     },
     {
-      Icon: GlobeIcon,
-      name: servicesDict.business.title,
-      description: servicesDict.business.subTitle,
+      Icon: RocketIcon,
+      name: servicesDict.innovation.title,
+      description: servicesDict.innovation.subTitle,
       href: "#",
       cta: servicesDict.more,
-      className: "col-span-3 lg:col-span-2",
+      className: "col-span-3 lg:col-span-1",
       background: (
-        <div>
-          {/* <Image src={ImageConstants.services.seo} alt={servicesDict.business.title}/> */}
+        <div className="absolute h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_3%,#000_100%)] group-hover:scale-105">
+          <Meteors number={30} />
+        </div>
+      ),
+    },
+    {
+      Icon: ComputerIcon,
+      name: servicesDict.education.title,
+      description: servicesDict.education.subTitle,
+      href: "#",
+      cta: servicesDict.more,
+      className: "col-span-3 lg:col-span-1",
+      background: (
+        <div className="absolute h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_3%,#000_100%)] group-hover:scale-105">
+          <EducationAnimatedBeam />
         </div>
       ),
     },
@@ -107,6 +128,12 @@ const Services: NextPage<LangProps> = async ({ params }) => {
           <Image
             src={ImageConstants.services.seoLight}
             alt={servicesDict.seo.title}
+            className="dark:hidden"
+          />
+          <Image
+            src={ImageConstants.services.seoDark}
+            alt={servicesDict.seo.title}
+            className="dark:block hidden"
           />
         </div>
       ),
@@ -119,7 +146,15 @@ const Services: NextPage<LangProps> = async ({ params }) => {
         <div className="flex items-end flex-col text-end">
           <SectionTitle
             text={servicesDict.title}
-            coloredText={["Bangun", "Kuasai", "Kompetitor", "Overlogic", "Build", "Dominate", ""]}
+            coloredText={[
+              "Bangun",
+              "Kuasai",
+              "Kompetitor",
+              "Overlogic",
+              "Build",
+              "Dominate",
+              "",
+            ]}
           />
           <SectionDesc>{dict.pricing.subTitle}</SectionDesc>
         </div>

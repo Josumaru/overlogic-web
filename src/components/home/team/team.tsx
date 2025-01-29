@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import { NextPage } from "next";
 import { LangProps } from "@/types/lang";
 import { ImageConstants } from "@/constants/ImageConstants";

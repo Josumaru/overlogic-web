@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { NextPage } from "next";
-import { buildLangUrl } from "@/util/buildLangUrl";
+import { buildLangUrl } from "@/utils/buildLangUrl";
 import Link from "next/link";
 
 interface MenuBoxProps {
@@ -64,16 +64,16 @@ const MenuBox: NextPage<MenuBoxProps> = ({ lang, dict }) => {
         {/* Navbar List */}
         <ul className="space-y-4 flex flex-col items-center justify-center text-sm text-text-title-color">
           <li className="hover:text-primary">
-            <Link href={buildLangUrl("/", lang)}>{dict.home.home}</Link>
+            <Link onClick={() => setMenuOpen(false)} href={buildLangUrl("/", lang)}>{dict.home.home}</Link>
           </li>
           <li className="hover:text-primary">
-            <Link href={buildLangUrl("/pricing", lang)}>{dict.pricing.pricing}</Link>
+            <Link onClick={() => setMenuOpen(false)} href={buildLangUrl("/pricing", lang)}>{dict.pricing.pricing}</Link>
           </li>
           <li className="hover:text-primary">
-            <Link href={buildLangUrl("/showcase", lang)}>{dict.showcase.showcase}</Link>
+            <Link onClick={() => setMenuOpen(false)} href={buildLangUrl("/showcase", lang)}>{dict.showcase.showcase}</Link>
           </li>
           <li className="hover:text-primary">
-            <Link href={buildLangUrl("/company", lang)}>{dict.company.company}</Link>
+            <Link onClick={() => setMenuOpen(false)} href={buildLangUrl("/company", lang)}>{dict.company.company}</Link>
           </li>
         </ul>
 

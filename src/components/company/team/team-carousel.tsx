@@ -175,9 +175,9 @@ const TeamCarousel: NextPage<Props> = ({}) => {
       {teamMembers.map((member, index) => (
         <div
           key={index}
-          className="h-[520px] relative cursor-pointer transition-all duration-300 ease-in-out"
+          className="h-[520px] max-w-screen-sm relative cursor-pointer transition-all duration-300 ease-in-out"
           style={{
-            // maxWidth: window.innerWidth - 36,
+            maxWidth: "calc(100vw - 24px)",
             flex: index === currentMember ? "0 0 520px" : "0 0 200px",
           }}
           onClick={() => setCurrentMember(index == currentMember ? -1 : index)}

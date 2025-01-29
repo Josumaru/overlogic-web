@@ -2,13 +2,8 @@ import { Lang } from "@/types/lang";
 import { NextPage } from "next";
 import Link from "next/link";
 import OverlogicLogo from "../navigation/overlogicLogo";
-import GradientBorderSeparator from "@/components/ui/gradient-border-separator";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import Status from "./status";
-import { ThemeChanger } from "../theme-changer";
-import { Button } from "@/components/ui/button";
-import { InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
-import { AuroraText } from "@/components/ui/aurora-text";
 import FooterAuroraText from "./footer-aurora-text";
 
 const Footer: NextPage<Lang> = async ({ lang }) => {
@@ -36,9 +31,8 @@ const Footer: NextPage<Lang> = async ({ lang }) => {
             <div className="mt-2 flex justify-start">
               <Status dict={dict.status} />
             </div>
-            <p className="text-sm dark:text-gray-400 mt-5">
-              © {new Date().getFullYear()} Overlogic Universe. All rights
-              reserved.
+            <p className=" dark:text-gray-400 mt-5">
+              © {new Date().getFullYear()} {right}
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

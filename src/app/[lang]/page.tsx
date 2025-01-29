@@ -18,8 +18,8 @@ const Page: NextPage<LangProps> = async ({ params }) => {
       <NavigationBar lang={lang} />
       <Header params={params} />
       <Services params={params} />
-      <Project params={params} />
-      <Team params={params} />
+      {/* <Project params={params} /> */}
+      {/* <Team params={params} /> */}
       <Testimonials params={params} />
       <Faq params={params} />
       <Footer lang={lang} />

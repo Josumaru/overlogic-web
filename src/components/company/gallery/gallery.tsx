@@ -3,7 +3,7 @@ import { BlurFade } from "@/components/ui/blur-fade";
 import { Lang } from "@/types/lang";
 import Container from "@/components/common/container";
 import SectionTitle from "@/components/common/text/section-title";
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import SectionDesc from "@/components/common/text/section-desc";
 import { GalleryImageConstants } from "@/constants/ImageConstants";
 import Image from "next/image";

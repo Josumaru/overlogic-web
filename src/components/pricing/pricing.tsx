@@ -1,4 +1,4 @@
-import { getDictionary } from "@/util/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 import { Lang } from "@/types/lang";
 import { NextPage } from "next";
 import FeatureItem from "./feature-item";

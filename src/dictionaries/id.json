@@ -116,7 +116,15 @@
         { "stats": "Keamanan", "range": 100 },
         { "stats": "Kecepatan", "range": 100 },
         { "stats": "Dukungan Penuh", "range": 100 }
-      ]
+      ],
+      "education": {
+        "title": "Edukasi Teknologi untuk Masa Depan",
+        "subTitle": "Kami tidak hanya membangun software, tetapi juga berbagi ilmu. Program pelatihan dan workshop kami membantu individu dan tim menguasai teknologi terbaru."
+      },
+      "innovation": {
+        "title": "Inovasi Tanpa Batas",
+        "subTitle": "Kami terus mengeksplorasi teknologi terbaru seperti AI, Blockchain, dan Cloud Computing untuk menghadirkan solusi software yang lebih efisien dan cerdas."
+      }
     },
     "faq": {
       "title": "Temukan lebih banyak tentang logika kami melalui Pertanyaan yang Sering Diajukan",
@@ -154,23 +162,34 @@
     "header": {
       "aboutOverlogicUniverse": "Tentang Overlogic Universe",
       "title": "Membangun Dunia Digital, Menyongsong Masa Depan",
-      "subTitle": "Overlogic Universe didirikan dengan semangat untuk membawa perubahan revolusioner di dunia digital. Sejak tahun 2023, kami telah membantu individu dan perusahaan mengubah visi mereka menjadi kenyataan melalui solusi digital yang cerdas dan inovatif. Dengan tim yang berpengalaman dan berkomitmen untuk kualitas terbaik, kami siap memimpin perjalanan Anda menuju transformasi digital yang lebih canggih, efisien, dan berdampak. Bergabunglah dengan kami dalam perjalanan menuju masa depan yang lebih terhubung dan penuh peluang!"
+      "subTitle": [
+        "Overlogic Universe didirikan dengan semangat untuk membawa perubahan revolusioner di dunia digital. Sejak tahun 2024, kami telah membantu individu dan perusahaan mengubah visi mereka menjadi kenyataan melalui solusi digital yang cerdas dan inovatif.",
+        "Misi Overlogic menjadi agency pengembangan perangkat lunak terpercaya yang memberikan solusi melalui pemikiran mendalam, inovatif, dan berbasis teknologi modern, serta mendukung transformasi digital yang efisien, inklusif, dan berkelanjutan."
+      ]
     },
     "visionMission": {
       "title": "Overlogic Universe Helps Businesses Solve Many Problems",
       "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities.",
       "visionMision": [
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Inovasi",
+          "subTitle": "Mengembangkan solusi perangkat lunak yang responsif, aman, dan berkelanjutan yang dapat beradaptasi dengan perubahan teknologi dan kebutuhan klien."
         },
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Pengalaman",
+          "subTitle": "Memberikan pengalaman digital yang inovatif dan berfokus pada pengguna dengan memadukan desain kreatif dan teknologi terkini."
         },
         {
-          "title": "Through technological innovation and strategic approaches",
-          "subTitle": "Through technological innovation and strategic approaches, Overlogic Universe is committed to helping businesses tackle challenges, create new opportunities, and achieve their full potential in the digital era."
+          "title": "Kolaborasi",
+          "subTitle": "Membina lingkungan kerja yang kolaboratif dan inklusif, yang mendukung pertumbuhan individu dan tim melalui pengembangan keterampilan dan teknologi masa depan."
+        },
+        {
+          "title": "Kepuasan",
+          "subTitle": "Memprioritaskan kepuasan klien dengan pendekatan yang transparan, fleksibel, dan berbasis nilai dalam setiap kerjasama."
+        },
+        {
+          "title": "Keamanan",
+          "subTitle": "Menjamin kemanan produk secara professional."
         }
       ]
     },
@@ -257,7 +276,151 @@
     "title": "Beri Tahu Kami Kebutuhan Anda",
     "subTitle": "Overlogic akan selalu ada untuk memnuhi kebutuhan anda",
     "next": "Selanjutnya",
-    "prev": "Sebelumnya"
+    "prev": "Sebelumnya",
+    "services": [
+      "Pengembangan Perangkat Lunak Kustom",
+      "Pengembangan & Integrasi API",
+      "Solusi E-commerce",
+      "Pengembangan Blockchain",
+      "DevOps & Solusi Cloud",
+      "Desain Grafis",
+      "Desain Logo",
+      "Editing Video & Animasi",
+      "Grafis Bergerak (Motion Graphics)",
+      "Optimasi SEO",
+      "Penulisan Konten",
+      "Model Machine Learning",
+      "Kecerdasan Bisnis (Business Intelligence)",
+      "Pelatihan & Workshop",
+      "Konsultasi IT",
+      "Manajemen Produk",
+      "Layanan Keamanan Siber"
+    ],
+    "budgets": [
+      "Dibawah Rp. 350.000",
+      "Rp. 350.000 - Dasar",
+      "Rp. 750.000 - Profesional",
+      "Rp. 1.250.000 - Advance",
+      "Rp. 5.000.000+",
+      "Rp. 10.000.000+",
+      "Rp. 50.000.000+"
+    ],
+    "form": {
+      "name": {
+        "title": "Siapa Nama Kerenmu?",
+        "placeholder": "Beritahu kami nama kerennya!",
+        "value": "Nama",
+        "error": "Nama harus terdiri dari minimal 2 karakter dan maksimal 128 karakter."
+      },
+      "phone": {
+        "title": "Bagaimana Kami Bisa Menghubungimu?",
+        "placeholder": "Masukkan nomor ajaibmu di sini!",
+        "value": "Nomor Telepon",
+        "error": "Nomor telepon harus terdiri dari 7 hingga 16 digit."
+      },
+      "email": {
+        "title": "Alamat Emailmu",
+        "placeholder": "Tinggalkan email terbaikmu di sini",
+        "value": "Email",
+        "error": "Harap masukkan alamat email yang valid (maksimal 64 karakter)."
+      },
+      "company": {
+        "title": "Nama Perusahaanmu",
+        "placeholder": "Apa nama perusahaan hebatmu?",
+        "value": "Nama Perusahaan",
+        "error": "Nama perusahaan harus terdiri dari 2 hingga 128 karakter."
+      },
+      "project": {
+        "title": "Nama Proyekmu",
+        "placeholder": "Proyek luar biasa apa yang ingin kamu buat?",
+        "value": "Nama Proyek",
+        "error": "Nama proyek harus terdiri dari 2 hingga 256 karakter."
+      },
+      "position": {
+        "title": "Jabatan/Posisimu",
+        "placeholder": "Apa peranmu dalam tim?",
+        "value": "Posisi",
+        "error": "Jabatan harus terdiri dari minimal 2 karakter dan maksimal 128 karakter."
+      },
+      "services": {
+        "title": "Layanan Apa yang Kamu Butuhkan?",
+        "value": "Layanan",
+        "error": "Harap pilih minimal satu layanan (maksimal 5)."
+      },
+      "budget": {
+        "title": "Berapa Anggaran yang Kamu Siapkan?",
+        "value": "Anggaran",
+        "error": "Pilih setidaknya 1 anggaran (maksimal 64 karakter)."
+      },
+      "brief": {
+        "title": "Link Brief Proyek",
+        "placeholder": "Bagikan link brief proyekmu di sini",
+        "value": "Brief Proyek",
+        "error": "Brief harus terdiri dari minimal 2 karakter dan maksimal 256 karakter."
+      },
+      "additional": {
+        "title": "Informasi Tambahan",
+        "placeholder": "Ada informasi tambahan? Beritahu kami!",
+        "value": "Informasi Tambahan",
+        "error": "Informasi tambahan harus terdiri dari minimal 2 karakter dan maksimal 256 karakter."
+      },
+      "question": {
+        "title": "Ada Pertanyaan?",
+        "placeholder": "Punya pertanyaan? Kami siap menjawab!",
+        "value": "Pertanyaan",
+        "error": "Pertanyaan harus terdiri dari minimal 2 karakter dan maksimal 256 karakter."
+      },
+      "testimony": {
+        "title": "Testimoni",
+        "placeholder": "Bagikan pengalaman Anda dengan kami!",
+        "value": "Testimoni",
+        "error": "Testimoni harus terdiri dari minimal 2 karakter dan maksimal 512 karakter."
+      },
+      "instagram": {
+        "title": "Instagram",
+        "placeholder": "Masukkan username Instagram Anda",
+        "value": "Instagram",
+        "error": "Username Instagram harus terdiri dari minimal 2 karakter dan maksimal 64 karakter."
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "placeholder": "Masukkan username X (Twitter) Anda",
+        "value": "X (Twitter)",
+        "error": "Username X (Twitter) harus terdiri dari minimal 2 karakter dan maksimal 64 karakter."
+      }
+    },
+    "testimonial_permission": {
+      "title": "Izinkan Kami Menampilkan Testimoni Anda",
+      "description": "Kami akan dengan senang hati menampilkan testimoni Anda untuk menginspirasi orang lain."
+    },
+    "toast": {
+      "error": {
+        "value": "Terjadi Kesalahan!",
+        "desc": "Ups! Ada yang salah. Silakan coba lagi."
+      },
+      "error_network": {
+        "value": "Masalah Jaringan",
+        "desc": "Koneksi internetmu tidak stabil. Pastikan kamu terhubung dengan baik."
+      },
+      "error_step": {
+        "value": "Langkah Belum Terpenuhi",
+        "desc": "Beberapa langkah belum selesai. Pastikan semua informasi terisi dengan benar."
+      },
+      "success": {
+        "value": "Berhasil!",
+        "desc": "Permintaanmu telah diproses dengan sukses."
+      }
+    },
+    "loading": "Memuat...",
+    "sending": "Mengirim...",
+    "submit": "Kirim",
+    "thankYou": {
+      "title": "Terima Kasih!",
+      "message": "Kami akan menghubungi Anda segera",
+      "button": "Beranda",
+      "feedback": "Pendapat Anda sangat berarti bagi kami."
+    },
+    "review": "Tinjau Data Anda"
   },
   "common": {
     "footer": {
@@ -284,7 +447,7 @@
           ]
         },
         {
-          "title": "Produk",
+          "title": "Projek",
           "subtitles": [
             {
               "name": "UMS IID",
@@ -314,10 +477,6 @@
             {
               "name": "Linkedin",
               "url": "https://www.linkedin.com/in/overlogic"
-            },
-            {
-              "name": "Discord",
-              "url": "https://discord.com/app"
             }
           ]
         },
@@ -327,10 +486,6 @@
             {
               "name": "overlogic.io",
               "url": "https://overlogic.io"
-            },
-            {
-              "name": "status.overlogic.io",
-              "url": "https://stats.overlogic.io"
             }
           ]
         }
