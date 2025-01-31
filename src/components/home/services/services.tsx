@@ -143,7 +143,7 @@ const Services: NextPage<LangProps> = async ({ params }) => {
     <div className="flex items-center justify-center px-3 md:px-10">
       <div className="container">
         <CurvedSeparator />
-        <div className="flex items-end flex-col text-end">
+        <div className="flex flex-col">
           <SectionTitle
             text={servicesDict.title}
             coloredText={[

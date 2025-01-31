@@ -124,12 +124,12 @@
         { "stats": "Full Support", "range": 100 }
       ],
       "education": {
-        "title": "Edukasi Teknologi untuk Masa Depan",
-        "subTitle": "Kami tidak hanya membangun software, tetapi juga berbagi ilmu. Program pelatihan dan workshop kami membantu individu dan tim menguasai teknologi terbaru."
+        "title": "Technology Education for the Future",
+        "subTitle": "We don't just build software, we share knowledge. Our training programs and workshops help individuals and teams master the latest technologies."
       },
       "innovation": {
-        "title": "Inovasi Tanpa Batas",
-        "subTitle": "Kami terus mengeksplorasi teknologi terbaru seperti AI, Blockchain, dan Cloud Computing untuk menghadirkan solusi software yang lebih efisien dan cerdas."
+        "title": "Limitless Innovation",
+        "subTitle": "We continuously explore emerging technologies like AI, Blockchain, and Cloud Computing to deliver smarter and more efficient software solutions."
       }
     },
     "faq": {
@@ -201,7 +201,45 @@
     },
     "team": {
       "title": "Meet the Overlogic Team, Driving Your Business Forward",
-      "subTitle": "Our unity is the foundation of your success"
+      "subTitle": "Our unity is the foundation of your success",
+      "members": {
+        "rafli": {
+          "nickname": "Rafli",
+          "name": "Muhammad Rafli Silehu",
+          "intro": "As a Mobile Developer, I have experience in independent projects and relevant training using Kotlin Android, especially Flutter in project development. I am always passionate about creating mobile applications that provide a pleasant experience for users. I also have skills in web development and have founded a software development agency called Overlogic that can provide opportunities for members to gain experience in working on real projects.",
+          "role": "Software Engineer",
+          "linkedin": "https://www.linkedin.com/in/raflisilehu/",
+          "github": "https://github.com/zakoraa/",
+          "instagram": "https://www.instagram.com/raflisilehu_/"
+        },
+        "ogya": {
+          "nickname": "OGYA",
+          "name": "Ogya Rajendra",
+          "intro": "Hello, I'm Ogya Rajendra, a Web Developer & UI/UX Designer passionate about creating modern, functional, and user-centered digital experiences. I specialize in front-end development and intuitive interface design, ensuring websites are visually appealing, responsive, and easy to use.  With experience in news portals, e-learning platforms, and e-commerce websites, I combine technical expertise with design thinking to build engaging and high-performing web applications. I am always exploring new technologies and UI/UX trends to craft seamless and effective user experiences.",
+          "role": "Front End, Designer, Social Media Specialist",
+          "linkedin": "www.linkedin.com/in/ogya-rajendra/",
+          "github": "https://github.com/Oradra19/",
+          "instagram": "www.instagram.com/ogyrjndra_/"
+        },
+        "chandra": {
+          "nickname": "Chandra",
+          "name": "Muhammad Chandra Aditya",
+          "intro": "Hello, I'm Chandra.\nMy journey into programming started at a young age. While most kids were playing games, I was fascinated by the idea of ​​how the game work, from simply modifying game resources or modifying codes that I often play to get different experiences and just to see what different things would happen.  Little did I know, these small explorations would lead me into a passion for technology. As I grew, This curiosity eventually led me to pursue a degree in Informatics. I’ve learned various aspects of programming that I didn’t know before, from web development that allows me to create interactive sites, to mobile application development that provides a complete user experience. ach journey in this field opened up new insights into how technology can be used to solve real-world problems and create innovative solutions that have impact in reality.  Of course, it was impossible to connect the dots looking forward when I was a kid. . However, it is very, very clear looking back a few years later. We may not always know where our steps will take us, but trust me—the dots will connect in time. You have to trust in God and also your ability to believe—whether it’s in your instincts, destiny, life, or karma. This approach has never let me down, and has made a big difference in my life. I learned that loving what we do is the greatest fuel to keep moving forward.",
+          "role": "Mobile Developer, Front-End Web Developer, Cyber Security Enthusiast",
+          "linkedin": "www.linkedin.com/in/chandra-a-2a118a137",
+          "github": "https://github.com/MCHAN07",
+          "instagram": "www.instagram.com/chandradityaaaa"
+        },
+        "joko": {
+          "nickname": "JOKO",
+          "name": "Joko Supriyanto",
+          "intro": "Passionate Android and Web Developer with a strong foundation in database management, software development, and project management. Currently pursuing a Bachelor’s degree in Informatics at Muhammadiyah University of Surakarta, where I also contribute as a Laboratory Assistant, guiding students in programming, database systems, and operating systems.\nAs part of the Google Developer Student Clubs Core Team, I actively create and manage AI-focused events to enhance community knowledge. Driven to build innovative solutions and foster growth in the tech ecosystem.",
+          "role": "Mobile Developer, Front-End Web Developer",
+          "linkedin": "www.linkedin.com/in/josumaru",
+          "github": "https://github.com/Josumaru",
+          "instagram": "www.instagram.com/josurou"
+        }
+      }
     },
     "gallery": {
       "title": "Overlogic Gallery, A Portrait of Innovation and Togetherness",

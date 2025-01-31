@@ -195,7 +195,45 @@
     },
     "team": {
       "title": "Kenali Tim Overlogic, Mendorong Bisnis Anda Maju",
-      "subTitle": "Kebersamaan kami adalah fondasi kesuksesan Anda"
+      "subTitle": "Kebersamaan kami adalah fondasi kesuksesan Anda",
+      "members": {
+        "rafli": {
+          "nickname": "Rafli",
+          "name": "Muhammad Rafli Silehu",
+          "intro": "Sebagai Mobile Developer, saya memiliki pengalaman dalam proyek-proyek independen dan pelatihan yang relevan menggunakan Kotlin Android, terutama Flutter dalam pengembangan proyek. Saya selalu bersemangat untuk membuat aplikasi mobile yang memberikan pengalaman yang menyenangkan bagi pengguna. Saya juga memiliki keterampilan dalam pengembangan web dan telah mendirikan agensi pengembangan perangkat lunak bernama Overlogic yang dapat memberikan kesempatan kepada para anggotanya untuk mendapatkan pengalaman dalam mengerjakan proyek-proyek nyata.",
+          "role": "Software Engineer",
+          "linkedin": "https://www.linkedin.com/in/raflisilehu/",
+          "github": "https://github.com/zakoraa/",
+          "instagram": "https://www.instagram.com/raflisilehu_/"
+        },
+        "ogya": {
+          "nickname": "OGYA",
+          "name": "Ogya Rajendra",
+          "intro": "Halo, saya Ogya Rajendra, seorang Web Developer & UI/UX Designer yang berfokus pada pembuatan pengalaman digital yang modern, fungsional, dan berpusat pada pengguna. Saya mengkhususkan diri dalam pengembangan front-end dan desain antarmuka intuitif, memastikan website yang saya buat menarik secara visual, responsif, dan mudah digunakan.\nDengan pengalaman dalam portal berita, platform e-learning, dan website e-commerce, saya menggabungkan keahlian teknis dengan pemikiran desain untuk membangun aplikasi web yang menarik dan berkinerja tinggi. Saya selalu mengeksplorasi teknologi baru dan tren UI/UX untuk menciptakan pengalaman pengguna yang lebih baik dan efektif.",
+          "role": "Front End, Designer, Social Media Specialist",
+          "linkedin": "www.linkedin.com/in/ogya-rajendra/",
+          "github": "https://github.com/Oradra19/",
+          "instagram": "www.instagram.com/ogyrjndra_/"
+        },
+        "chandra": {
+          "nickname": "Chandra",
+          "name": "Muhammad Chandra Aditya",
+          "intro": "Halo, saya Chandra.\nPerjalanan saya mengenal pemrograman dimulai sejak masih sd. Ketika kebanyakan anak-anak bermain gim, saya terpesona oleh gagasan tentang cara kerja gim, mulai dari sekadar memodifikasi sumber daya gim atau memodifikasi kode yang sering saya mainkan untuk mendapatkan pengalaman berbeda dan sekadar melihat hal-hal berbeda apa yang akan terjadi.\nTanpa saya sadari, penjelajahan kecil ini membawa saya pada hasrat terhadap teknologi. Seiring bertambahnya usia, rasa ingin tahu ini akhirnya membawa saya untuk mengejar gelar di bidang Informatika. Saya telah mempelajari berbagai aspek pemrograman yang sebelumnya tidak saya ketahui, mulai dari pengembangan web yang memungkinkan saya membuat situs interaktif, hingga pengembangan aplikasi seluler yang memberikan pengalaman pengguna yang lengkap. Setiap perjalanan di bidang ini membuka wawasan baru tentang bagaimana teknologi dapat digunakan untuk memecahkan masalah dunia nyata dan menciptakan solusi inovatif yang berdampak pada kenyataan.\nTentu saja, mustahil untuk menghubungkan titik-titik ke depan saat saya masih kecil. . Namun, sangat, sangat jelas jika melihat kembali beberapa tahun kemudian. Kita mungkin tidak selalu tahu ke mana langkah kita akan membawa kita, tetapi percayalah—titik-titik itu akan terhubung pada waktunya. Anda harus percaya kepada Tuhan dan juga kemampuan Anda untuk percaya—baik itu pada naluri, takdir, kehidupan, atau karma Anda. Pendekatan ini tidak pernah mengecewakan saya, dan telah membuat perbedaan besar dalam hidup saya. Saya belajar bahwa mencintai apa yang kita lakukan adalah bahan bakar terbesar untuk terus melangkah maju.",
+          "role": "Mobile Developer, Front-End Web Developer, Cyber Security Enthusiast",
+          "linkedin": "www.linkedin.com/in/chandra-a-2a118a137",
+          "github": "https://github.com/MCHAN07",
+          "instagram": "www.instagram.com/chandradityaaaa"
+        },
+        "joko": {
+          "nickname": "JOKO",
+          "name": "Joko Supriyanto",
+          "intro": "Pengembang Android dan Web yang bersemangat dengan dasar yang kuat dalam manajemen basis data, pengembangan perangkat lunak, dan manajemen proyek. Saat ini saya sedang menempuh pendidikan S1 Informatika di Universitas Muhammadiyah Surakarta, di mana saya juga berkontribusi sebagai Asisten Laboratorium, membimbing mahasiswa dalam pemrograman, sistem basis data, dan sistem operasi.\nSebagai bagian dari Tim Inti Google Developer Student Clubs, saya secara aktif membuat dan mengelola acara yang berfokus pada AI untuk meningkatkan pengetahuan komunitas. Terdorong untuk membangun solusi inovatif dan mendorong pertumbuhan ekosistem teknologi.",
+          "role": "Mobile Developer, Front-End Web Developer",
+          "linkedin": "www.linkedin.com/in/josumaru",
+          "github": "https://github.com/Josumaru",
+          "instagram": "www.instagram.com/josurou"
+        }
+      }
     },
     "gallery": {
       "title": "Galeri Overlogic, Potret Inovasi dan Kebersamaan",

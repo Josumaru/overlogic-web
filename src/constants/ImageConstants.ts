@@ -21,9 +21,30 @@ import anugerahLogo from "@/assets/images/logos/anugerah.png";
 import gradient from "@/assets/images/common/gradient.jpg";
 
 // Teams
-import joko from "@/assets/images/teams/joko.png";
-import rafli from "@/assets/images/teams/rafli.png";
-import sulthon from "@/assets/images/teams/sulthon.png";
+// Rafli
+import rafli0 from "@/assets/images/teams/rafli/0.jpeg";
+import rafli1 from "@/assets/images/teams/rafli/1.png";
+import rafli2 from "@/assets/images/teams/rafli/2.jpeg";
+import rafli3 from "@/assets/images/teams/rafli/3.jpeg";
+import rafli4 from "@/assets/images/teams/rafli/4.jpeg";
+// Ogya
+import ogya0 from "@/assets/images/teams/ogya/0.jpg";
+import ogya1 from "@/assets/images/teams/ogya/1.jpg";
+import ogya2 from "@/assets/images/teams/ogya/2.jpg";
+import ogya3 from "@/assets/images/teams/ogya/3.jpg";
+import ogya4 from "@/assets/images/teams/ogya/4.jpg";
+// Chandra
+import chandra0 from "@/assets/images/teams/chandra/0.jpeg";
+import chandra1 from "@/assets/images/teams/chandra/1.jpeg";
+import chandra2 from "@/assets/images/teams/chandra/2.jpeg";
+import chandra3 from "@/assets/images/teams/chandra/3.jpeg";
+import chandra4 from "@/assets/images/teams/chandra/4.jpeg";
+// Joko
+import joko0 from "@/assets/images/teams/joko/0.jpg";
+import joko1 from "@/assets/images/teams/joko/1.jpeg";
+import joko2 from "@/assets/images/teams/joko/2.png";
+import joko3 from "@/assets/images/teams/joko/3.png";
+import joko4 from "@/assets/images/teams/joko/4.png";
 
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
@@ -39,13 +60,11 @@ import gallery6 from "@/assets/images/gallery/fostifest.jpg";
 
 export const GalleryImageConstants = [
   gallery1,
-  joko,
   gallery2,
   gallery3,
   gallery4,
   gallery5,
   gallery6,
-  joko,
 ];
 
 export const ImageConstants = {
@@ -70,9 +89,10 @@ export const ImageConstants = {
     gradient,
   },
   teams: {
-    joko,
-    rafli,
-    sulthon,
+    rafli: [rafli0, rafli1, rafli2, rafli3, rafli4],
+    ogya: [ogya0, ogya1, ogya2, ogya3, ogya4],
+    chandra: [chandra0, chandra1, chandra2, chandra3, chandra4],
+    joko: [joko0, joko1, joko2, joko3, joko4],
   },
   services: {
     seoLight,

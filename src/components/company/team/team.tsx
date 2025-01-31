@@ -5,20 +5,23 @@ import { Lang } from "@/types/lang";
 import { getDictionary } from "@/utils/dictionaries";
 import { NextPage } from "next";
 import TeamCarousel from "./team-carousel";
+import { TeamConstants } from "@/constants/TeamConstants";
 
 const Team: NextPage<Lang> = async ({ lang }) => {
-  const dict = (await getDictionary(lang)).company;
+  const dict = await getDictionary(lang);
+  const members = await TeamConstants({ lang: lang });
+
   return (
     <Container>
       <div className="flex justify-end flex-col">
         <SectionTitle
-          text={dict.team.title}
+          text={dict.company.team.title}
           coloredText={["Overlogic", "Bisnis", "Business", "Kenali", "Meet"]}
         />
-        <SectionDesc>{dict.team.subTitle}</SectionDesc>
+        <SectionDesc>{dict.company.team.subTitle}</SectionDesc>
       </div>
       {/* Team */}
-      <TeamCarousel />
+      <TeamCarousel members={members} />
     </Container>
   );
 };

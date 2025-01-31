@@ -6,7 +6,6 @@ import { LangProps } from "@/types/lang";
 import SectionTitle from "@/components/common/text/section-title";
 import SectionDesc from "@/components/common/text/section-desc";
 import { getDictionary } from "@/utils/dictionaries";
-import CurvedSeparator from "@/components/ui/curved-separator";
 
 const ReviewCard = ({
   img,
@@ -52,7 +51,7 @@ const Testimonials: NextPage<LangProps> = async ({ params }) => {
   return (
     <div className="flex items-center justify-center px-3 md:px-10 bg-transparent">
       <div className="container relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg">
-        <div className="z-10 w-full">
+        <div className="z-10 w-full text-end flex items-end flex-col">
           {/* <CurvedSeparator /> */}
           <SectionTitle
             coloredText={[

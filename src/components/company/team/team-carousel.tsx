@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { ImageConstants } from "@/constants/ImageConstants";
 import { NextPage } from "next";
 import Image from "next/image";
@@ -13,125 +13,21 @@ import {
 import Link from "next/link";
 import { TextAnimate } from "@/components/ui/text-animate";
 import { motion } from "framer-motion";
-interface Props {}
+import { IDictionary } from "@/types/dictionary";
+import { ExternalLinkIcon } from "lucide-react";
+import { TeamConstants } from "@/constants/TeamConstants";
+import { Lang } from "@/types/lang";
+import { ITeam } from "@/types/team";
+interface Props {
+  members: ITeam[]
+}
 
-const TeamCarousel: NextPage<Props> = ({}) => {
+const TeamCarousel: NextPage<Props> = ({  members }) => {
   const [currentMember, setCurrentMember] = useState<number>(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState<number>(0);
   const [scrollLeft, setScrollLeft] = useState<number>(0);
-
-  const teamMembers = [
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      name: "Chisato Nishikigi",
-      desc: "Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair.",
-      role: "Direct Attack Agent",
-      nicname: "CHISATO",
-      image: ImageConstants.teams.joko,
-      socialLinks: {
-        instagram: "#",
-        github: "#",
-        linkedin: "#",
-      },
-    },
-  ];
 
   const handleMouseDown = (e: React.MouseEvent) => {
     const carousel = carouselRef.current;
@@ -172,7 +68,7 @@ const TeamCarousel: NextPage<Props> = ({}) => {
         userSelect: "none",
       }}
     >
-      {teamMembers.map((member, index) => (
+      {members.map((member, index) => (
         <div
           key={index}
           className="h-[520px] max-w-screen-sm relative cursor-pointer transition-all duration-300 ease-in-out"
@@ -183,7 +79,7 @@ const TeamCarousel: NextPage<Props> = ({}) => {
           onClick={() => setCurrentMember(index == currentMember ? -1 : index)}
         >
           <Image
-            src={member.image}
+            src={member.image[0]}
             alt={member.name}
             className="object-cover w-full h-full rounded-xl"
             width={700}
@@ -198,13 +94,21 @@ const TeamCarousel: NextPage<Props> = ({}) => {
           {index == currentMember && (
             <Fragment>
               <div className="absolute bottom-0 p-5 h-full w-full flex flex-col justify-end bg-gradient-to-b from-[#ffffff00] dark:to-black to-white">
-                <TextAnimate
-                  animation="blurIn"
-                  by="word"
-                  className="text-2xl font-semibold dark:text-white text-black"
-                >
-                  {member.name}
-                </TextAnimate>
+                <div className="flex items-center gap-4">
+                  <TextAnimate
+                    animation="blurIn"
+                    by="word"
+                    className="text-2xl font-semibold dark:text-white text-black"
+                  >
+                    {member.name}
+                  </TextAnimate>
+                  <Link href={`/company/member/${index}`}>
+                    <div className="flex text-muted-foreground gap-1 hover:text-primary z-40 ">
+                      <p className="text-end text-s translate-y-1">Read more</p>
+                      <ExternalLinkIcon className="size-4 translate-y-2" />
+                    </div>
+                  </Link>
+                </div>
                 <TextAnimate
                   animation="blurIn"
                   className="text-xl dark:text-white font-normal text-black"
@@ -255,12 +159,12 @@ const TeamCarousel: NextPage<Props> = ({}) => {
               index == currentMember ? " top-0 left-0" : " bottom-0 right-0"
             )}
           >
-            {member.nicname.split("").map((text, index) => (
+            {member.nickname.split("").map((text, index) => (
               <p
                 key={index}
                 className="text-4xl font-bold text-center dark:text-white text-black"
               >
-                {text}
+                {text.toUpperCase()}
               </p>
             ))}
           </div>

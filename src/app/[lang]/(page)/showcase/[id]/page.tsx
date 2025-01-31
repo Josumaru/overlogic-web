@@ -1,8 +1,8 @@
 import Container from "@/components/common/container";
+import NotFound from "@/components/common/not-found";
+import { AuroraText } from "@/components/ui/aurora-text";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { ShowcaseConstants } from "@/constants/ShowcaseConstants";
-import { Lang } from "@/types/lang";
-import { getDictionary } from "@/utils/dictionaries";
 import { LucideExternalLink } from "lucide-react";
 import { NextPage } from "next";
 import Image from "next/image";
@@ -18,12 +18,13 @@ interface Props {
 const Page: NextPage<Props> = async ({ params }) => {
   const { lang, id } = params;
   const index = parseInt(id);
+  const showcase = await ShowcaseConstants({ lang: lang as "id" | "en" });
 
-  if (isNaN(index) || index < 0) {
-    return <div>Invalid showcase ID</div>;
+  console.log(index)
+  if (isNaN(index) || index < 0 || index > showcase.length) {
+    return <NotFound />;
   }
 
-  const showcase = await ShowcaseConstants({ lang: lang as "id" | "en" });
 
   const selectedShowcase = showcase[index];
 
@@ -42,7 +43,7 @@ const Page: NextPage<Props> = async ({ params }) => {
               </p>
               <LucideExternalLink className="h-4 w-4 text-blue-500" />
             </Link>
-          <div className="absolute left-0 bottom-0 w-0 h-[1px] rounded-full bg-blue-500 transition-all duration-100 group-hover:w-full"></div>
+            <div className="absolute left-0 bottom-0 w-0 h-[1px] rounded-full bg-blue-500 transition-all duration-100 group-hover:w-full"></div>
           </div>
 
           <div className="flex items-center justify-center">
