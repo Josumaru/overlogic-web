@@ -81,5 +81,17 @@ export const TeamConstants = async ({
         linkedin: members.gilang.linkedin,
       },
     },
+    {
+      name: members.afrizal.name,
+      desc: members.afrizal.intro,
+      role: members.afrizal.role,
+      nickname: members.afrizal.nickname,
+      image: ImageConstants.teams.afrizal,
+      socialLinks: {
+        instagram: members.afrizal.instagram,
+        github: members.afrizal.github,
+        linkedin: members.afrizal.linkedin,
+      },
+    },
   ];
 };

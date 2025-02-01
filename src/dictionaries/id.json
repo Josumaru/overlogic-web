@@ -253,6 +253,15 @@
           "linkedin": "https://www.linkedin.com/in/gilangsrinayaka",
           "github": "https://github.com/GilangSN23",
           "instagram": "https://www.instagram.com/gilangsn_gsn"
+        },
+        "afrizal": {
+          "nickname": "Afrizal",
+          "name": "Afrizal Putra Pratama",
+          "intro": "Halo, saya Afrizal Putra Pratama! Saya mahasiswa IT di UMS, dan saya suka banget UI Design. Saya lagi belajar dan bereksperimen dengan desain antarmuka pengguna yang keren. Saya senang bertemu dengan orang-orang yang memiliki minat yang sama, berbagi ide, dan belajar dari orang lain. Semoga kita bisa berkolaborasi dan menciptakan sesuatu yang luar biasa!",
+          "role": "UI Designer ",
+          "linkedin": "https://www.linkedin.com/in/afrizal-putra-pratama-24678128b",
+          "github": "https://github.com/ums-l200220262",
+          "instagram": "https://www.instagram.com/afzapp"
         }
       }
     },
@@ -300,6 +309,9 @@
     }
   },
   "showcase": {
+    "common": {
+      "seeMore": "Lihat lebih"
+    },
     "showcase": "Portofolio",
     "title": "Langkah Cerdas Menuju Digitalisasi",
     "subTitle": "Pelajari bagaimana solusi kami dapat mengubah cara Anda menjalankan bisnis.",

@@ -20,7 +20,7 @@ const Showcase: NextPage<Lang> = async ({ lang }) => {
       </div>
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
         {showcases.map((showcase, index) => (
-          <ShowcaseCard index={index} key={index} showcase={showcase} />
+          <ShowcaseCard index={index} key={index} showcase={showcase} seeMore={dict.common.seeMore}/>
         ))}
       </div>
     </section>

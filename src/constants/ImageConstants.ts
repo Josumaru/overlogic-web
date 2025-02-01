@@ -51,6 +51,13 @@ import rizky0 from "@/assets/images/teams/rizky/0.jpg";
 import gilang0 from "@/assets/images/teams/gilang/0.jpg";
 import gilang1 from "@/assets/images/teams/gilang/1.jpg";
 import gilang2 from "@/assets/images/teams/gilang/2.jpg";
+// Afrizal
+import afrizal0 from "@/assets/images/teams/afrizal/0.jpg";
+import afrizal1 from "@/assets/images/teams/afrizal/1.png";
+import afrizal2 from "@/assets/images/teams/afrizal/2.jpeg";
+import afrizal3 from "@/assets/images/teams/afrizal/3.jpg";
+import afrizal4 from "@/assets/images/teams/afrizal/4.jpg";
+
 
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
@@ -104,6 +111,7 @@ export const ImageConstants = {
     joko: [joko0, joko1, joko2, joko3, joko4],
     rizky: [rizky0],
     gilang: [gilang0, gilang1, gilang2],
+    afrizal: [afrizal0, afrizal1, afrizal2, afrizal3, afrizal4],
   },
   services: {
     seoLight,

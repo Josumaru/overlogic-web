@@ -7,9 +7,10 @@ import Link from "next/link";
 interface Props {
   showcase: IShowcase;
   index: number;
+  seeMore: string;
 }
 
-const ShowcaseCard: NextPage<Props> = async ({ showcase, index }) => {
+const ShowcaseCard: NextPage<Props> = async ({ showcase, index, seeMore }) => {
   return (
     <div className="border-zinc-300 dark:border-zinc-800 p-3 border rounded-3xl gap-3 flex flex-col">
       <div className="flex justify-between">
@@ -30,7 +31,7 @@ const ShowcaseCard: NextPage<Props> = async ({ showcase, index }) => {
       </p>
       <RainbowButton>
         <Link href={`/showcase/${index}`} target="_blank">
-          See more
+          {seeMore}
         </Link>
       </RainbowButton>
     </div>
