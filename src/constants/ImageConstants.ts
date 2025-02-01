@@ -45,6 +45,12 @@ import joko1 from "@/assets/images/teams/joko/1.jpeg";
 import joko2 from "@/assets/images/teams/joko/2.png";
 import joko3 from "@/assets/images/teams/joko/3.png";
 import joko4 from "@/assets/images/teams/joko/4.png";
+// Rizky
+import rizky0 from "@/assets/images/teams/rizky/0.jpg";
+// Gilang
+import gilang0 from "@/assets/images/teams/gilang/0.jpg";
+import gilang1 from "@/assets/images/teams/gilang/1.jpg";
+import gilang2 from "@/assets/images/teams/gilang/2.jpg";
 
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
@@ -93,6 +99,8 @@ export const ImageConstants = {
     ogya: [ogya0, ogya1, ogya2, ogya3, ogya4],
     chandra: [chandra0, chandra1, chandra2, chandra3, chandra4],
     joko: [joko0, joko1, joko2, joko3, joko4],
+    rizky: [rizky0],
+    gilang: [gilang0, gilang1, gilang2],
   },
   services: {
     seoLight,

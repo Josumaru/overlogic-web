@@ -164,6 +164,9 @@
     }
   },
   "company": {
+    "common": {
+      "readMore": "Read more"
+    },
     "company": "Company",
     "header": {
       "aboutOverlogicUniverse": "About Overlogic Universe",
@@ -238,6 +241,24 @@
           "linkedin": "www.linkedin.com/in/josumaru",
           "github": "https://github.com/Josumaru",
           "instagram": "www.instagram.com/josurou"
+        },
+        "rizky": {
+          "nickname": "Rizky",
+          "name": "Rizky Maulana Saputra",
+          "intro": "Hello! I am an undergraduate student majoring in Informatics at Universitas Muhammadiyah Surakarta and working as a Front-End Developer at Overlogic. I have a strong interest in web development, particularly in front-end, as well as artificial intelligence and machine learning. Currently, I am also working on several projects involving Augmented Reality and Virtual Reality technologies. With this experience, I hope to continue growing and making a positive impact in the tech industry",
+          "role": "Front end developer, AI/ML Engineer",
+          "linkedin": "https://www.linkedin.com/in/rizky-maulana-saputra",
+          "github": "https://github.com/RizkyMlana",
+          "instagram": "https://www.instagram.com/rizkymlaana"
+        },
+        "gilang": {
+          "nickname": "Gilang",
+          "name": "Gilang Sri Nayaka",
+          "intro": "I am a student of Informatics Engineering at Universitas Muhammadiyah Surakarta. I have a deep interest in UI/UX Design and Front-End Development, and I always strive to learn and grow through various projects. Currently, I have completed the Bangkit 2024 Batch 2 program on the Mobile Development track.  I use Figma as my main tool for UI/UX design and am currently deepening my skills in Adobe XD and Adobe Illustrator. With a focus on user experience, I strive to create applications that are intuitive, engaging, and have a positive impact. I believe that good design is not only about aesthetics, but also about functionality and user convenience.",
+          "role": "UI/UX Designer, Frontend, Android Developer",
+          "linkedin": "https://www.linkedin.com/in/gilangsrinayaka",
+          "github": "https://github.com/GilangSN23",
+          "instagram": "https://www.instagram.com/gilangsn_gsn"
         }
       }
     },

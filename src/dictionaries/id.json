@@ -158,6 +158,9 @@
     }
   },
   "company": {
+    "common": {
+      "readMore": "Baca lebih lanjut"
+    },
     "company": "Perusahaan",
     "header": {
       "aboutOverlogicUniverse": "Tentang Overlogic Universe",
@@ -232,6 +235,24 @@
           "linkedin": "www.linkedin.com/in/josumaru",
           "github": "https://github.com/Josumaru",
           "instagram": "www.instagram.com/josurou"
+        },
+        "rizky": {
+          "nickname": "Rizky",
+          "name": "Rizky Maulana Saputra",
+          "intro": "Halo! Saya adalah seorang mahasiswa informatika di Universitas Muhammadiyah Surakarta dan bekerja sebagai Front-End Developer di Overlogic. Saya memiliki minat besar dalam pengembangan web, khususnya di bidang front-end, serta kecerdasan buatan dan machine learning. Saat ini, saya juga sedang mengerjakan beberapa proyek yang melibatkan teknologi Augmented Reality dan Virtual Reality. Dengan pengalaman ini, saya berharap dapat terus berkembang dan memberikan kontribusi positif dalam dunia teknologi.",
+          "role": "Front end developer, AI/ML Engineer",
+          "linkedin": "https://www.linkedin.com/in/rizky-maulana-saputra",
+          "github": "https://github.com/RizkyMlana",
+          "instagram": "https://www.instagram.com/rizkymlaana"
+        },
+        "gilang": {
+          "nickname": "Gilang",
+          "name": "Gilang Sri Nayaka",
+          "intro": "Saya mahasiswa Teknik Informatika Universitas Muhammadiyah Surakarta. Saya memiliki ketertarikan yang mendalam pada Desain UI/UX dan Pengembangan Front-End, dan saya selalu berusaha untuk belajar dan berkembang melalui berbagai proyek. Saat ini saya telah menyelesaikan program Bangkit 2024 Batch 2 pada jalur Mobile Development. Saya menggunakan Figma sebagai alat utama saya untuk desain UI/UX dan saat ini saya memperdalam keterampilan saya dalam Adobe XD dan Adobe Illustrator. Dengan fokus pada pengalaman pengguna, saya berusaha menciptakan aplikasi yang intuitif, menarik, dan berdampak positif. Saya percaya bahwa desain yang baik tidak hanya soal estetika, tetapi juga fungsionalitas dan kenyamanan pengguna. ",
+          "role": "UI/UX Designer, Frontend, Android Developer",
+          "linkedin": "https://www.linkedin.com/in/gilangsrinayaka",
+          "github": "https://github.com/GilangSN23",
+          "instagram": "https://www.instagram.com/gilangsn_gsn"
         }
       }
     },

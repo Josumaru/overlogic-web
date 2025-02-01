@@ -19,10 +19,11 @@ import { TeamConstants } from "@/constants/TeamConstants";
 import { Lang } from "@/types/lang";
 import { ITeam } from "@/types/team";
 interface Props {
-  members: ITeam[]
+  members: ITeam[];
+  readMore: string;
 }
 
-const TeamCarousel: NextPage<Props> = ({  members }) => {
+const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
   const [currentMember, setCurrentMember] = useState<number>(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -104,7 +105,9 @@ const TeamCarousel: NextPage<Props> = ({  members }) => {
                   </TextAnimate>
                   <Link href={`/company/member/${index}`}>
                     <div className="flex text-muted-foreground gap-1 hover:text-primary z-40 ">
-                      <p className="text-end text-s translate-y-1">Read more</p>
+                      <p className="text-end text-s translate-y-1">
+                        {readMore}
+                      </p>
                       <ExternalLinkIcon className="size-4 translate-y-2" />
                     </div>
                   </Link>

@@ -21,7 +21,7 @@ const Team: NextPage<Lang> = async ({ lang }) => {
         <SectionDesc>{dict.company.team.subTitle}</SectionDesc>
       </div>
       {/* Team */}
-      <TeamCarousel members={members} />
+      <TeamCarousel members={members} readMore={dict.company.common.readMore} />
     </Container>
   );
 };

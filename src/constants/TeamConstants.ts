@@ -57,5 +57,29 @@ export const TeamConstants = async ({
         linkedin: members.joko.linkedin,
       },
     },
+    {
+      name: members.rizky.name,
+      desc: members.rizky.intro,
+      role: members.rizky.role,
+      nickname: members.rizky.nickname,
+      image: ImageConstants.teams.rizky,
+      socialLinks: {
+        instagram: members.rizky.instagram,
+        github: members.rizky.github,
+        linkedin: members.rizky.linkedin,
+      },
+    },
+    {
+      name: members.gilang.name,
+      desc: members.gilang.intro,
+      role: members.gilang.role,
+      nickname: members.gilang.nickname,
+      image: ImageConstants.teams.gilang,
+      socialLinks: {
+        instagram: members.gilang.instagram,
+        github: members.gilang.github,
+        linkedin: members.gilang.linkedin,
+      },
+    },
   ];
 };
