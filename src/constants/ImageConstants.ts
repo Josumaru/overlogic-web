@@ -64,6 +64,8 @@ import gallery4 from "@/assets/images/gallery/gdsc_2.jpg";
 import gallery5 from "@/assets/images/gallery/gdsc_3.jpg";
 import gallery6 from "@/assets/images/gallery/fostifest.jpg";
 
+import whatsApp from "@/assets/images/icons/whatsapp.svg";
+
 export const GalleryImageConstants = [
   gallery1,
   gallery2,
@@ -76,6 +78,7 @@ export const GalleryImageConstants = [
 export const ImageConstants = {
   icon: {
     language,
+    whatsApp,
   },
   project: {
     umsiid,

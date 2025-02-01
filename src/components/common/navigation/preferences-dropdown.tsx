@@ -5,7 +5,6 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { useRouter, usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { Languages, Moon, Sun } from "lucide-react";
-import { Dock } from "@/components/ui/dock";
 import { cn } from "@/lib/utils";
 
 const LanguageDropdown = () => {
@@ -85,7 +84,7 @@ const LanguageDropdown = () => {
   };
 
   return (
-    <Dock className="relative text-text-title-color flex items-center h-[3rem] px-1 bg-background border mx-0 shadow-sm rounded-2xl dark:text-gray-300">
+    <div className="relative text-text-title-color flex items-center h-[3rem] px-1 bg-background border mx-0 shadow-sm rounded-2xl dark:text-gray-300">
       {/* Trigger Dropdown */}
       <div className="flex items-center justify-center">
         {preferences.map((preference, index) => (
@@ -149,7 +148,7 @@ const LanguageDropdown = () => {
               </button>
             ))}
       </div>
-    </Dock>
+    </div>
   );
 };
 

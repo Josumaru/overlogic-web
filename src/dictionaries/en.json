@@ -227,7 +227,7 @@
         "chandra": {
           "nickname": "Chandra",
           "name": "Muhammad Chandra Aditya",
-          "intro": "Hello, I'm Chandra.\nMy journey into programming started at a young age. While most kids were playing games, I was fascinated by the idea of ​​how the game work, from simply modifying game resources or modifying codes that I often play to get different experiences and just to see what different things would happen.  Little did I know, these small explorations would lead me into a passion for technology. As I grew, This curiosity eventually led me to pursue a degree in Informatics. I’ve learned various aspects of programming that I didn’t know before, from web development that allows me to create interactive sites, to mobile application development that provides a complete user experience. ach journey in this field opened up new insights into how technology can be used to solve real-world problems and create innovative solutions that have impact in reality.  Of course, it was impossible to connect the dots looking forward when I was a kid. . However, it is very, very clear looking back a few years later. We may not always know where our steps will take us, but trust me—the dots will connect in time. You have to trust in God and also your ability to believe—whether it’s in your instincts, destiny, life, or karma. This approach has never let me down, and has made a big difference in my life. I learned that loving what we do is the greatest fuel to keep moving forward.",
+          "intro": "Hello, I'm Chandra.\nMy journey into programming started at a young age. While most kids were playing games, I was fascinated by the idea of ​​how the game work, from simply modifying game resources or modifying codes that I often play to get different experiences and just to see what different things would happen.  Little did I know, these small explorations would lead me into a passion for technology. As I grew, This curiosity eventually led me to pursue a degree in Informatics. I've learned various aspects of programming that I didn't know before, from web development that allows me to create interactive sites, to mobile application development that provides a complete user experience. ach journey in this field opened up new insights into how technology can be used to solve real-world problems and create innovative solutions that have impact in reality.  Of course, it was impossible to connect the dots looking forward when I was a kid. . However, it is very, very clear looking back a few years later. We may not always know where our steps will take us, but trust me—the dots will connect in time. You have to trust in God and also your ability to believe—whether it's in your instincts, destiny, life, or karma. This approach has never let me down, and has made a big difference in my life. I learned that loving what we do is the greatest fuel to keep moving forward.",
           "role": "Mobile Developer, Front-End Web Developer, Cyber Security Enthusiast",
           "linkedin": "www.linkedin.com/in/chandra-a-2a118a137",
           "github": "https://github.com/MCHAN07",
@@ -236,7 +236,7 @@
         "joko": {
           "nickname": "JOKO",
           "name": "Joko Supriyanto",
-          "intro": "Passionate Android and Web Developer with a strong foundation in database management, software development, and project management. Currently pursuing a Bachelor’s degree in Informatics at Muhammadiyah University of Surakarta, where I also contribute as a Laboratory Assistant, guiding students in programming, database systems, and operating systems.\nAs part of the Google Developer Student Clubs Core Team, I actively create and manage AI-focused events to enhance community knowledge. Driven to build innovative solutions and foster growth in the tech ecosystem.",
+          "intro": "Passionate Android and Web Developer with a strong foundation in database management, software development, and project management. Currently pursuing a Bachelor's degree in Informatics at Muhammadiyah University of Surakarta, where I also contribute as a Laboratory Assistant, guiding students in programming, database systems, and operating systems.\nAs part of the Google Developer Student Clubs Core Team, I actively create and manage AI-focused events to enhance community knowledge. Driven to build innovative solutions and foster growth in the tech ecosystem.",
           "role": "Mobile Developer, Front-End Web Developer",
           "linkedin": "www.linkedin.com/in/josumaru",
           "github": "https://github.com/Josumaru",
@@ -488,6 +488,9 @@
     "review": "Review Your Data"
   },
   "common": {
+    "whatsapp": {
+      "message": "Hey there! 👋 I'm interested in Overlogic's services and wanted to ask a few things.\n\n✨ *Questions:*\n1. ...\n2. ...\n\nLet me know when you have a moment. Thanks a lot! 😊"
+    },
     "footer": {
       "links": [
         {

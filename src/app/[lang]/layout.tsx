@@ -1,47 +1,11 @@
-import { ThemeProvider } from "@/components/common/theme-provider";
+import { NextPage } from "next";
 
-export async function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "id" }];
+interface Props {
+  children: React.ReactNode;
 }
 
-import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
-import "./globals.css";
-import { Lang } from "@/types/lang";
-import { Toaster } from "@/components/ui/toaster";
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  variable: "--font-plus-jakarta-sans",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Overlogic",
-  description:
-    "Trusted software developmentagency committed to delivering high-quality digital solutions",
+const Layout: NextPage<Props> = ({ children }) => {
+  return children;
 };
 
-export default async function RootLayout({
-  children,
-  params,
-}: Readonly<{
-  children: React.ReactNode;
-  params: Promise<Lang>;
-}>) {
-  const lang = (await params).lang;
-  return (
-    <html lang={lang}>
-      <body className={`${plusJakartaSans.variable} antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-          <Toaster />
-        </ThemeProvider>
-      </body>
-    </html>
-  );
-}
+export default Layout;

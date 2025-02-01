@@ -482,6 +482,9 @@
     "review": "Tinjau Data Anda"
   },
   "common": {
+    "whatsapp": {
+      "message": "Halo! 👋 Aku tertarik dengan layanan Overlogic dan punya beberapa pertanyaan.\n\n✨ *Pertanyaan:*\n1. ...\n2. ...\n\nBoleh dibantu infonya? Makasih banyak! 😊"
+    },
     "footer": {
       "links": [
         {

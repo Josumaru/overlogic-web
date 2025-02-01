@@ -18,6 +18,7 @@ import { ExternalLinkIcon } from "lucide-react";
 import { TeamConstants } from "@/constants/TeamConstants";
 import { Lang } from "@/types/lang";
 import { ITeam } from "@/types/team";
+import SocialMediaDock from "./social-media-dock";
 interface Props {
   members: ITeam[];
   readMore: string;
@@ -103,7 +104,7 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                   >
                     {member.name}
                   </TextAnimate>
-                  <Link href={`/company/member/${index}`}>
+                  <Link href={`/company/member/${member.nickname.toLowerCase()}`}>
                     <div className="flex text-muted-foreground gap-1 hover:text-primary z-40 ">
                       <p className="text-end text-s translate-y-1">
                         {readMore}
@@ -135,23 +136,11 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                 </motion.p>
               </div>
               <div className="absolute top-0 right-0 m-5">
-                <Dock className="bg-background">
-                  <DockIcon>
-                    <Link href={member.socialLinks.linkedin}>
-                      <LinkedInLogoIcon />
-                    </Link>
-                  </DockIcon>
-                  <DockIcon>
-                    <Link href={member.socialLinks.github}>
-                      <GitHubLogoIcon />
-                    </Link>
-                  </DockIcon>
-                  <DockIcon>
-                    <Link href={member.socialLinks.instagram}>
-                      <InstagramLogoIcon />
-                    </Link>
-                  </DockIcon>
-                </Dock>
+                <SocialMediaDock
+                  github={member.socialLinks.github}
+                  instagram={member.socialLinks.instagram}
+                  linkedin={member.socialLinks.linkedin}
+                />
               </div>
             </Fragment>
           )}
