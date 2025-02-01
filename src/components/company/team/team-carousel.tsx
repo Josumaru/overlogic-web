@@ -100,7 +100,7 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                   <TextAnimate
                     animation="blurIn"
                     by="word"
-                    className="text-2xl font-semibold dark:text-white text-black"
+                    className="text-2xl font-semibold dark:text-white text-black w-1/2 line-clamp-1"
                   >
                     {member.name}
                   </TextAnimate>
@@ -115,7 +115,7 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                 </div>
                 <TextAnimate
                   animation="blurIn"
-                  className="text-xl dark:text-white font-normal text-black"
+                  className="text-xl dark:text-white font-normal text-black line-clamp-1"
                 >
                   {member.role}
                 </TextAnimate>

@@ -19,27 +19,32 @@ const Status: NextPage<Props> = ({ dict }) => {
   useEffect(() => {
     const fetchDict = async () => {
       setMessage(dict.loading);
-      const response = await fetch(
-        "https://overlogic.instatus.com/summary.json"
-      );
-      const data = await response.json();
-      const status = await data.page.status;
-      switch (status) {
-        case "UP":
-          setColor("green");
-          setMessage(dict.up);
-          break;
-        case "HASISSUES":
-          setColor("red");
-          setMessage(dict.hasIissues);
-          break;
-        case "UNDERMAINTENANCE":
-          setColor("yellow");
-          setMessage(dict.underMaintenance);
-          break;
-        default:
-          setColor("green");
-          setMessage(dict.up);
+      try {
+        const response = await fetch(
+          "https://overlogic.instatus.com/summary.json"
+        );
+        const data = await response.json();
+        const status = await data.page.status;
+        switch (status) {
+          case "UP":
+            setColor("green");
+            setMessage(dict.up);
+            break;
+          case "HASISSUES":
+            setColor("red");
+            setMessage(dict.hasIissues);
+            break;
+          case "UNDERMAINTENANCE":
+            setColor("yellow");
+            setMessage(dict.underMaintenance);
+            break;
+          default:
+            setColor("green");
+            setMessage(dict.up);
+        }
+      } catch (error) {
+        setColor("red");
+        setMessage(dict.hasIissues);
       }
     };
     fetchDict();

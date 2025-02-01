@@ -7,7 +7,11 @@ import pinleaf from "@/assets/images/projects/pinleaf.png";
 import anugerah from "@/assets/images/projects/anugerah.png";
 import josumaru from "@/assets/images/projects/josumaru.png";
 import vido from "@/assets/images/projects/vido.png";
-
+import sheesh from "@/assets/images/projects/sheesh.png";
+import parky from "@/assets/images/projects/parky.png";
+import fospresence from "@/assets/images/projects/fospresence.png";
+import fostifest from "@/assets/images/projects/fostifest.png";
+import nusaira from "@/assets/images/projects/nusaira.png";
 // Logo
 import overlogic from "@/assets/images/logos/overlogic.png";
 import github from "@/assets/images/logos/github.svg";
@@ -16,7 +20,7 @@ import linkedIn from "@/assets/images/logos/linked-in.svg";
 import umsIidLogo from "@/assets/images/logos/ums-iid.png";
 import pineleafLogo from "@/assets/images/logos/pineleaf.png";
 import anugerahLogo from "@/assets/images/logos/anugerah.png";
-
+import iconLogo from "@/assets/images/logos/icon.png";
 // Common
 import gradient from "@/assets/images/common/gradient.jpg";
 
@@ -57,7 +61,6 @@ import afrizal1 from "@/assets/images/teams/afrizal/1.png";
 import afrizal2 from "@/assets/images/teams/afrizal/2.jpeg";
 import afrizal3 from "@/assets/images/teams/afrizal/3.jpg";
 import afrizal4 from "@/assets/images/teams/afrizal/4.jpg";
-
 
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
@@ -103,6 +106,7 @@ export const ImageConstants = {
   },
   common: {
     gradient,
+    iconLogo,
   },
   teams: {
     rafli: [rafli0, rafli1, rafli2, rafli3, rafli4],
@@ -123,5 +127,10 @@ export const ImageConstants = {
     anugerah,
     josumaru,
     vido,
+    sheesh,
+    parky,
+    fospresence,
+    fostifest,
+    nusaira,
   },
 };

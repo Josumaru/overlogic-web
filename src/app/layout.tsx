@@ -14,12 +14,6 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Overlogic",
-  description:
-    "Trusted software developmentagency committed to delivering high-quality digital solutions",
-};
-
 interface Props {
   children: React.ReactNode;
   params: Promise<Lang>;
@@ -27,7 +21,9 @@ interface Props {
 
 import { NextPage } from "next";
 import { Toaster } from "@/components/ui/toaster";
+import { MetadataConstant } from "@/constants/MetadataConstants";
 
+export const metadata: Metadata = await MetadataConstant({ lang: "en" });
 interface Props {}
 
 const RootLayout: NextPage<Props> = async ({ children, params }) => {

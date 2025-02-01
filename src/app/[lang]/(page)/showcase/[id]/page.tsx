@@ -7,6 +7,7 @@ import { LucideExternalLink } from "lucide-react";
 import { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 
 interface Props {
   params: {
@@ -20,11 +21,10 @@ const Page: NextPage<Props> = async ({ params }) => {
   const index = parseInt(id);
   const showcase = await ShowcaseConstants({ lang: lang as "id" | "en" });
 
-  console.log(index)
+  console.log(index);
   if (isNaN(index) || index < 0 || index > showcase.length) {
     return <NotFound />;
   }
-
 
   const selectedShowcase = showcase[index];
 
@@ -33,23 +33,31 @@ const Page: NextPage<Props> = async ({ params }) => {
       <div>
         <div className="flex gap-2">
           <div className="flex items-center justify-center gap-1 relative group my-5">
-            <Link
-              href={selectedShowcase.link}
-              target="_blank"
-              className="flex items-center gap-1"
-            >
-              <p className="text-blue-500 transition-colors duration-300 text-center">
+            {selectedShowcase.link ? (
+              <Fragment>
+                <Link
+                  href={selectedShowcase.link}
+                  target="_blank"
+                  className="flex items-center gap-1"
+                >
+                  <p className="text-blue-500 transition-colors duration-300 text-center">
+                    {selectedShowcase.title}
+                  </p>
+                  <LucideExternalLink className="h-4 w-4 text-blue-500" />
+                </Link>
+                <div className="absolute left-0 bottom-0 w-0 h-[1px] rounded-full bg-blue-500 transition-all duration-100 group-hover:w-full"></div>
+              </Fragment>
+            ) : (
+              <p className="transition-colors duration-300 text-center">
                 {selectedShowcase.title}
               </p>
-              <LucideExternalLink className="h-4 w-4 text-blue-500" />
-            </Link>
-            <div className="absolute left-0 bottom-0 w-0 h-[1px] rounded-full bg-blue-500 transition-all duration-100 group-hover:w-full"></div>
+            )}
           </div>
 
-          <div className="flex items-center justify-center">
-            <p className="rounded-lg text-xs px-2 py-1 dark:bg-zinc-800 bg-zinc-200">
-              {selectedShowcase.type}
-            </p>
+          <div className="flex items-center justify-center gap-2">
+            {selectedShowcase.type.map((type) => (
+              <p key={type} className="rounded-lg text-xs px-2 py-1 dark:bg-zinc-800 bg-zinc-200">{type}</p>
+            ))}
           </div>
         </div>
         <p className="mb-5 text-muted-foreground">

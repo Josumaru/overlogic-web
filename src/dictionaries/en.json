@@ -346,6 +346,26 @@
       "vido": {
         "title": "VIDO - Virtual Doctor",
         "description": "Modern Healthcare Solutions Considerate and cute Assistant Best of the best. Now you can consult anywhere and everywhere with a cute and caring assitant, with us of course."
+      },
+      "sheesh": {
+        "title": "SHEESH",
+        "description": "SHEESH is an intelligent hybrid market analysis mobile app designed to empower MSMEs with advanced tools for customer segmentation, trend analysis, and sales prediction. Powered by machine learning frameworks like Scikit-learn and TensorFlow, the app delivers data-driven insights to help businesses make informed decisions. Built with Flutter for a seamless user experience and Firebase for a secure and scalable backend, SHEESH provides comprehensive market analysis and customized heuristic guidance to drive growth and efficiency for small and medium enterprises."
+      },
+      "parky": {
+        "title": "Parky",
+        "description": "Parky is an Android mobile application designed to streamline student parking management by using a QR Code scanning system to record entry and exit times. Built with Java for Android and integrated with Firebase, Parky ensures efficient data handling and real-time updates. The app includes key features such as a QR Code Scanner for automated check-ins and check-outs, User Authentication for secure access, and CRUD (Create, Read, Update, Delete) functionalities to manage user data. Developed as a final project for a mobile development course, Parky enhances parking efficiency and security through modern mobile technology."
+      },
+      "fospresence": {
+        "title": "Fospresence",
+        "description": "Fospresence is a mobile application designed to streamline attendance tracking for participants in FOSTI UMS work programs using a QR Code scanning system. Developed with Flutter and powered by Firebase, the app ensures efficient and secure attendance recording. Key features include a QR Code Scanner for quick check-ins, an Excel Exporter for generating attendance reports, and CRUD (Create, Read, Update, Delete) functionalities for managing user data. By leveraging modern mobile technology, Fospresence simplifies attendance management, improves data accuracy, and enhances the overall efficiency of organizational events."
+      },
+      "fostifest": {
+        "title": "FOSTIFEST 2024 WEB",
+        "description": "FOSTIFEST 2024 is a web-based platform designed to facilitate participant registration for workshops and competitions at FOSTIFEST 2024. Built with Next.js and powered by Supabase, the platform provides a seamless user experience with features including a dynamic landing page, secure authentication, and an intuitive registration system for competition participants. Users can upload payment proof via image files and submit competition entries through Google Drive links, ensuring a smooth and efficient registration process. By leveraging modern web technologies, FOSTIFEST 2024 enhances accessibility and streamlines event management for participants and organizers alike."
+      },
+      "nusaira": {
+        "title": "NusAIra",
+        "description": "NusAIra is an AI-based platform designed to assist farmers in monitoring and managing pond conditions. NusAIra's main objectives are to improve operational efficiency, reduce the risk of harvest failure, and provide data-driven recommendations for catfish farming optimization. NusAIra also has AI technology to predict catfish market prices and a chatbot service, as well as an e-book library aimed at helping beginner catfish farmers.\nTechnology used\nNode.js + Express.js\nClever Cloud\nPython (TensorFlow / Scikit-learn)\nPandas & NumPy\nReact + Next.js\nDialogflow / Rasa\nNode.js\nKey Features\n✅ Market Price Prediction\n✅ Interactive Chatbot\n✅ E-Book Library \n✅ User Management\nPurpose & Benefits\n📌 Improve the efficiency of aquaculture with data-driven monitoring.\n📌 Support the sustainability of the fisheries industry through digital technology innovation.\n📌 Help beginner catfish farmers gain more knowledge through relevant e-books.\n📌 Provide market price predictions that help farmers in planning product selling prices.\n📌 Simplify communication with a chatbot that provides direct information about markets and products."
       }
     }
   },

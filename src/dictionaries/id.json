@@ -340,6 +340,26 @@
       "vido": {
         "title": "VIDO - Virtual Doctor",
         "description": "Solusi Perawatan Kesehatan Modern Asisten yang penuh perhatian dan imut Terbaik dari yang terbaik. Sekarang Anda dapat berkonsultasi di mana saja dan kapan saja dengan asisten yang ramah dan penuh perhatian, tentu saja dengan kami."
+      },
+      "sheesh": {
+        "title": "SHEESH",
+        "description": "SHEESH adalah aplikasi seluler analisis pasar hibrida cerdas yang dirancang untuk memberdayakan UMKM dengan alat canggih untuk segmentasi pelanggan, analisis tren, dan prediksi penjualan. Didukung oleh kerangka kerja pembelajaran mesin seperti Scikit-learn dan TensorFlow, aplikasi ini memberikan wawasan berbasis data untuk membantu bisnis mengambil keputusan yang tepat. Dibangun dengan Flutter untuk pengalaman pengguna yang mulus dan Firebase untuk backend yang aman dan dapat diskalakan, SHEESH menyediakan analisis pasar yang komprehensif dan panduan heuristik yang disesuaikan untuk mendorong pertumbuhan dan efisiensi bagi usaha kecil dan menengah."
+      },
+      "parky": {
+        "title": "Parky",
+        "description": "Parky adalah aplikasi mobile Android yang dirancang untuk mempermudah manajemen parkir mahasiswa dengan sistem pemindaian QR Code untuk mencatat waktu masuk dan keluar. Dibangun menggunakan Java untuk Android dan terintegrasi dengan Firebase, Parky memastikan pengelolaan data yang efisien dan pembaruan secara real-time. Aplikasi ini memiliki fitur utama seperti Pemindai QR Code untuk check-in dan check-out otomatis, Autentikasi Pengguna untuk akses yang aman, serta fungsi CRUD (Create, Read, Update, Delete) untuk mengelola data pengguna. Dikembangkan sebagai proyek akhir untuk kursus pengembangan mobile, Parky meningkatkan efisiensi dan keamanan parkir melalui teknologi mobile modern."
+      },
+      "fospresence": {
+        "title": "Fospresence",
+        "description": "Fospresence adalah aplikasi mobile yang dirancang untuk mempermudah pencatatan kehadiran peserta dalam program kerja FOSTI UMS menggunakan sistem pemindaian QR Code. Dikembangkan dengan Flutter dan didukung oleh Firebase, aplikasi ini memastikan pencatatan kehadiran yang efisien dan aman. Fitur utama meliputi Pemindai QR Code untuk check-in cepat, Ekspor Excel untuk membuat laporan kehadiran, serta fungsi CRUD untuk mengelola data pengguna. Dengan memanfaatkan teknologi mobile modern, Fospresence menyederhanakan manajemen kehadiran, meningkatkan akurasi data, dan meningkatkan efisiensi acara organisasi."
+      },
+      "fostifest": {
+        "title": "FOSTIFEST 2024 WEB",
+        "description": "FOSTIFEST 2024 adalah platform berbasis web yang dirancang untuk memfasilitasi pendaftaran peserta dalam workshop dan kompetisi FOSTIFEST 2024. Dibangun dengan Next.js dan didukung oleh Supabase, platform ini memberikan pengalaman pengguna yang lancar dengan fitur seperti landing page dinamis, autentikasi yang aman, dan sistem pendaftaran kompetisi yang intuitif. Pengguna dapat mengunggah bukti pembayaran dalam bentuk gambar serta mengirimkan karya kompetisi melalui tautan Google Drive, sehingga proses pendaftaran menjadi lebih mudah dan efisien. Dengan memanfaatkan teknologi web modern, FOSTIFEST 2024 meningkatkan aksesibilitas dan menyederhanakan manajemen acara bagi peserta dan penyelenggara."
+      },
+      "nusaira": {
+        "title": "NusAIra",
+        "description": "NusAIra adalah platform berbasis AI yang dirancang untuk membantu petani dalam memantau dan mengelola kondisi kolam ikan. Tujuan utama NusAIra adalah meningkatkan efisiensi operasional, mengurangi risiko gagal panen, dan memberikan rekomendasi berbasis data untuk optimasi budidaya ikan lele. NusAIra juga memiliki teknologi AI untuk memprediksi harga pasar ikan lele, layanan chatbot interaktif, serta perpustakaan e-book yang ditujukan untuk membantu petani pemula."
       }
     }
   },

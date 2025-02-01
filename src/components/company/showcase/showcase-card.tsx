@@ -16,7 +16,7 @@ const ShowcaseCard: NextPage<Props> = async ({ showcase, index, seeMore }) => {
       <div className="flex justify-between">
         <p className="font-semibold">{showcase.title}</p>
         <p className="bg-zinc-100 dark:bg-zinc-800 p-2 rounded-xl text-xs">
-          {showcase.type}
+          {showcase.type[0]}
         </p>
       </div>
       <div>

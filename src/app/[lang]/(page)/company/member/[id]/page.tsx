@@ -57,7 +57,7 @@ const Page: NextPage<Props> = async ({ params }) => {
                 width={160}
                 height={160}
                 alt={member.name}
-                className="h-full aspect-square w-full object-cover backdrop-blur-lg border-white shadow-md rounded-[40px]"
+                className="h-full aspect-square w-full object-cover backdrop-blur-lg shadow-md rounded-[40px]"
               />
             </div>
             <div className="mt-4 lg:hidden">
@@ -71,7 +71,7 @@ const Page: NextPage<Props> = async ({ params }) => {
             <div className="lg:ml-4 flex flex-col w-full">
               <div className="mt-4 lg:mt-14">
                 <div className="flex items-start justify-start flex-col">
-                  <p className="text-lg lg:text-2xl font-bold text-white">
+                  <p className="text-lg lg:text-2xl font-bold">
                     {member.name}
                   </p>
                   <div className="flex items-center justify-center text-muted-foreground">

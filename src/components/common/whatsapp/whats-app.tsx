@@ -15,12 +15,12 @@ const WhatsApp: NextPage<Lang> = async ({ lang }) => {
     <Link
       target="_blank"
       href={whatsappUrl}
-      className="transition-all duration-300 hover:translate-y-[-4px] blue-shadow fixed h-[70px] w-[70px] bottom-10 right-5 z-50 cursor-pointer flex items-center justify-center bg-primary p-2 rounded-2xl"
+      className="transition-all duration-300 hover:translate-y-[-4px] blue-shadow fixed h-[50px] w-[50px] bottom-10 right-5 z-50 cursor-pointer flex items-center justify-center bg-primary p-3 rounded-xl"
     >
       <Image
         src={ImageConstants.icon.whatsApp}
         alt={`icon-whatsapp-fixed`}
-        height={40}
+        height={30}
       />
     </Link>
   );
