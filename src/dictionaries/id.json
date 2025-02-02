@@ -262,6 +262,15 @@
           "linkedin": "https://www.linkedin.com/in/afrizal-putra-pratama-24678128b",
           "github": "https://github.com/ums-l200220262",
           "instagram": "https://www.instagram.com/afzapp"
+        },
+        "pandu": {
+          "nickname": "PANDU",
+          "name": "Pandu Adi Wijaya Kusuma Wardana",
+          "intro": "Halo, saya Pandu Adi Wijaya Kusuma Wardana. Saya menekuni bidang Informatika dengan fokus pada desain dan pengembangan aplikasi berbasis web serta pengalaman pengguna. Saya memiliki pengalaman dalam menggunakan Laravel, PHP, dan berbagai teknologi lainnya untuk membangun sistem yang responsif dan fungsional. Selain itu, saya juga tertarik pada pengoptimalan desain antarmuka untuk meningkatkan interaksi pengguna.",
+          "role": "Designer",
+          "linkedin": "https://www.linkedin.com/in/pandu-adi-wijaya-kusuma-wardana-2a8725309",
+          "github": "https://github.com/ums-l200220227",
+          "instagram": "https://www.instagram.com/panduakw_/"
         }
       }
     },

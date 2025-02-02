@@ -3,9 +3,7 @@ import { Lang } from "@/types/lang";
 import { getDictionary } from "@/utils/dictionaries";
 import { ITeam } from "@/types/team";
 
-export const TeamConstants = async ({
-  lang,
-}: Lang): Promise<ITeam[]> => {
+export const TeamConstants = async ({ lang }: Lang): Promise<ITeam[]> => {
   const dict = await getDictionary(lang);
   const members = dict.company.team.members;
   return [
@@ -91,6 +89,18 @@ export const TeamConstants = async ({
         instagram: members.afrizal.instagram,
         github: members.afrizal.github,
         linkedin: members.afrizal.linkedin,
+      },
+    },
+    {
+      name: members.pandu.name,
+      desc: members.pandu.intro,
+      role: members.pandu.role,
+      nickname: members.pandu.nickname,
+      image: ImageConstants.teams.pandu,
+      socialLinks: {
+        instagram: members.pandu.instagram,
+        github: members.pandu.github,
+        linkedin: members.pandu.linkedin,
       },
     },
   ];

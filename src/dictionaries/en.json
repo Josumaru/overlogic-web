@@ -268,6 +268,15 @@
           "linkedin": "https://www.linkedin.com/in/afrizal-putra-pratama-24678128b",
           "github": "https://github.com/ums-l200220262",
           "instagram": "https://www.instagram.com/afzapp"
+        },
+        "pandu": {
+          "nickname": "PANDU",
+          "name": "Pandu Adi Wijaya Kusuma Wardana",
+          "intro": "Hello, my name is Pandu Adi Wijaya Kusuma Wardana. I specialize in Informatics with a focus on web-based application development and user experience design. I have experience working with Laravel, PHP, and various other technologies to build responsive and functional systems. Additionally, I am interested in optimizing interface design to enhance user interaction.",
+          "role": "Designer",
+          "linkedin": "https://www.linkedin.com/in/pandu-adi-wijaya-kusuma-wardana-2a8725309",
+          "github": "https://github.com/ums-l200220227",
+          "instagram": "https://www.instagram.com/panduakw_/"
         }
       }
     },

@@ -61,7 +61,10 @@ import afrizal1 from "@/assets/images/teams/afrizal/1.png";
 import afrizal2 from "@/assets/images/teams/afrizal/2.jpeg";
 import afrizal3 from "@/assets/images/teams/afrizal/3.jpg";
 import afrizal4 from "@/assets/images/teams/afrizal/4.jpg";
-
+// Pandu
+import pandu0 from "@/assets/images/teams/pandu/0.jpg";
+import pandu1 from "@/assets/images/teams/pandu/1.jpg";
+import pandu2 from "@/assets/images/teams/pandu/2.jpg";
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
 import seoDark from "@/assets/images/services/seo-dark.png";
@@ -116,6 +119,7 @@ export const ImageConstants = {
     rizky: [rizky0],
     gilang: [gilang0, gilang1, gilang2],
     afrizal: [afrizal0, afrizal1, afrizal2, afrizal3, afrizal4],
+    pandu: [pandu0, pandu1, pandu2],
   },
   services: {
     seoLight,
