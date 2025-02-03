@@ -50,19 +50,19 @@ const joko2 = "/images/teams/joko/2.png";
 const joko3 = "/images/teams/joko/3.png";
 const joko4 = "/images/teams/joko/4.png";
 // Rizky
-const rizky0 = "/images/teams/rizky/0.jpg";
+const rizky0 = "/images/teams/rizky/0.png";
 // Gilang
-const gilang0 = "/images/teams/gilang/0.jpg";
+const gilang0 = "/images/teams/gilang/0.png";
 const gilang1 = "/images/teams/gilang/1.jpg";
 const gilang2 = "/images/teams/gilang/2.jpg";
 // Afrizal
-const afrizal0 = "/images/teams/afrizal/0.jpg";
+const afrizal0 = "/images/teams/afrizal/0.png";
 const afrizal1 = "/images/teams/afrizal/1.png";
 const afrizal2 = "/images/teams/afrizal/2.jpeg";
 const afrizal3 = "/images/teams/afrizal/3.jpg";
 const afrizal4 = "/images/teams/afrizal/4.jpg";
 // Pandu
-const pandu0 = "/images/teams/pandu/0.jpg";
+const pandu0 = "/images/teams/pandu/0.png";
 const pandu1 = "/images/teams/pandu/1.jpg";
 const pandu2 = "/images/teams/pandu/2.jpg";
 // Services
