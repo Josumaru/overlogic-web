@@ -15,14 +15,14 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
       description: data.desc,
       url: data.socialLinks.instagram,
       type: "article",
-      // images: [
-      //   {
-      //     url: data.image[0],
-      //     width: 1200,
-      //     height: 630,
-      //     alt: data.name,
-      //   },
-      // ],
+      images: [
+        {
+          url: data.image[0],
+          width: 1200,
+          height: 630,
+          alt: data.name,
+        },
+      ],
     },
   };
 }

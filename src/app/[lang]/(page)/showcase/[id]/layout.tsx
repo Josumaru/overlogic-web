@@ -12,6 +12,14 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
       description: data.description,
       url: data.link ?? "https://overlogic.io",
       type: "article",
+      images: [
+        {
+          url: data.image,
+          width: 1080,
+          height: 560,
+          alt: data.title,
+        },
+      ],
     },
   };
 }

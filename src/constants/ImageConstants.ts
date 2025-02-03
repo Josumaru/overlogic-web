@@ -2,16 +2,16 @@
 import language from "@/assets/images/icons/lang.svg";
 
 // Project
-import umsiid from "@/assets/images/projects/ums-iid.png";
-import pinleaf from "@/assets/images/projects/pinleaf.png";
-import anugerah from "@/assets/images/projects/anugerah.png";
-import josumaru from "@/assets/images/projects/josumaru.png";
-import vido from "@/assets/images/projects/vido.png";
-import sheesh from "@/assets/images/projects/sheesh.png";
-import parky from "@/assets/images/projects/parky.png";
-import fospresence from "@/assets/images/projects/fospresence.png";
-import fostifest from "@/assets/images/projects/fostifest.png";
-import nusaira from "@/assets/images/projects/nusaira.png";
+const umsiid = "/images/projects/ums-iid.png";
+const pinleaf = "/images/projects/pinleaf.png";
+const anugerah = "/images/projects/anugerah.png";
+const josumaru = "/images/projects/josumaru.png";
+const vido = "/images/projects/vido.png";
+const sheesh = "/images/projects/sheesh.png";
+const parky = "/images/projects/parky.png";
+const fospresence = "/images/projects/fospresence.png";
+const fostifest = "/images/projects/fostifest.png";
+const nusaira = "/images/projects/nusaira.png";
 // Logo
 import overlogic from "@/assets/images/logos/overlogic.png";
 import github from "@/assets/images/logos/github.svg";
@@ -26,45 +26,45 @@ import gradient from "@/assets/images/common/gradient.jpg";
 
 // Teams
 // Rafli
-import rafli0 from "@/assets/images/teams/rafli/0.jpeg";
-import rafli1 from "@/assets/images/teams/rafli/1.png";
-import rafli2 from "@/assets/images/teams/rafli/2.jpeg";
-import rafli3 from "@/assets/images/teams/rafli/3.jpeg";
-import rafli4 from "@/assets/images/teams/rafli/4.jpeg";
+const rafli0 = "/images/teams/rafli/0.jpeg";
+const rafli1 = "/images/teams/rafli/1.png";
+const rafli2 = "/images/teams/rafli/2.jpeg";
+const rafli3 = "/images/teams/rafli/3.jpeg";
+const rafli4 = "/images/teams/rafli/4.jpeg";
 // Ogya
-import ogya0 from "@/assets/images/teams/ogya/0.jpg";
-import ogya1 from "@/assets/images/teams/ogya/1.jpg";
-import ogya2 from "@/assets/images/teams/ogya/2.jpg";
-import ogya3 from "@/assets/images/teams/ogya/3.jpg";
-import ogya4 from "@/assets/images/teams/ogya/4.jpg";
+const ogya0= "/images/teams/ogya/0.jpg";
+const ogya1= "/images/teams/ogya/1.jpg";
+const ogya2= "/images/teams/ogya/2.jpg";
+const ogya3= "/images/teams/ogya/3.jpg";
+const ogya4= "/images/teams/ogya/4.jpg";
 // Chandra
-import chandra0 from "@/assets/images/teams/chandra/0.jpeg";
-import chandra1 from "@/assets/images/teams/chandra/1.jpeg";
-import chandra2 from "@/assets/images/teams/chandra/2.jpeg";
-import chandra3 from "@/assets/images/teams/chandra/3.jpeg";
-import chandra4 from "@/assets/images/teams/chandra/4.jpeg";
+const chandra0 = "/images/teams/chandra/0.jpeg";
+const chandra1 = "/images/teams/chandra/1.jpeg";
+const chandra2 = "/images/teams/chandra/2.jpeg";
+const chandra3 = "/images/teams/chandra/3.jpeg";
+const chandra4 = "/images/teams/chandra/4.jpeg";
 // Joko
-import joko0 from "@/assets/images/teams/joko/0.jpg";
-import joko1 from "@/assets/images/teams/joko/1.jpeg";
-import joko2 from "@/assets/images/teams/joko/2.png";
-import joko3 from "@/assets/images/teams/joko/3.png";
-import joko4 from "@/assets/images/teams/joko/4.png";
+const joko0 = "/images/teams/joko/0.jpg";
+const joko1 = "/images/teams/joko/1.jpeg";
+const joko2 = "/images/teams/joko/2.png";
+const joko3 = "/images/teams/joko/3.png";
+const joko4 = "/images/teams/joko/4.png";
 // Rizky
-import rizky0 from "@/assets/images/teams/rizky/0.jpg";
+const rizky0 = "/images/teams/rizky/0.jpg";
 // Gilang
-import gilang0 from "@/assets/images/teams/gilang/0.jpg";
-import gilang1 from "@/assets/images/teams/gilang/1.jpg";
-import gilang2 from "@/assets/images/teams/gilang/2.jpg";
+const gilang0 = "/images/teams/gilang/0.jpg";
+const gilang1 = "/images/teams/gilang/1.jpg";
+const gilang2 = "/images/teams/gilang/2.jpg";
 // Afrizal
-import afrizal0 from "@/assets/images/teams/afrizal/0.jpg";
-import afrizal1 from "@/assets/images/teams/afrizal/1.png";
-import afrizal2 from "@/assets/images/teams/afrizal/2.jpeg";
-import afrizal3 from "@/assets/images/teams/afrizal/3.jpg";
-import afrizal4 from "@/assets/images/teams/afrizal/4.jpg";
+const afrizal0 = "/images/teams/afrizal/0.jpg";
+const afrizal1 = "/images/teams/afrizal/1.png";
+const afrizal2 = "/images/teams/afrizal/2.jpeg";
+const afrizal3 = "/images/teams/afrizal/3.jpg";
+const afrizal4 = "/images/teams/afrizal/4.jpg";
 // Pandu
-import pandu0 from "@/assets/images/teams/pandu/0.jpg";
-import pandu1 from "@/assets/images/teams/pandu/1.jpg";
-import pandu2 from "@/assets/images/teams/pandu/2.jpg";
+const pandu0 = "/images/teams/pandu/0.jpg";
+const pandu1 = "/images/teams/pandu/1.jpg";
+const pandu2 = "/images/teams/pandu/2.jpg";
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
 import seoDark from "@/assets/images/services/seo-dark.png";

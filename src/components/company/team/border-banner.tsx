@@ -5,12 +5,12 @@ import Image, { StaticImageData } from "next/image";
 import { useExtractColors } from "react-extract-colors";
 
 interface Props {
-  image: StaticImageData;
+  image: string;
   alt: string;
 }
 
 const BorderBanner: NextPage<Props> = ({ image, alt }) => {
-  const { dominantColor } = useExtractColors(image.src);
+  const { dominantColor } = useExtractColors(image);
   return (
     <div className="w-full h-[150px] lg:h-[250px] relative rounded-br-2xl rounded-bl-2xl -translate-y-1">
       <Image

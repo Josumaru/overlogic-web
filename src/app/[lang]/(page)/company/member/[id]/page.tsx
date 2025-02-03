@@ -71,9 +71,7 @@ const Page: NextPage<Props> = async ({ params }) => {
             <div className="lg:ml-4 flex flex-col w-full">
               <div className="mt-4 lg:mt-14">
                 <div className="flex items-start justify-start flex-col">
-                  <p className="text-lg lg:text-2xl font-bold">
-                    {member.name}
-                  </p>
+                  <p className="text-lg lg:text-2xl font-bold">{member.name}</p>
                   <div className="flex items-center justify-center text-muted-foreground">
                     {member.role}
                   </div>
@@ -101,9 +99,11 @@ const Page: NextPage<Props> = async ({ params }) => {
           {member.image.map((imageUrl, idx) => (
             <BlurFade key={idx} delay={0.25 + idx * 0.05} inView>
               <Image
+                width={720}
+                height={480}
                 className="mb-4 size-full rounded-lg object-contain"
                 src={imageUrl}
-                alt={`Random stock image ${idx + 1}`}
+                alt={`${member.nickname} - ${idx}`}
               />
             </BlurFade>
           ))}

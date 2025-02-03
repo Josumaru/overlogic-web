@@ -1,6 +1,5 @@
 import Container from "@/components/common/container";
 import NotFound from "@/components/common/not-found";
-import { AuroraText } from "@/components/ui/aurora-text";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { ShowcaseConstants } from "@/constants/ShowcaseConstants";
 import { LucideExternalLink } from "lucide-react";
@@ -56,7 +55,12 @@ const Page: NextPage<Props> = async ({ params }) => {
 
           <div className="flex items-center justify-center gap-2">
             {selectedShowcase.type.map((type) => (
-              <p key={type} className="rounded-lg text-xs px-2 py-1 dark:bg-zinc-800 bg-zinc-200">{type}</p>
+              <p
+                key={type}
+                className="rounded-lg text-xs px-2 py-1 dark:bg-zinc-800 bg-zinc-200"
+              >
+                {type}
+              </p>
             ))}
           </div>
         </div>
@@ -67,6 +71,8 @@ const Page: NextPage<Props> = async ({ params }) => {
       <div className="relative h-full rounded-2xl bg-white dark:bg-neutral-900">
         <Image
           className="rounded-2xl w-full"
+          width={1080}
+          height={560}
           src={selectedShowcase.image}
           alt={selectedShowcase.title}
         />

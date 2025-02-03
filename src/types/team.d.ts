@@ -5,7 +5,7 @@ export interface ITeam {
   desc: string;
   role: string;
   nickname: string;
-  image: StaticImageData[];
+  image: string[];
   socialLinks: {
     instagram: string;
     github: string;

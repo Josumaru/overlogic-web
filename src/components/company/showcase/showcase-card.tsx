@@ -23,6 +23,8 @@ const ShowcaseCard: NextPage<Props> = async ({ showcase, index, seeMore }) => {
         <Image
           className="rounded-lg"
           src={showcase.image}
+          width={1080}
+          height={560}
           alt={showcase.title}
         />
       </div>
