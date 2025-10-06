@@ -104,15 +104,15 @@ export const TeamConstants = async ({ lang }: Lang): Promise<ITeam[]> => {
       },
     },
     {
-      name: members.ari.name,
-      desc: members.ari.intro,
-      role: members.ari.role,
-      nickname: members.ari.nickname,
+      name: members["ari-wickz"].name,
+      desc: members["ari-wickz"].intro,
+      role: members["ari-wickz"].role,
+      nickname: members["ari-wickz"].nickname,
       image: ImageConstants.teams.ari,
       socialLinks: {
-        instagram: members.ari.instagram,
-        github: members.ari.github,
-        linkedin: members.ari.linkedin,
+        instagram: members["ari-wickz"].instagram,
+        github: members["ari-wickz"].github,
+        linkedin: members["ari-wickz"].linkedin,
       },
     },
   ];

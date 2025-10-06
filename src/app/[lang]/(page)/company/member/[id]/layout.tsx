@@ -1,8 +1,10 @@
 import { TeamConstants } from "@/constants/TeamConstants";
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
+  const { id } = await params;
+
   const data = (await TeamConstants({ lang: "en" })).find(
-    (member) => member.nickname.toLowerCase() == params.id.toLowerCase()
+    (member) => member.nickname.toLowerCase() === id
   );
 
   if (!data) return;

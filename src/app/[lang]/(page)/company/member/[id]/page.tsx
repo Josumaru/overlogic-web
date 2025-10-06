@@ -24,10 +24,13 @@ interface Props {
 }
 
 const Page: NextPage<Props> = async ({ params }) => {
-  const { lang, id } = params;
-  const member = (await TeamConstants({ lang: lang as "id" | "en" })).find(
-    (member) => member.nickname.toLowerCase() == id.toLowerCase()
-  );
+  const { lang, id } = await params;
+ const normalizeNickname = (name: string) =>
+  name.toLowerCase().replace(/\s+/g, "-");
+
+const member = (await TeamConstants({ lang: lang as "id" | "en" })).find(
+  (member) => normalizeNickname(member.nickname) === normalizeNickname(id)
+);
   let index = 0;
 
   try {

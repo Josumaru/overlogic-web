@@ -100,7 +100,7 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                   <TextAnimate
                     animation="blurIn"
                     by="word"
-                    className="text-2xl font-semibold dark:text-white text-black w-1/2 line-clamp-1"
+                    className="text-2xl font-semibold dark:text-white text-black w-2/3 line-clamp-2"
                   >
                     {member.name}
                   </TextAnimate>
@@ -154,9 +154,9 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
             {member.nickname.split("").map((text, index) => (
               <p
                 key={index}
-                className="text-4xl font-bold text-center dark:text-white text-black"
+                className={cn("text-4xl font-bold text-center dark:text-white text-black", text == " " ? "opacity-0": "")}
               >
-                {text.toUpperCase()}
+                {text ==" "? ".": text.toUpperCase()}
               </p>
             ))}
           </div>
