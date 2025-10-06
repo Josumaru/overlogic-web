@@ -67,10 +67,10 @@ const pandu1 = "/images/teams/pandu/1.jpg";
 const pandu2 = "/images/teams/pandu/2.jpg";
 
 // Ari
-const ari0 = "/images/teams/ari/0.png";
+const ari0 = "/images/teams/ari/0.jpg";
 const ari1 = "/images/teams/ari/1.jpg";
 const ari2 = "/images/teams/ari/2.png";
-const ari3 = "/images/teams/ari/3.jpg";
+const ari3 = "/images/teams/ari/3.png";
 const ari4 = "/images/teams/ari/4.jpg";
 
 // Services
