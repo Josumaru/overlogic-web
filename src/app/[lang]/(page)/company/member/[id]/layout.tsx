@@ -1,10 +1,16 @@
 import { TeamConstants } from "@/constants/TeamConstants";
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const { id } = await params;
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: string; id: string };
+}) {
+  const { lang, id } = await params;
+  const normalizeNickname = (name: string) =>
+    name.toLowerCase().replace(/\s+/g, "-");
 
-  const data = (await TeamConstants({ lang: "en" })).find(
-    (member) => member.nickname.toLowerCase() === id
+  const data = (await TeamConstants({ lang: lang as "id" | "en" })).find(
+    (member) => normalizeNickname(member.nickname) === normalizeNickname(id)
   );
 
   if (!data) return;
