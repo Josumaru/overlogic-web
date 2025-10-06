@@ -104,7 +104,7 @@ const TeamCarousel: NextPage<Props> = ({ members, readMore }) => {
                   >
                     {member.name}
                   </TextAnimate>
-                  <Link href={`/company/member/${member.nickname.toLowerCase()}`}>
+                  <Link href={`/company/member/${member.nickname.toLowerCase().replace(" ", "-")}`}>
                     <div className="flex text-muted-foreground gap-1 hover:text-primary z-40 ">
                       <p className="text-end text-s translate-y-1">
                         {readMore}
