@@ -65,6 +65,14 @@ const afrizal4 = "/images/teams/afrizal/4.jpg";
 const pandu0 = "/images/teams/pandu/0.png";
 const pandu1 = "/images/teams/pandu/1.jpg";
 const pandu2 = "/images/teams/pandu/2.jpg";
+
+// Ari
+const ari0 = "/images/teams/ari/0.png";
+const ari1 = "/images/teams/ari/1.jpg";
+const ari2 = "/images/teams/ari/2.png";
+const ari3 = "/images/teams/ari/3.jpg";
+const ari4 = "/images/teams/ari/4.jpg";
+
 // Services
 import seoLight from "@/assets/images/services/seo-light.png";
 import seoDark from "@/assets/images/services/seo-dark.png";
@@ -120,6 +128,7 @@ export const ImageConstants = {
     gilang: [gilang0, gilang1, gilang2],
     afrizal: [afrizal0, afrizal1, afrizal2, afrizal3, afrizal4],
     pandu: [pandu0, pandu1, pandu2],
+    ari: [ari0, ari1, ari2, ari3, ari4],
   },
   services: {
     seoLight,

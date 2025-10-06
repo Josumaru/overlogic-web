@@ -13,7 +13,7 @@ import { ImageConstants } from "./ImageConstants";
 const MetadataConstant = async (lang: Lang): Promise<Metadata> => {
   const dict = await getDictionary(lang.lang)
   return {
-    title: "Overlogic Univserse",
+    title: "Overlogic Universe",
     description: dict.home.headerDesc.join(" "),
     keywords: KeywordMetadataConstants,
     authors: AuthorsMetadataConstants,

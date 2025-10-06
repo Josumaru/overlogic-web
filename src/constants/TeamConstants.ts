@@ -103,5 +103,17 @@ export const TeamConstants = async ({ lang }: Lang): Promise<ITeam[]> => {
         linkedin: members.pandu.linkedin,
       },
     },
+    {
+      name: members.ari.name,
+      desc: members.ari.intro,
+      role: members.ari.role,
+      nickname: members.ari.nickname,
+      image: ImageConstants.teams.ari,
+      socialLinks: {
+        instagram: members.ari.instagram,
+        github: members.ari.github,
+        linkedin: members.ari.linkedin,
+      },
+    },
   ];
 };
