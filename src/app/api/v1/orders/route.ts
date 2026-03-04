@@ -1,5 +1,5 @@
-import { db } from "@/db/db";
-import { InsertOrdersType, orders } from "@/db/schema";
+// import { db } from "@/db/db";
+// import { InsertOrdersType, orders } from "@/db/schema";
 import { NextRequest, NextResponse } from "next/server";
 import axios from "axios";
 
@@ -42,21 +42,21 @@ export async function POST(req: NextRequest) {
       services &&
       budget
     ) {
-      const data: InsertOrdersType = {
-        name,
-        email,
-        phone,
-        company,
-        project,
-        position,
-        services,
-        additional,
-        brief,
-        budget,
-        question,
-      };
+      // const data: InsertOrdersType = {
+      //   name,
+      //   email,
+      //   phone,
+      //   company,
+      //   project,
+      //   position,
+      //   services,
+      //   additional,
+      //   brief,
+      //   budget,
+      //   question,
+      // };
       
-      await db.insert(orders).values(data);
+      // await db.insert(orders).values(data);
       await axios.post(DISCORD_WEBHOOK_URL, {
         embeds: [
           {
@@ -67,6 +67,12 @@ export async function POST(req: NextRequest) {
               { name: "Name", value: name, inline: true },
               { name: "Company", value: company, inline: true },
               { name: "Services", value: services, inline: false },
+              { name: "Project", value: project, inline: true },
+              { name: "Position", value: position, inline: true },
+              { name: "Budget", value: budget, inline: true },
+              { name: "Brief", value: brief, inline: false },
+              { name: "Additional Info", value: additional || "N/A", inline: false },
+              { name: "Question", value: question || "N/A", inline: false },
             ],
             timestamp: new Date().toISOString(),
           },
